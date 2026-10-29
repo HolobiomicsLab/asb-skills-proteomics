@@ -1,0 +1,20 @@
+name: iDOM
+slug: idom
+version_used: null
+edam_topics: []
+evidence_spans:
+- iDOM is a multifunctional tool that facilitates basic analyses, such as the calculation of molecular traits
+- iDOM is a multifunctional tool that facilitates basic analyses, such as the calculation of molecular traits, the assignment of molecular classes
+- iDOM is a multifunctional tool that facilitates basic analyses, such as
+- iDOM is a multifunctional tool that facilitates basic analyses
+derived_from:
+- doi: 10.1002/mlf2.70002
+  title: "<i>iDOM</i>\n                    : Statistical analysis of dissolved organic matter characterized by high‐resolution mass spectrometry"
+source_repos:
+- https://github.com/jianjunwang/iDOM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jianjunwang/iDOM

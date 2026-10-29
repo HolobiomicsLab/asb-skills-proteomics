@@ -1,0 +1,16 @@
+name: FreeSurfer
+slug: freesurfer
+version_used: 5.3.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/mrm.28819
+  title: Three‐dimensional self‐attention conditional GAN with spectral normalization for multimodal neuroimaging synthesis
+source_repos:
+- https://github.com/Haoyulance/SC-GAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Haoyulance/SC-GAN

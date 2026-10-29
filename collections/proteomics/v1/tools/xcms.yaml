@@ -1,0 +1,17 @@
+name: xcms
+slug: xcms
+version_used: null
+edam_topics: []
+evidence_spans:
+- Another important Bioconductor package that provides access and processing support for MS data and related visualization functionality is xcms [58].
+derived_from:
+- doi: 10.1002/pmic.201400392
+  title: Visualization of proteomics data using R and Bioconductor
+source_repos:
+- https://github.com/lgatto/Pbase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lgatto/Pbase

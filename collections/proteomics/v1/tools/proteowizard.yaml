@@ -1,0 +1,20 @@
+name: ProteoWizard
+slug: proteowizard
+version_used: 3.0.19014
+edam_topics: []
+evidence_spans:
+- The mzR package is an interface to raw MS data that supports a variety of widely used formats through the proteowizard software [53]
+derived_from:
+- doi: 10.1002/pmic.201900334
+  title: 'DeepRescore: Leveraging Deep Learning to Improve Peptide Identification in Immunopeptidomics'
+- doi: 10.1002/pmic.201400392
+  title: Visualization of proteomics data using R and Bioconductor
+source_repos:
+- https://github.com/bzhanglab/DeepRescore
+- https://github.com/lgatto/Pbase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bzhanglab/DeepRescore

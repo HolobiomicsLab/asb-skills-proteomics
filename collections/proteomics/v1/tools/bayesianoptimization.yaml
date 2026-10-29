@@ -1,0 +1,17 @@
+name: BayesianOptimization
+slug: bayesianoptimization
+version_used: 1.4.2
+edam_topics: []
+evidence_spans:
+- using the Bayesian optimization function BayesianOptimization from the bayes_opt Python package (v1.4.2)
+derived_from:
+- doi: 10.1002/pld3.554
+  title: 'PhosBoost: Improved phosphorylation prediction recall using gradient boosting and protein language models'
+source_repos:
+- https://github.com/eporetsky/PhosBoost
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eporetsky/PhosBoost

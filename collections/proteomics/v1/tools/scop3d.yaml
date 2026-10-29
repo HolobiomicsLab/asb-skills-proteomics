@@ -1,0 +1,16 @@
+name: Scop3D
+slug: scop3d
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.201400354
+  title: 'Scop3D: Three‐dimensional visualization of sequence conservation'
+source_repos:
+- https://github.com/compomics/scop3d
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compomics/scop3d

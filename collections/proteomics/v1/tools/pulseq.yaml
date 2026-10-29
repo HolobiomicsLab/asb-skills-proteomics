@@ -1,0 +1,22 @@
+name: Pulseq
+slug: pulseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- RF pulse, gradient, ADC and trigger events can be easily defined and are written to a pulseq-file
+- Originally intended as a hardware independent MRI sequence prototyping framework, Pulseq allows for rapid and simple sequence definitions
+- The pulseq-file thus contains the full definition of all sequence objects
+- Originally intended as a hardware independent MRI sequence prototyping framework, Pulseq allows for rapid and simple sequence definitions from within MATLAB
+- we propose a CEST definition standard using the open Pulseq format for a shareable, simple, and exact definition of CEST protocols
+derived_from:
+- doi: 10.1002/mrm.28825
+  title: 'Pulseq‐CEST: Towards multi‐site multi‐vendor compatibility and reproducibility of CEST experiments using an open‐source sequence standard'
+source_repos:
+- https://github.com/pulseq/pulseq
+- https://github.com/kherz/pulseq-cest
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pulseq/pulseq

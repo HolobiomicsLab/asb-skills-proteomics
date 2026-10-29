@@ -1,0 +1,20 @@
+name: nextflow
+slug: nextflow
+version_used: null
+edam_topics: []
+evidence_spans:
+- additional nextflow workflow, which can be integrated into other workflows or platforms like MAcWorP
+derived_from:
+- doi: 10.1002/pmic.201900143
+  title: 'CalibraCurve: A Tool for Calibration of Targeted MS‐Based Measurements'
+- doi: 10.1002/pmic.201900334
+  title: 'DeepRescore: Leveraging Deep Learning to Improve Peptide Identification in Immunopeptidomics'
+source_repos:
+- https://github.com/mpc-bioinformatics/CalibraCurve
+- https://github.com/bzhanglab/DeepRescore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mpc-bioinformatics/CalibraCurve

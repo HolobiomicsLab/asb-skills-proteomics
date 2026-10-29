@@ -1,0 +1,17 @@
+name: jmzReader
+slug: jmzreader
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.201100578
+  title: 'jmzReader: A Java parser library to process and visualize multiple text and XML‐based mass spectrometry data formats'
+source_repos:
+- https://github.com/PRIDE-Archive/jmzReader
+- https://github.com/PRIDE-Utilities/jmzReader
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PRIDE-Archive/jmzReader

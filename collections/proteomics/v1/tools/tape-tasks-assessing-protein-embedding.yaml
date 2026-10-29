@@ -1,0 +1,16 @@
+name: TAPE (tasks assessing protein embedding)
+slug: tape-tasks-assessing-protein-embedding
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.202100161
+  title: 'prPred‐DRLF: Plant R protein predictor using deep representation learning features'
+source_repos:
+- https://github.com/Wangys-prog/prPred-DRLF
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wangys-prog/prPred-DRLF

@@ -1,0 +1,21 @@
+name: DSSP
+slug: dssp
+version_used: null
+edam_topics: []
+evidence_spans:
+- with DSSP info inside your Python scripts
+- with DSSP info inside your Python scripts.
+- directy work with DSSP info inside your Python scripts
+- This is a rewrite of DSSP, now offering full mmCIF support.
+- dssp = dssp(file_content)
+derived_from:
+- doi: 10.1002/bip.360221211
+  title: 'Dictionary of protein secondary structure: Pattern recognition of hydrogen‐bonded and geometrical features'
+source_repos:
+- https://github.com/PDB-REDO/dssp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PDB-REDO/dssp

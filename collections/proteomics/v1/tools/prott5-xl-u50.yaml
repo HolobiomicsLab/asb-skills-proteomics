@@ -1,0 +1,20 @@
+name: ProtT5-XL-U50
+slug: prott5-xl-u50
+version_used: null
+edam_topics: []
+evidence_spans:
+- For PhosphoLingo we used the pre‐trained ProtT5‐XL‐U50 pLM model to train a protein phosphorylation model under the “full” setting.
+- the pre‐trained ProtT5‐XL‐U50 pLM (Elnaggar et al., 2021)
+- All the qPTMplants phosphoprotein sequences were used as an input for the ProtT5‐XL‐U50 pre‐trained pLM
+derived_from:
+- doi: 10.1002/pld3.554
+  title: 'PhosBoost: Improved phosphorylation prediction recall using gradient boosting and protein language models'
+source_repos:
+- https://github.com/agemagician/ProtTrans
+- https://github.com/eporetsky/PhosBoost
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/agemagician/ProtTrans

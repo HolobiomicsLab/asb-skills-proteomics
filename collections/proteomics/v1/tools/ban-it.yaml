@@ -1,0 +1,18 @@
+name: BANΔIT
+slug: ban-it
+version_used: null
+edam_topics: []
+evidence_spans:
+- With the BANΔIT (B’-factor analysis and ΔB’ interpretation toolkit), we have developed a JavaScript‐based browser application
+- With the BANΔIT (B’-factor analysis and ΔB’ interpretation toolkit), we have developed a JavaScript‐based browser application that provides a graphical user interface for the normalization and
+derived_from:
+- doi: 10.1002/minf.202000144
+  title: 'BANΔIT: B’‐Factor Analysis for Drug Design and Structural Biology'
+source_repos:
+- https://github.com/FBarthels/BANDIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FBarthels/BANDIT

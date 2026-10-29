@@ -1,0 +1,24 @@
+name: MATLAB
+slug: matlab
+version_used: null
+edam_topics: []
+evidence_spans:
+- The compiled code is callable as a mex-function for an easy integration into a MATLAB-based pipeline.
+- The compiled code is callable as a mex-function for an easy integration into a MATLAB-based pipeline
+- rapid and simple sequence definitions from within MATLAB, python and other software programming packages
+- Example codes to create different CEST preparation periods in MATLAB and python are provided at the projects' website
+- rapid and simple sequence definitions from within MATLAB, python and other software programming packages, which are usually open source
+derived_from:
+- doi: 10.1002/mrm.28825
+  title: 'Pulseq‐CEST: Towards multi‐site multi‐vendor compatibility and reproducibility of CEST experiments using an open‐source sequence standard'
+- doi: 10.1002/pro.3703
+  title: 'SimpleDSFviewer: A tool to analyze and view differential scanning fluorimetry data for characterizing protein thermal stability and interactions'
+source_repos:
+- https://github.com/kherz/pulseq-cest
+- https://github.com/hscsun/SimpleDSFviewer-5.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kherz/pulseq-cest

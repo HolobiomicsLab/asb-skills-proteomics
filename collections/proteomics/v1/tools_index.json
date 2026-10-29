@@ -1,0 +1,4548 @@
+[
+  {
+    "slug": "2d-conditional-gan",
+    "name": "2D conditional GAN",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "used_by_skills": [
+      "3d-conditional-gan-training",
+      "cross-model-benchmark-comparison",
+      "cross-model-compute-cost-tabulation",
+      "diffusion-metric-map-synthesis",
+      "fa-map-synthesis-from-multimodal-mri",
+      "gan-hyperparameter-tuning-cross-validation",
+      "gan-training-hyperparameter-tuning",
+      "gan-training-time-profiling",
+      "gpu-compute-cost-benchmarking",
+      "image-quality-metric-computation",
+      "neuroimage-quality-metric-evaluation",
+      "pet-image-synthesis-from-mri",
+      "tensorflow-gpu-distributed-training",
+      "training-convergence-plateau-detection"
+    ]
+  },
+  {
+    "slug": "3d-conditional-gan",
+    "name": "3D conditional GAN",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "used_by_skills": [
+      "3d-conditional-gan-training",
+      "cross-model-benchmark-comparison",
+      "cross-model-compute-cost-tabulation",
+      "diffusion-metric-map-synthesis",
+      "diffusion-mri-superresolution",
+      "fa-map-synthesis-from-multimodal-mri",
+      "gan-architecture-implementation",
+      "gan-based-medical-image-synthesis",
+      "gan-hyperparameter-tuning-cross-validation",
+      "gan-training-hyperparameter-tuning",
+      "gan-training-time-profiling",
+      "gpu-compute-cost-benchmarking",
+      "image-quality-metric-computation",
+      "multidimensional-diffusion-mri-challenge-data-handling",
+      "neuroimage-quality-metric-evaluation",
+      "pet-image-synthesis-from-mri",
+      "protocol-conditioning-via-adaptive-instance-normalization",
+      "tensorflow-gpu-distributed-training",
+      "training-convergence-plateau-detection"
+    ]
+  },
+  {
+    "slug": "3d-unet",
+    "name": "3D Unet",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "used_by_skills": [
+      "3d-conditional-gan-training",
+      "diffusion-mri-superresolution",
+      "gan-based-medical-image-synthesis",
+      "multidimensional-diffusion-mri-challenge-data-handling",
+      "nrmse-image-quality-evaluation",
+      "protocol-conditioning-via-adaptive-instance-normalization"
+    ]
+  },
+  {
+    "slug": "adabag",
+    "name": "adabag",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "alphafold2",
+    "name": "AlphaFold2",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "colabfold-alphafold2-structure-inference",
+      "plddt-pae-confidence-metric-extraction",
+      "predicted-structure-output-validation"
+    ]
+  },
+  {
+    "slug": "annovar",
+    "name": "ANNOVAR",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "attention-cgan-att-cgan",
+    "name": "Attention cGAN (Att cGAN)",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "used_by_skills": [
+      "3d-conditional-gan-training",
+      "gan-hyperparameter-tuning-cross-validation",
+      "image-quality-metric-computation",
+      "pet-image-synthesis-from-mri",
+      "tensorflow-gpu-distributed-training"
+    ]
+  },
+  {
+    "slug": "autort",
+    "name": "AutoRT",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/AutoRT",
+    "used_by_skills": [
+      "feature-ablation-sensitivity-analysis",
+      "immunopeptidomics-fdr-filtering",
+      "immunopeptidomics-psm-feature-extraction",
+      "mgf-spectra-conversion-and-database-searching",
+      "msms-spectrum-prediction-spectral-angle-calculation",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "retention-time-prediction-transfer-learning",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-angle-similarity-scoring",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "ban-it",
+    "name": "BANΔIT",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/minf.202000144"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/FBarthels/BANDIT",
+    "used_by_skills": [
+      "b-factor-profile-normalization",
+      "delta-b-prime-binding-site-interpretation",
+      "local-window-deviation-calculation",
+      "per-residue-attribute-extraction",
+      "pharmacophore-feature-annotation",
+      "protein-binding-site-analysis",
+      "protein-ligand-complex-structure-retrieval-from-pdb",
+      "protein-structure-coordinate-parsing",
+      "protein-structure-data-mapping",
+      "residue-level-mobility-change-classification",
+      "structure-based-drug-design",
+      "structure-based-drug-design-b-factor-annotation"
+    ]
+  },
+  {
+    "slug": "bayesianoptimization",
+    "name": "BayesianOptimization",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "used_by_skills": [
+      "binary-classifier-benchmarking",
+      "class-imbalance-weighted-training",
+      "gradient-boosting-classifier-training",
+      "stacking-ensemble-model-training"
+    ]
+  },
+  {
+    "slug": "bilstm",
+    "name": "BiLSTM",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "bidirectional-lstm-feature-extraction",
+      "binary-classifier-metric-evaluation",
+      "cross-validation-model-assessment",
+      "feature-subset-selection",
+      "feature-vector-concatenation-fusion",
+      "gradient-boosting-classification",
+      "lgbm-feature-selection-and-classification",
+      "multilayer-lstm-sequence-representation",
+      "plant-r-protein-prediction",
+      "pretrained-language-model-inference",
+      "protein-sequence-embedding-generation",
+      "protein-sequence-redundancy-filtering",
+      "roc-auc-evaluation--5a9bf612d0c79238"
+    ]
+  },
+  {
+    "slug": "biocstyle",
+    "name": "BiocStyle",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "3d-scan-intensity-visualization",
+      "isotopic-envelope-visualization",
+      "lc-ms-raw-data-import",
+      "maldi-tof-spectrum-preprocessing",
+      "ms-level-discrimination-ms1-ms2",
+      "multi-panel-spectra-figure-rendering",
+      "mzid-identification-parsing",
+      "peptide-to-protein-coordinate-mapping",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase",
+      "retention-time-mz-heatmap-rendering",
+      "single-peak-detection-from-mass-spectra",
+      "spectral-intensity-transformation",
+      "spectral-smoothing-and-baseline-correction"
+    ]
+  },
+  {
+    "slug": "bioperl",
+    "name": "Bioperl",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/scop3d",
+    "used_by_skills": [
+      "consensus-sequence-construction",
+      "multiple-sequence-alignment-muscle",
+      "pdb-bvalue-structure-annotation"
+    ]
+  },
+  {
+    "slug": "biopython",
+    "name": "Biopython",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/scop3d",
+    "used_by_skills": [
+      "amino-acid-frequency-matrix-construction",
+      "consensus-sequence-construction",
+      "conservation-metric-superimposition-on-3d-structure",
+      "multiple-sequence-alignment-muscle",
+      "multiple-sequence-alignment-residue-tallying",
+      "pdb-bvalue-structure-annotation",
+      "pdb-file-parsing-and-manipulation",
+      "protein-sequence-conservation-quantification",
+      "sequence-position-to-structure-residue-mapping"
+    ]
+  },
+  {
+    "slug": "biostrings",
+    "name": "Biostrings",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "mzid-identification-parsing",
+      "peptide-to-protein-coordinate-mapping",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase"
+    ]
+  },
+  {
+    "slug": "blast",
+    "name": "BLAST",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/scop3d",
+    "used_by_skills": [
+      "consensus-sequence-construction",
+      "conservation-metric-superimposition-on-3d-structure",
+      "information-entropy-calculation-per-position",
+      "pdb-bvalue-structure-annotation",
+      "pdb-file-parsing-and-manipulation",
+      "sequence-conservation-analysis",
+      "sequence-position-to-structure-residue-mapping"
+    ]
+  },
+  {
+    "slug": "c",
+    "name": "C",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28384",
+      "10.1002/pmic.201500420",
+      "10.1002/mrm.28825"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/cmr-group/gropt",
+    "used_by_skills": [
+      "admm-constrained-optimization-execution",
+      "admm-solver-configuration",
+      "coarse-to-fine-warm-start-optimization",
+      "computational-complexity-scaling-analysis",
+      "compute-time-tabulation-across-discretization",
+      "cross-vendor-mri-pulse-sequence-comparison",
+      "diffusion-b-value-encoding-design",
+      "diffusion-encoding-moment-nulling-configuration",
+      "diffusion-encoding-waveform-design",
+      "eddy-current-nulling-constraint-configuration",
+      "gradient-moment-nulling-constraint-design",
+      "gradient-moment-residual-tolerance-sweep",
+      "gradient-waveform-comparison-visualization",
+      "gradient-waveform-time-optimal-optimization",
+      "intravoxel-phase-dispersion-simulation",
+      "moment-nulling-constraint-configuration",
+      "mri-gradient-hardware-constraint-setup",
+      "mri-gradient-moment-nulling",
+      "mri-gradient-waveform-optimization",
+      "multithreaded-duration-search-benchmarking",
+      "optimization-compute-time-benchmarking",
+      "phase-contrast-mri-gradient-design",
+      "pns-constraint-waveform-design",
+      "rotation-matrix-constraint-transformation",
+      "slice-obliquity-hardware-derating"
+    ]
+  },
+  {
+    "slug": "calibracurve",
+    "name": "CalibraCurve",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900143"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "used_by_skills": [
+      "calibration-curve-linear-regression",
+      "calibration-curve-visualization",
+      "calibration-data-preprocessing",
+      "calibration-level-iterative-trimming",
+      "calibration-model-summary-reporting",
+      "consecutive-threshold-interval-selection",
+      "dynamic-linear-range-determination",
+      "missing-measurement-exclusion",
+      "mrm-dilution-series-analysis",
+      "precision-based-bias-calculation",
+      "precision-trueness-assessment",
+      "precision-trueness-table-generation",
+      "replicate-cv-precision-calculation",
+      "replicate-filtering-per-concentration-level",
+      "response-factor-threshold-plotting",
+      "spreadsheet-data-import",
+      "targeted-proteomics-assay-validation",
+      "targeted-proteomics-calibration-curve-fitting",
+      "targeted-proteomics-dilution-series-analysis",
+      "targeted-proteomics-linear-range-output",
+      "uloq-out-of-range-prediction-flagging",
+      "weighted-least-squares-calibration-fitting"
+    ]
+  },
+  {
+    "slug": "cardinal",
+    "name": "Cardinal",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "ion-image-slice-extraction",
+      "maldi-imaging-spectrum-averaging",
+      "mass-peak-picking-and-intensity-ranking",
+      "proteomics-data-visualization-r"
+    ]
+  },
+  {
+    "slug": "caret",
+    "name": "caret",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "catboost",
+    "name": "CatBoost",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044",
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "binary-classifier-benchmarking",
+      "boosted-tree-classifier-training",
+      "class-imbalance-weighted-training",
+      "classifier-probability-score-extraction",
+      "cross-species-phosphosite-prediction-transfer",
+      "five-fold-cross-validation-classifier-evaluation",
+      "genome-browser-track-annotation",
+      "genome-wide-phosphoproteome-scoring",
+      "gpcr-sequence-classification",
+      "gradient-boosting-classifier-training",
+      "imbalanced-label-evaluation-metrics",
+      "phosphosite-label-annotation",
+      "precision-recall-metric-computation",
+      "protein-feature-concatenation-evaluation",
+      "protein-language-model-embedding-inference",
+      "protein-sequence-fasta-batch-processing",
+      "stacking-ensemble-model-training"
+    ]
+  },
+  {
+    "slug": "cd-hit",
+    "name": "CD-Hit",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044",
+      "10.1016/j.heliyon.2023.e23187",
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "fasta-sequence-handling",
+      "gpcr-benchmark-dataset-handling",
+      "sequence-homology-reduction"
+    ]
+  },
+  {
+    "slug": "circlize",
+    "name": "circlize",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "chimeric-transcript-annotation",
+      "depmap-rnaseq-fusion-data-processing"
+    ]
+  },
+  {
+    "slug": "cmake",
+    "name": "CMake",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/bip.360221211"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "used_by_skills": [
+      "coulombic-electrostatic-modeling",
+      "disulfide-bond-detection-from-structures",
+      "dssp-strip-table-generation",
+      "hydrogen-bond-pattern-recognition",
+      "protein-backbone-geometry-computation",
+      "secondary-structure-hbond-annotation"
+    ]
+  },
+  {
+    "slug": "colabfold",
+    "name": "ColabFold",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/sokrypton/ColabFold",
+    "used_by_skills": [
+      "cbp60-family-sequence-curation",
+      "colabfold-alphafold2-structure-inference",
+      "dimensionality-reduction-runtime-benchmarking",
+      "plddt-pae-confidence-metric-extraction",
+      "predicted-structure-output-validation"
+    ]
+  },
+  {
+    "slug": "comet",
+    "name": "Comet",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334",
+      "10.1002/pmic.202100253"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "comet-database-searching",
+      "cross-search-engine-peptide-overlap-analysis",
+      "differential-abundance-significance-testing",
+      "feature-ablation-sensitivity-analysis",
+      "fragment-ion-intensity-scoring",
+      "immunopeptidomics-peptide-validation-tabulation",
+      "immunopeptidomics-psm-feature-extraction",
+      "isobaric-peptide-qc-score-filtering",
+      "isobaric-quantification-cross-tool-benchmarking",
+      "isobaric-reporter-ion-quantification",
+      "isobaric-tmt-peptide-quantification",
+      "log10-reporter-intensity-correlation-analysis",
+      "mgf-spectra-conversion-and-database-searching",
+      "mhc-binding-affinity-prediction",
+      "ms2-vs-ms3-filter-cutoff-optimization",
+      "peptide-sequence-set-intersection",
+      "peptide-set-binder-ratio-comparison",
+      "peptide-spectrum-matching-database-search",
+      "percentile-rank-binder-classification",
+      "precursor-interference-qc-score-calculation",
+      "pride-dataset-reprocessing",
+      "protein-inference-and-quantification-aggregation",
+      "protein-level-peptide-aggregation",
+      "proteomics-database-search-and-psm-validation",
+      "proteomics-search-result-conversion",
+      "psm-hit-file-parsing",
+      "qc-score-correlation-analysis",
+      "ratio-compression-benchmarking-against-mixing-ratio",
+      "raw-mass-spectrometry-peak-matching",
+      "reporter-ion-interference-assessment",
+      "reporter-ion-ratio-accuracy-assessment",
+      "scan-group-matching-across-quantification-tools",
+      "search-engine-peptide-count-reproduction",
+      "spectral-angle-similarity-scoring",
+      "sps-ms3-interference-assessment",
+      "sps-ms3-qc-score-filtering",
+      "synthetic-peptide-lc-msms-confirmation",
+      "target-decoy-fdr-filtering",
+      "thermal-proteome-profiling-analysis",
+      "tmt-interference-qc-score-filtering"
+    ]
+  },
+  {
+    "slug": "commproc",
+    "name": "commProc",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mlf2.70002"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/jianjunwang/iDOM",
+    "used_by_skills": [
+      "betanti-null-model-computation",
+      "deterministic-stochastic-process-classification",
+      "dom-assembly-process-quantification",
+      "ecological-null-model-interpretation",
+      "molecular-dendrogram-based-turnover-analysis"
+    ]
+  },
+  {
+    "slug": "compomics-utilities",
+    "name": "compomics-utilities",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.200900409"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/ms-lims",
+    "used_by_skills": [
+      "mascot-search-output-parsing",
+      "mass-spectrometry-data-management",
+      "mass-spectrometry-spectrum-archival-schema-design",
+      "mgf-format-parsing",
+      "ms-lims-database-querying",
+      "peptide-identification-quantitation-linkage",
+      "peptide-protein-list-statistics",
+      "peptide-spectrum-identification-storage",
+      "pride-submission-format-conversion",
+      "primary-protein-hit-selection",
+      "protein-progenitor-mapping",
+      "proteomics-identification-filtering",
+      "proteomics-spectrum-database-storage",
+      "spectral-peak-list-conversion"
+    ]
+  },
+  {
+    "slug": "customprodbj",
+    "name": "Customprodbj",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/customprodbj",
+    "used_by_skills": [
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "cython",
+    "name": "Cython",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28384"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/cmr-group/gropt",
+    "used_by_skills": [
+      "admm-constrained-optimization-execution",
+      "admm-solver-configuration",
+      "coarse-to-fine-warm-start-optimization",
+      "computational-complexity-scaling-analysis",
+      "compute-time-tabulation-across-discretization",
+      "cross-vendor-mri-pulse-sequence-comparison",
+      "diffusion-b-value-encoding-design",
+      "diffusion-encoding-moment-nulling-configuration",
+      "diffusion-encoding-waveform-design",
+      "eddy-current-nulling-constraint-configuration",
+      "gradient-moment-nulling-constraint-design",
+      "gradient-moment-residual-tolerance-sweep",
+      "gradient-waveform-comparison-visualization",
+      "gradient-waveform-time-optimal-optimization",
+      "intravoxel-phase-dispersion-simulation",
+      "moment-nulling-constraint-configuration",
+      "mri-gradient-hardware-constraint-setup",
+      "mri-gradient-moment-nulling",
+      "mri-gradient-waveform-optimization",
+      "multithreaded-duration-search-benchmarking",
+      "optimization-compute-time-benchmarking",
+      "phase-contrast-mri-gradient-design",
+      "pns-constraint-waveform-design",
+      "rotation-matrix-constraint-transformation",
+      "slice-obliquity-hardware-derating"
+    ]
+  },
+  {
+    "slug": "data-table",
+    "name": "data.table",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900245"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wangshisheng/motifeRapp",
+    "used_by_skills": [
+      "graph-network-construction-and-visualization",
+      "kinase-activity-aggregation-scoring",
+      "motif-overrepresentation-significance-testing",
+      "networkkin-database-annotation"
+    ]
+  },
+  {
+    "slug": "deepnitro",
+    "name": "DeepNitro",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation",
+      "roc-auc-evaluation--c0a7021e46afa01b"
+    ]
+  },
+  {
+    "slug": "deepphos",
+    "name": "DeepPhos",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "used_by_skills": [
+      "classification-threshold-beta-sweep",
+      "classifier-performance-curve-visualization",
+      "classifier-probability-score-extraction",
+      "f-beta-score-computation",
+      "imbalanced-label-evaluation-metrics",
+      "precision-recall-metric-computation",
+      "precision-recall-tradeoff-analysis",
+      "protein-language-model-embedding-inference"
+    ]
+  },
+  {
+    "slug": "deeprescore",
+    "name": "DeepRescore",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "comet-database-searching",
+      "cross-search-engine-peptide-overlap-analysis",
+      "feature-ablation-sensitivity-analysis",
+      "hla-allele-best-score-assignment",
+      "immunopeptidomics-fdr-filtering",
+      "immunopeptidomics-peptide-validation-tabulation",
+      "immunopeptidomics-psm-feature-extraction",
+      "mgf-spectra-conversion-and-database-searching",
+      "mhc-binding-affinity-prediction",
+      "msms-spectrum-prediction-spectral-angle-calculation",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-sequence-set-intersection",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "retention-time-prediction-transfer-learning",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-angle-similarity-scoring",
+      "spectral-prediction-feature-generation",
+      "synthetic-peptide-lc-msms-confirmation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "depmap",
+    "name": "DepMap",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "boxplot-visualization-across-cancer-types",
+      "chimeric-transcript-annotation",
+      "cnv-alteration-frequency-analysis",
+      "depmap-rnaseq-fusion-data-processing",
+      "pancancer-expression-analysis"
+    ]
+  },
+  {
+    "slug": "deseq2",
+    "name": "DESeq2",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": []
+  },
+  {
+    "slug": "devtools",
+    "name": "devtools",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mlf2.70002",
+      "10.1002/pmic.202200252"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/jianjunwang/iDOM",
+    "used_by_skills": [
+      "aromaticity-index-computation",
+      "betanti-null-model-computation",
+      "biomarker-panel-prioritization",
+      "biomarker-signature-thresholding",
+      "bootstrap-subsampling-replicate-analysis",
+      "dark-matter-cooccurrence-network-construction",
+      "dendrogram-mntd-diversity-calculation",
+      "deterministic-stochastic-process-classification",
+      "dissolved-organic-matter-molecular-class-assignment",
+      "dom-assembly-process-quantification",
+      "dom-microbe-bipartite-network-construction",
+      "dom-molecular-trait-visualization",
+      "dom-molecule-temperature-correlation",
+      "dom-relative-abundance-aggregation-by-class",
+      "double-bond-equivalent-estimation",
+      "ecological-null-model-interpretation",
+      "elastic-net-feature-selection",
+      "elemental-composition-parsing",
+      "example-dataset-result-reproduction",
+      "feature-importance-threshold-filtering",
+      "fticr-ms-compositional-data-filtering",
+      "fticr-ms-elemental-ratio-categorization",
+      "fticr-ms-molecular-composition-analysis",
+      "functional-diversity-raoq-cwm-estimation",
+      "icer-index-computation",
+      "molecular-dendrogram-based-turnover-analysis",
+      "molecular-trait-calculation",
+      "multiple-omic-signature-auc-comparison",
+      "network-level-specialization-calculation",
+      "nmds-pcoa-ordination-of-molecular-composition",
+      "null-model-significance-testing",
+      "organic-matter-thermodynamic-metrics",
+      "permanova-regional-composition-testing",
+      "positive-negative-interaction-partitioning",
+      "proteomic-biomarker-signature-discovery",
+      "proteomics-signature-table-parsing",
+      "r-package-installation-and-execution",
+      "r-package-statistical-workflow",
+      "region-specific-trend-comparison",
+      "regression-benchmark-validation",
+      "sample-subset-random-splitting",
+      "subsample-resampling-omics",
+      "temperature-gradient-trend-regression",
+      "warming-response-network-comparison"
+    ]
+  },
+  {
+    "slug": "diamond",
+    "name": "DIAMOND",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "used_by_skills": [
+      "classifier-prediction-count-comparison",
+      "cross-species-phosphosite-prediction-transfer",
+      "diamond-protein-sequence-alignment",
+      "genome-browser-track-annotation",
+      "genome-wide-phosphoproteome-scoring",
+      "genomic-coordinate-mapping",
+      "gff3-annotation-merging",
+      "phosphosite-label-annotation",
+      "phosphosite-peptide-window-extraction"
+    ]
+  },
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "feature-ablation-sensitivity-analysis",
+      "immunopeptidomics-fdr-filtering",
+      "immunopeptidomics-psm-feature-extraction",
+      "mgf-spectra-conversion-and-database-searching",
+      "msms-spectrum-prediction-spectral-angle-calculation",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "retention-time-prediction-transfer-learning",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-angle-similarity-scoring",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "dssp",
+    "name": "DSSP",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/bip.360221211"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "used_by_skills": [
+      "asa-benchmark-validation-against-reference",
+      "coulombic-electrostatic-modeling",
+      "dssp-strip-table-generation",
+      "geodesic-icosahedron-tessellation",
+      "hydrogen-bond-pattern-recognition",
+      "protein-backbone-geometry-computation",
+      "protein-hydrogen-bond-energy-calculation",
+      "secondary-structure-hbond-annotation"
+    ]
+  },
+  {
+    "slug": "e1071",
+    "name": "e1071",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "edger",
+    "name": "edgeR",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": []
+  },
+  {
+    "slug": "efeature",
+    "name": "eFeature",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "bidirectional-lstm-feature-extraction",
+      "binary-classifier-metric-evaluation",
+      "cross-validation-model-assessment",
+      "feature-subset-selection",
+      "feature-vector-concatenation-fusion",
+      "gradient-boosting-classification",
+      "lgbm-feature-selection-and-classification",
+      "multilayer-lstm-sequence-representation",
+      "plant-r-protein-prediction",
+      "pretrained-language-model-inference",
+      "protein-sequence-embedding-generation",
+      "protein-sequence-redundancy-filtering",
+      "roc-auc-evaluation--5a9bf612d0c79238"
+    ]
+  },
+  {
+    "slug": "emcbow-gpcr-github-repository",
+    "name": "EMCBOW-GPCR GitHub repository",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": []
+  },
+  {
+    "slug": "ensembl-perl-api",
+    "name": "Ensembl Perl API",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/scop3d",
+    "used_by_skills": []
+  },
+  {
+    "slug": "extreme-gradient-boosting",
+    "name": "Extreme Gradient Boosting",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "benchmark-method-comparison",
+      "boosted-tree-classifier-training",
+      "five-fold-cross-validation-classifier-evaluation",
+      "focal-loss-binary-classification-training",
+      "protein-sequence-feature-dimensionality-reduction"
+    ]
+  },
+  {
+    "slug": "fragpipe",
+    "name": "FragPipe",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100253"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "used_by_skills": [
+      "log10-reporter-intensity-correlation-analysis"
+    ]
+  },
+  {
+    "slug": "freesurfer",
+    "name": "FreeSurfer",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "used_by_skills": [
+      "brain-tissue-regional-error-mapping",
+      "desikan-killiany-atlas-parcellation",
+      "dti-derived-quantitative-map-normalization",
+      "fa-map-synthesis-from-multimodal-mri",
+      "gan-training-hyperparameter-tuning",
+      "min-max-intensity-normalization",
+      "nrmse-image-quality-evaluation",
+      "pet-mri-coregistration",
+      "pet-surv-quantification",
+      "regional-uptake-comparison-analysis"
+    ]
+  },
+  {
+    "slug": "gensim",
+    "name": "Gensim",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "benchmark-method-comparison",
+      "cbow-word-embedding-feature-generation",
+      "cross-validation-performance-evaluation",
+      "gpcr-sequence-classification",
+      "protein-feature-concatenation-evaluation",
+      "protein-sequence-feature-dimensionality-reduction",
+      "protein-sequence-fragmentation-into-words",
+      "smote-class-imbalance-handling",
+      "word2vec-cbow-model-training",
+      "yu-negative-sample-segmentation"
+    ]
+  },
+  {
+    "slug": "ggplot2",
+    "name": "ggplot2",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900143",
+      "10.1002/pmic.201900245",
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "used_by_skills": [
+      "calibration-curve-linear-regression",
+      "calibration-curve-visualization",
+      "calibration-model-summary-reporting",
+      "mrm-dilution-series-analysis",
+      "precision-trueness-assessment",
+      "precision-trueness-table-generation",
+      "response-factor-threshold-plotting",
+      "targeted-proteomics-assay-validation",
+      "targeted-proteomics-linear-range-output",
+      "weighted-least-squares-calibration-fitting"
+    ]
+  },
+  {
+    "slug": "ggraph",
+    "name": "ggraph",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900245"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wangshisheng/motifeRapp",
+    "used_by_skills": [
+      "graph-network-construction-and-visualization",
+      "kinase-activity-aggregation-scoring",
+      "networkkin-database-annotation"
+    ]
+  },
+  {
+    "slug": "ggseqlogo",
+    "name": "ggseqlogo",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900245"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/omarwagih/ggseqlogo",
+    "used_by_skills": [
+      "motif-discovery-sensitivity-comparison",
+      "motif-overrepresentation-significance-testing",
+      "ptm-motif-enrichment-analysis",
+      "r-package-data-processing"
+    ]
+  },
+  {
+    "slug": "github-com-cmr-group-gropt",
+    "name": "github.com/cmr-group/gropt",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28384"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/cmr-group/gropt",
+    "used_by_skills": []
+  },
+  {
+    "slug": "github-musignal-repository",
+    "name": "GitHub muSignAl repository",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202200252"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/ShuklaLab/muSignAl",
+    "used_by_skills": []
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28825"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/kherz/pulseq-cest",
+    "used_by_skills": []
+  },
+  {
+    "slug": "glm",
+    "name": "glm",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "glmnet",
+    "name": "glmnet",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023",
+      "10.1002/pmic.202200252"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "auc-based-signature-performance-thresholding",
+      "auc-model-evaluation",
+      "auc-threshold-signature-filtering",
+      "biomarker-panel-prioritization",
+      "biomarker-signature-thresholding",
+      "elastic-net-feature-selection",
+      "feature-importance-frequency-estimation",
+      "feature-importance-threshold-filtering",
+      "multiple-omic-signature-auc-comparison",
+      "omic-signature-table-formatting",
+      "proteomic-biomarker-signature-discovery",
+      "r-package-installation-and-execution",
+      "stratified-cross-validation-model-evaluation",
+      "subsample-resampling-omics"
+    ]
+  },
+  {
+    "slug": "go",
+    "name": "Go",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": []
+  },
+  {
+    "slug": "gps-sno",
+    "name": "GPS-SNO",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation",
+      "roc-auc-evaluation--c0a7021e46afa01b"
+    ]
+  },
+  {
+    "slug": "gptime",
+    "name": "GPTime",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "immunopeptidomics-fdr-filtering",
+      "mgf-spectra-conversion-and-database-searching",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing"
+    ]
+  },
+  {
+    "slug": "gramene",
+    "name": "Gramene",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "cbp60-family-sequence-curation",
+      "transcript-protein-count-verification"
+    ]
+  },
+  {
+    "slug": "gropt",
+    "name": "GrOpt",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28384"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/cmr-group/gropt",
+    "used_by_skills": [
+      "admm-constrained-optimization-execution",
+      "admm-solver-configuration",
+      "coarse-to-fine-warm-start-optimization",
+      "computational-complexity-scaling-analysis",
+      "compute-time-tabulation-across-discretization",
+      "cross-vendor-mri-pulse-sequence-comparison",
+      "diffusion-b-value-encoding-design",
+      "diffusion-encoding-moment-nulling-configuration",
+      "diffusion-encoding-waveform-design",
+      "eddy-current-nulling-constraint-configuration",
+      "gradient-moment-nulling-constraint-design",
+      "gradient-moment-residual-tolerance-sweep",
+      "gradient-waveform-comparison-visualization",
+      "gradient-waveform-time-optimal-optimization",
+      "intravoxel-phase-dispersion-simulation",
+      "moment-nulling-constraint-configuration",
+      "mri-gradient-hardware-constraint-setup",
+      "mri-gradient-moment-nulling",
+      "mri-gradient-waveform-optimization",
+      "multithreaded-duration-search-benchmarking",
+      "optimization-compute-time-benchmarking",
+      "phase-contrast-mri-gradient-design",
+      "pns-constraint-waveform-design",
+      "rotation-matrix-constraint-transformation",
+      "slice-obliquity-hardware-derating"
+    ]
+  },
+  {
+    "slug": "gsva",
+    "name": "GSVA",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "msigdb-geneset-mapping"
+    ]
+  },
+  {
+    "slug": "histone-coder",
+    "name": "Histone Coder",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400084"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/middle-down/Software",
+    "used_by_skills": [
+      "brno-nomenclature-ptm-annotation",
+      "brno-nomenclature-ptm-string-parsing",
+      "cross-condition-ptm-crosstalk-comparison",
+      "cross-method-quantification-agreement-analysis",
+      "cz-fragment-ion-series-interpretation",
+      "extracted-ion-chromatogram-quantification",
+      "firr-relative-quantification",
+      "histone-binary-ptm-abundance-statistics",
+      "histone-combinatorial-ptm-abundance-normalization",
+      "histone-peptide-ion-intensity-quantification",
+      "histone-ptm-co-occurrence-frequency-analysis",
+      "histone-ptm-relative-quantification",
+      "histone-tail-lc-separation-qc",
+      "isobaric-peptide-abundance-deconvolution",
+      "isobaric-peptide-cofragmentation-splitting",
+      "isobaric-peptide-fragment-ion-ratio-correction",
+      "isobaric-peptide-fragment-ratio-quantification",
+      "mascot-output-parsing",
+      "mascot-result-parsing",
+      "msms-fragment-intensity-extraction",
+      "ptm-abundance-fold-change-comparison-between-cell-states",
+      "ptm-localization-validation-against-reference-output",
+      "relative-peptide-abundance-quantification",
+      "site-determining-ion-counting",
+      "spectral-counting-quantification",
+      "wt-vs-knockout-ptm-comparison"
+    ]
+  },
+  {
+    "slug": "hlathena",
+    "name": "HLAthena",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "hla-allele-best-score-assignment",
+      "mhc-binding-affinity-prediction",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "hmmer",
+    "name": "HMMER",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "classification-metrics-computation",
+      "hmm-profile-alignment-scoring",
+      "independent-test-set-evaluation--677a6f1422260e6d",
+      "protein-sequence-prediction-benchmarking",
+      "roc-auc-evaluation--5a9bf612d0c79238"
+    ]
+  },
+  {
+    "slug": "idom",
+    "name": "iDOM",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mlf2.70002"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/jianjunwang/iDOM",
+    "used_by_skills": [
+      "aromaticity-index-computation",
+      "betanti-null-model-computation",
+      "bootstrap-subsampling-replicate-analysis",
+      "dark-matter-cooccurrence-network-construction",
+      "dendrogram-mntd-diversity-calculation",
+      "deterministic-stochastic-process-classification",
+      "dissolved-organic-matter-molecular-class-assignment",
+      "dom-assembly-process-quantification",
+      "dom-dissimilarity-matrix-computation",
+      "dom-microbe-bipartite-network-construction",
+      "dom-molecular-trait-visualization",
+      "dom-molecule-temperature-correlation",
+      "dom-relative-abundance-aggregation-by-class",
+      "double-bond-equivalent-estimation",
+      "ecological-null-model-interpretation",
+      "elemental-composition-parsing",
+      "example-dataset-result-reproduction",
+      "fticr-ms-compositional-data-filtering",
+      "fticr-ms-elemental-ratio-categorization",
+      "fticr-ms-molecular-composition-analysis",
+      "functional-diversity-raoq-cwm-estimation",
+      "icer-index-computation",
+      "molecular-dendrogram-based-turnover-analysis",
+      "molecular-trait-calculation",
+      "network-level-specialization-calculation",
+      "nmds-pcoa-ordination-of-molecular-composition",
+      "null-model-significance-testing",
+      "ordination-plot-visualization",
+      "organic-matter-thermodynamic-metrics",
+      "permanova-regional-composition-testing",
+      "positive-negative-interaction-partitioning",
+      "r-package-statistical-workflow",
+      "region-specific-trend-comparison",
+      "regression-benchmark-validation",
+      "sample-subset-random-splitting",
+      "temperature-gradient-trend-regression",
+      "warming-response-network-comparison"
+    ]
+  },
+  {
+    "slug": "igraph",
+    "name": "igraph",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900245"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wangshisheng/motifeRapp",
+    "used_by_skills": [
+      "graph-network-construction-and-visualization",
+      "kinase-activity-aggregation-scoring",
+      "networkkin-database-annotation"
+    ]
+  },
+  {
+    "slug": "imbalanced-learn-smote",
+    "name": "imbalanced-learn (SMOTE)",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "cross-validation-performance-evaluation",
+      "smote-class-imbalance-handling"
+    ]
+  },
+  {
+    "slug": "imopac",
+    "name": "IMOPAC",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "boxplot-visualization-across-cancer-types",
+      "cancer-cell-line-data-processing",
+      "chimeric-transcript-annotation",
+      "cnv-alteration-frequency-analysis",
+      "depmap-rnaseq-fusion-data-processing",
+      "discrete-omic-group-comparison-testing",
+      "drug-omics-correlation-analysis",
+      "grouped-summary-statistics-computation",
+      "msigdb-geneset-mapping",
+      "pancancer-expression-analysis",
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "impute",
+    "name": "impute",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "msigdb-geneset-mapping",
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "intellij-idea",
+    "name": "IntelliJ IDEA",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.200900409"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/ms-lims",
+    "used_by_skills": [
+      "mascot-search-output-parsing",
+      "peptide-identification-quantitation-linkage"
+    ]
+  },
+  {
+    "slug": "isnopseaac",
+    "name": "ISNOPseAAC",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation",
+      "roc-auc-evaluation--c0a7021e46afa01b"
+    ]
+  },
+  {
+    "slug": "iso-scale",
+    "name": "Iso Scale",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400084"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/middle-down/Software",
+    "used_by_skills": [
+      "brno-nomenclature-ptm-annotation",
+      "histone-ptm-relative-quantification",
+      "isobaric-peptide-fragment-ion-ratio-correction",
+      "mascot-output-parsing",
+      "ptm-abundance-fold-change-comparison-between-cell-states"
+    ]
+  },
+  {
+    "slug": "isobaricquant",
+    "name": "IsobaricQuant",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100253"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "used_by_skills": [
+      "differential-abundance-significance-testing",
+      "fragment-ion-intensity-scoring",
+      "intra-protein-cv-precision-analysis",
+      "isobaric-peptide-qc-score-filtering",
+      "isobaric-quantification-cross-tool-benchmarking",
+      "isobaric-reporter-ion-quantification",
+      "isobaric-tmt-peptide-quantification",
+      "log10-reporter-intensity-correlation-analysis",
+      "ms2-vs-ms3-filter-cutoff-optimization",
+      "peptide-observation-loss-quantification",
+      "peptide-spectrum-matching-database-search",
+      "percentile-cutoff-optimization",
+      "precursor-interference-qc-score-calculation",
+      "pride-dataset-reprocessing",
+      "protein-inference-and-quantification-aggregation",
+      "protein-level-peptide-aggregation",
+      "proteomics-database-search-and-psm-validation",
+      "proteomics-search-result-conversion",
+      "psm-hit-file-parsing",
+      "qc-score-correlation-analysis",
+      "ratio-compression-benchmarking-against-mixing-ratio",
+      "raw-mass-spectrometry-peak-matching",
+      "reporter-ion-interference-assessment",
+      "reporter-ion-ratio-accuracy-assessment",
+      "scan-group-matching-across-quantification-tools",
+      "sps-ms3-interference-assessment",
+      "sps-ms3-qc-score-filtering",
+      "thermal-proteome-profiling-analysis",
+      "tmt-interference-qc-score-filtering"
+    ]
+  },
+  {
+    "slug": "isoscale",
+    "name": "isoScale",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400084"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/middle-down/Software",
+    "used_by_skills": [
+      "brno-nomenclature-ptm-annotation",
+      "brno-nomenclature-ptm-string-parsing",
+      "cross-condition-ptm-crosstalk-comparison",
+      "cross-method-quantification-agreement-analysis",
+      "cz-fragment-ion-series-interpretation",
+      "extracted-ion-chromatogram-quantification",
+      "firr-relative-quantification",
+      "histone-binary-ptm-abundance-statistics",
+      "histone-combinatorial-ptm-abundance-normalization",
+      "histone-peptide-ion-intensity-quantification",
+      "histone-ptm-co-occurrence-frequency-analysis",
+      "histone-ptm-relative-quantification",
+      "histone-tail-lc-separation-qc",
+      "isobaric-peptide-abundance-deconvolution",
+      "isobaric-peptide-cofragmentation-splitting",
+      "isobaric-peptide-fragment-ion-ratio-correction",
+      "isobaric-peptide-fragment-ratio-quantification",
+      "mascot-output-parsing",
+      "mascot-result-parsing",
+      "msms-fragment-intensity-extraction",
+      "relative-peptide-abundance-quantification",
+      "spectral-counting-quantification",
+      "wt-vs-knockout-ptm-comparison"
+    ]
+  },
+  {
+    "slug": "java",
+    "name": "Java",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100253",
+      "10.1002/pmic.201400084",
+      "10.1002/pmic.201100578",
+      "10.1002/pmic.200900409",
+      "10.1002/pmic.200900759"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "used_by_skills": [
+      "brno-nomenclature-ptm-annotation",
+      "brno-nomenclature-ptm-string-parsing",
+      "common-spectra-interface-reconstruction",
+      "cross-method-quantification-agreement-analysis",
+      "cz-fragment-ion-series-interpretation",
+      "differential-abundance-significance-testing",
+      "extracted-ion-chromatogram-quantification",
+      "fragment-ion-intensity-scoring",
+      "fragment-ion-mz-intensity-extraction",
+      "fragment-spectrum-metadata-extraction",
+      "histone-binary-ptm-abundance-statistics",
+      "histone-peptide-ion-intensity-quantification",
+      "histone-ptm-relative-quantification",
+      "intra-protein-cv-precision-analysis",
+      "isobaric-peptide-cofragmentation-splitting",
+      "isobaric-peptide-fragment-ion-ratio-correction",
+      "isobaric-peptide-fragment-ratio-quantification",
+      "isobaric-peptide-qc-score-filtering",
+      "isobaric-quantification-cross-tool-benchmarking",
+      "isobaric-reporter-ion-quantification",
+      "isobaric-tmt-peptide-quantification",
+      "java-interface-implementation",
+      "java-library-benchmarking",
+      "java-mass-spectrometry-parser-reconstruction",
+      "java-parser-api-integration",
+      "log10-reporter-intensity-correlation-analysis",
+      "mascot-output-parsing",
+      "mascot-result-parsing",
+      "mascot-search-output-parsing",
+      "mass-spectrometry-spectrum-archival-schema-design",
+      "mgf-format-parsing",
+      "mgf-parameter-block-extraction",
+      "mgf-spectrum-block-segmentation",
+      "modification-site-mapping",
+      "ms-lims-database-querying",
+      "ms2-peak-list-parsing",
+      "ms2-vs-ms3-filter-cutoff-optimization",
+      "msms-search-result-file-parsing",
+      "msms-search-score-interpretation",
+      "parsing-performance-metrics-tabulation",
+      "peak-array-decoding",
+      "peak-list-parser-implementation",
+      "peak-mz-intensity-structuring",
+      "peptide-identification-extraction",
+      "peptide-observation-loss-quantification",
+      "peptide-protein-list-statistics",
+      "peptide-spectrum-identification-storage",
+      "peptide-spectrum-matching-database-search",
+      "percentile-cutoff-optimization",
+      "pkl-peak-list-format-parsing",
+      "precursor-interference-qc-score-calculation",
+      "precursor-ion-information-parsing",
+      "precursor-ion-metadata-extraction",
+      "pride-dataset-reprocessing",
+      "primary-protein-hit-selection",
+      "protein-inference-and-quantification-aggregation",
+      "protein-level-peptide-aggregation",
+      "proteomics-database-search-and-psm-validation",
+      "proteomics-identification-data-handling",
+      "proteomics-identification-filtering",
+      "proteomics-mass-spectrometry-file-format-handling",
+      "proteomics-search-result-conversion",
+      "proteomics-spectrum-database-storage",
+      "psm-hit-file-parsing",
+      "ptm-abundance-fold-change-comparison-between-cell-states",
+      "ptm-localization-validation-against-reference-output",
+      "qc-score-correlation-analysis",
+      "ratio-compression-benchmarking-against-mixing-ratio",
+      "raw-mass-spectrometry-peak-matching",
+      "reporter-ion-interference-assessment",
+      "reporter-ion-ratio-accuracy-assessment",
+      "runtime-memory-profiling",
+      "scan-group-matching-across-quantification-tools",
+      "scan-metadata-extraction-mass-spectrometry",
+      "site-determining-ion-counting",
+      "spectral-counting-quantification",
+      "spectral-peak-list-conversion",
+      "spectral-peak-pair-parsing",
+      "spectrum-header-field-extraction",
+      "spectrum-peak-array-extraction",
+      "spectrum-record-schema-construction",
+      "sps-ms3-interference-assessment",
+      "sps-ms3-qc-score-filtering",
+      "tab-delimited-proteomics-report-export",
+      "tandem-ms-result-parsing",
+      "thermal-proteome-profiling-analysis",
+      "tmt-interference-qc-score-filtering",
+      "wt-vs-knockout-ptm-comparison",
+      "xtandem-xml-object-model-access",
+      "xtandem-xml-result-parsing"
+    ]
+  },
+  {
+    "slug": "jmzml",
+    "name": "jmzML",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201100578"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PRIDE-Archive/jmzReader",
+    "used_by_skills": [
+      "cross-format-parser-conformance-testing",
+      "cv-parameter-extraction",
+      "java-interface-implementation",
+      "java-parser-api-integration",
+      "mass-spectrometry-record-serialization",
+      "mzidentml-spectrum-reference-resolution",
+      "mzxml-spectrum-xml-parsing",
+      "precursor-ion-information-parsing",
+      "precursor-ion-metadata-extraction",
+      "proteomics-mass-spectrometry-file-format-handling",
+      "scan-metadata-extraction-mass-spectrometry",
+      "spectrum-peak-array-extraction"
+    ]
+  },
+  {
+    "slug": "jmzreader",
+    "name": "jmzReader",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201100578"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PRIDE-Archive/jmzReader",
+    "used_by_skills": [
+      "common-spectra-interface-reconstruction",
+      "cross-format-parser-conformance-testing",
+      "cv-parameter-extraction",
+      "java-interface-implementation",
+      "java-mass-spectrometry-parser-reconstruction",
+      "java-parser-api-integration",
+      "mass-spectrometry-record-serialization",
+      "mgf-parameter-block-extraction",
+      "mgf-spectrum-block-segmentation",
+      "ms2-peak-list-parsing",
+      "mzidentml-spectrum-reference-resolution",
+      "mzxml-spectrum-xml-parsing",
+      "peak-array-decoding",
+      "peak-list-parser-implementation",
+      "peak-mz-intensity-structuring",
+      "pkl-peak-list-format-parsing",
+      "precursor-ion-information-parsing",
+      "precursor-ion-metadata-extraction",
+      "precursor-metadata-extraction-from-peak-lists",
+      "proteomics-mass-spectrometry-file-format-handling",
+      "scan-metadata-extraction-mass-spectrometry",
+      "spectral-peak-pair-parsing",
+      "spectrum-header-field-extraction",
+      "spectrum-peak-array-extraction",
+      "spectrum-record-schema-construction"
+    ]
+  },
+  {
+    "slug": "kknn",
+    "name": "kknn",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "knitr",
+    "name": "knitr",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "3d-scan-intensity-visualization",
+      "isotopic-envelope-visualization",
+      "lc-ms-raw-data-import",
+      "ma-plot-construction",
+      "maldi-tof-spectrum-preprocessing",
+      "ms-level-discrimination-ms1-ms2",
+      "multi-panel-spectra-figure-rendering",
+      "multi-paradigm-r-graphics-comparison",
+      "mzid-identification-parsing",
+      "orbitrap-hela-prtc-dataset-handling",
+      "peptide-to-protein-coordinate-mapping",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase",
+      "retention-time-mz-heatmap-rendering",
+      "single-peak-detection-from-mass-spectra",
+      "spectral-intensity-transformation",
+      "spectral-smoothing-and-baseline-correction",
+      "tmt-reporter-channel-ratio-analysis"
+    ]
+  },
+  {
+    "slug": "koina",
+    "name": "Koina",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202300112"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "used_by_skills": [
+      "collision-energy-calibration",
+      "irt-to-retention-time-alignment",
+      "koina-prediction-server-querying",
+      "lowess-curve-fitting",
+      "metaproteomics-search-space-comparison",
+      "multiprocessing-parallel-configuration",
+      "peptide-fragment-intensity-prediction",
+      "peptide-irt-prediction",
+      "peptide-property-prediction-via-koina",
+      "proteomics-rescoring-pipeline-execution",
+      "psm-count-benchmark-comparison",
+      "psm-data-driven-rescoring",
+      "psm-feature-generation-with-prediction-server",
+      "psm-rescoring-with-predicted-spectral-features",
+      "psm-selection-by-search-score",
+      "psm-target-decoy-confidence-filtering",
+      "public-proteomics-dataset-reanalysis",
+      "rescoring-feature-generation",
+      "spectral-library-format-generation",
+      "spectral-peak-annotation-of-psms",
+      "spectral-peak-annotation-with-predicted-fragments",
+      "target-decoy-fdr-estimation",
+      "wallclock-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "lightgbm-lgbm",
+    "name": "LightGBM (LGBM)",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "bidirectional-lstm-feature-extraction",
+      "binary-classifier-metric-evaluation",
+      "class-imbalanced-protein-dataset-evaluation",
+      "cross-validated-classifier-benchmarking",
+      "cross-validation-model-assessment",
+      "feature-selection-matrix-handling",
+      "feature-subset-selection",
+      "gradient-boosting-classification",
+      "gradient-boosting-feature-ranking",
+      "independent-test-set-evaluation--677a6f1422260e6d",
+      "lgbm-feature-selection-and-classification",
+      "plant-r-protein-classification-context",
+      "plant-r-protein-prediction",
+      "protein-embedding-feature-selection",
+      "roc-auc-evaluation--5a9bf612d0c79238",
+      "scatter-plot-visualization",
+      "umap-dimensionality-reduction"
+    ]
+  },
+  {
+    "slug": "limma",
+    "name": "limma",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": []
+  },
+  {
+    "slug": "maldimid",
+    "name": "MALDImID",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202300005"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/budczies/MALDImIDshiny",
+    "used_by_skills": [
+      "differential-abundance-gene-list-matching",
+      "lc-msms-biomarker-list-filtering",
+      "lcms-peptide-mass-table-parsing",
+      "maldi-imaging-peptide-annotation",
+      "maldi-mz-to-neutral-mass-conversion",
+      "maldi-peak-protein-correlation",
+      "mass-spectrometry-charge-state-handling",
+      "mass-spectrometry-data-processing",
+      "maxquant-peptide-table-parsing",
+      "mz-mass-accuracy-matching",
+      "peptide-gene-name-filtering",
+      "peptide-intensity-column-detection",
+      "peptide-mass-matching-within-tolerance-window",
+      "per-condition-summary-statistics-computation",
+      "proteomic-biomarker-peak-annotation",
+      "proteomics-peptide-table-subsetting",
+      "proteomics-table-formatting",
+      "replicate-positivity-counting",
+      "result-table-reference-comparison",
+      "tabular-column-annotation-r"
+    ]
+  },
+  {
+    "slug": "maldiquant",
+    "name": "MALDIquant",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "ion-image-slice-extraction",
+      "maldi-imaging-spectrum-averaging",
+      "maldi-tof-spectrum-preprocessing",
+      "mass-peak-picking-and-intensity-ranking",
+      "multi-panel-spectra-figure-rendering",
+      "proteomics-data-visualization-r",
+      "single-peak-detection-from-mass-spectra",
+      "spectral-intensity-transformation",
+      "spectral-smoothing-and-baseline-correction"
+    ]
+  },
+  {
+    "slug": "mascot",
+    "name": "Mascot",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400084"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/middle-down/Software",
+    "used_by_skills": [
+      "brno-nomenclature-ptm-annotation",
+      "brno-nomenclature-ptm-string-parsing",
+      "cross-condition-ptm-crosstalk-comparison",
+      "cross-method-quantification-agreement-analysis",
+      "cz-fragment-ion-series-interpretation",
+      "extracted-ion-chromatogram-quantification",
+      "firr-relative-quantification",
+      "histone-binary-ptm-abundance-statistics",
+      "histone-combinatorial-ptm-abundance-normalization",
+      "histone-peptide-ion-intensity-quantification",
+      "histone-ptm-co-occurrence-frequency-analysis",
+      "histone-ptm-relative-quantification",
+      "isobaric-peptide-abundance-deconvolution",
+      "isobaric-peptide-cofragmentation-splitting",
+      "isobaric-peptide-fragment-ion-ratio-correction",
+      "isobaric-peptide-fragment-ratio-quantification",
+      "mascot-output-parsing",
+      "mascot-result-parsing",
+      "msms-fragment-intensity-extraction",
+      "ptm-abundance-fold-change-comparison-between-cell-states",
+      "ptm-localization-validation-against-reference-output",
+      "relative-peptide-abundance-quantification",
+      "site-determining-ion-counting",
+      "spectral-counting-quantification",
+      "wt-vs-knockout-ptm-comparison"
+    ]
+  },
+  {
+    "slug": "matlab-runtime",
+    "name": "Matlab Runtime",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pro.3703"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/hscsun/SimpleDSFviewer-5.0",
+    "used_by_skills": [
+      "curve-smoothing-comparison-analysis",
+      "derivative-curve-peak-identification",
+      "dsf-data-analysis",
+      "dsf-first-derivative-curve-peak-detection",
+      "dsf-fluorescence-data-processing",
+      "dsf-melting-curve-processing",
+      "dsf-thermal-stability-analysis",
+      "fluorescence-curve-normalization",
+      "half-maximal-fluorescence-tm-calculation",
+      "heparin-protein-thermal-shift-interpretation",
+      "melting-curve-numerical-differentiation",
+      "melting-curve-piecewise-smoothing",
+      "melting-temperature-determination",
+      "min-max-scaling-of-fluorescence-data",
+      "per-well-plate-data-processing",
+      "protein-thermal-stability-data-analysis",
+      "protein-unfolding-screening-rules",
+      "scientific-task-formulation",
+      "signal-smoothing-window-selection",
+      "thermal-denaturation-curve-classification"
+    ]
+  },
+  {
+    "slug": "matlab",
+    "name": "MATLAB",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28825",
+      "10.1002/pro.3703"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/kherz/pulseq-cest",
+    "used_by_skills": [
+      "bloch-mcconnell-simulation",
+      "cest-z-spectral-processing",
+      "cross-language-numerical-validation",
+      "magnetic-resonance-fingerprinting-dictionary-matching",
+      "mex-cpp-matlab-python-interfacing",
+      "mri-phantom-simulation-parameter-setup",
+      "mri-pulse-sequence-programming",
+      "mtrasym-map-computation-from-z-spectra",
+      "multi-pool-magnetization-exchange-modeling",
+      "multi-site-quantitative-map-comparison",
+      "multi-vendor-mri-protocol-transferability-analysis",
+      "pulseq-cest-protocol-interpretation",
+      "roi-based-phantom-spectra-comparison",
+      "simulation-runtime-benchmarking",
+      "white-matter-roi-segmentation-spm",
+      "z-spectrum-normalization-and-mtrasym-calculation"
+    ]
+  },
+  {
+    "slug": "maven",
+    "name": "Maven",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201100578",
+      "10.1002/pmic.200900409"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PRIDE-Utilities/jmzReader",
+    "used_by_skills": [
+      "common-spectra-interface-reconstruction",
+      "cross-format-parser-conformance-testing",
+      "cv-parameter-extraction",
+      "java-interface-implementation",
+      "java-parser-api-integration",
+      "mascot-search-output-parsing",
+      "mass-spectrometry-record-serialization",
+      "mgf-format-parsing",
+      "ms-lims-database-querying",
+      "ms2-peak-list-parsing",
+      "mzidentml-spectrum-reference-resolution",
+      "mzxml-spectrum-xml-parsing",
+      "peak-array-decoding",
+      "peak-list-parser-implementation",
+      "peptide-identification-quantitation-linkage",
+      "peptide-spectrum-identification-storage",
+      "pkl-peak-list-format-parsing",
+      "precursor-ion-information-parsing",
+      "precursor-ion-metadata-extraction",
+      "precursor-metadata-extraction-from-peak-lists",
+      "primary-protein-hit-selection",
+      "proteomics-mass-spectrometry-file-format-handling",
+      "proteomics-spectrum-database-storage",
+      "scan-metadata-extraction-mass-spectrometry",
+      "spectral-peak-list-conversion",
+      "spectrum-header-field-extraction",
+      "spectrum-peak-array-extraction",
+      "spectrum-record-schema-construction"
+    ]
+  },
+  {
+    "slug": "maxquant",
+    "name": "MaxQuant",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334",
+      "10.1002/pmic.202100253"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "cross-search-engine-peptide-overlap-analysis",
+      "hla-allele-best-score-assignment",
+      "immunopeptidomics-fdr-filtering",
+      "log10-reporter-intensity-correlation-analysis",
+      "metaproteomics-search-space-comparison",
+      "mgf-spectra-conversion-and-database-searching",
+      "mhc-binding-affinity-prediction",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-sequence-set-intersection",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "mega11",
+    "name": "MEGA11",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "cbp60-family-sequence-curation",
+      "multiple-sequence-alignment-generation",
+      "phylogenetic-tree-inference",
+      "protein-sequence-alignment"
+    ]
+  },
+  {
+    "slug": "mhcflurry",
+    "name": "MHCflurry",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "hla-allele-best-score-assignment",
+      "mhc-binding-affinity-prediction",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "mkdssp",
+    "name": "mkdssp",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/bip.360221211"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "used_by_skills": [
+      "coulombic-electrostatic-modeling",
+      "disulfide-bond-detection-from-structures",
+      "dssp-strip-table-generation",
+      "hydrogen-bond-pattern-recognition",
+      "protein-backbone-geometry-computation",
+      "protein-hydrogen-bond-energy-calculation",
+      "secondary-structure-hbond-annotation"
+    ]
+  },
+  {
+    "slug": "mokapot",
+    "name": "mokapot",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202300112"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "used_by_skills": [
+      "gain-loss-rescoring-visualization",
+      "irt-to-retention-time-alignment",
+      "lowess-curve-fitting",
+      "metaproteomics-psm-count-analysis",
+      "metaproteomics-search-space-comparison",
+      "multiprocessing-parallel-configuration",
+      "peptide-fragment-intensity-prediction",
+      "peptide-property-prediction-via-koina",
+      "proteomics-rescoring-pipeline-execution",
+      "psm-count-benchmark-comparison",
+      "psm-data-driven-rescoring",
+      "psm-feature-generation-with-prediction-server",
+      "psm-rescoring-with-predicted-spectral-features",
+      "psm-retention-quantification-across-search-spaces",
+      "psm-target-decoy-confidence-filtering",
+      "public-proteomics-dataset-reanalysis",
+      "raw-spectra-format-conversion",
+      "rescoring-feature-generation",
+      "rescoring-vs-search-engine-performance-comparison",
+      "search-engine-output-format-conversion",
+      "search-space-susceptibility-analysis",
+      "spectral-peak-annotation-of-psms",
+      "spectral-peak-annotation-with-predicted-fragments",
+      "target-decoy-fdr-estimation",
+      "wallclock-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "morpheus-spectral-counter-mspc",
+    "name": "Morpheus Spectral Counter (MSpC)",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201500420"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/dcgemperline/Morpheus_SpC",
+    "used_by_skills": [
+      "distributed-peptide-sharing-across-protein-families",
+      "isoform-proteoform-abundance-estimation",
+      "morpheus-output-parsing",
+      "nsaf-normalization",
+      "protein-length-correction",
+      "spectral-count-protein-quantification"
+    ]
+  },
+  {
+    "slug": "morpheus",
+    "name": "Morpheus",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201500420"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/cwenger.github.io/Morpheus",
+    "used_by_skills": [
+      "distributed-peptide-sharing-across-protein-families",
+      "isoform-proteoform-abundance-estimation",
+      "morpheus-output-parsing",
+      "nsaf-normalization",
+      "protein-length-correction",
+      "spectral-count-protein-quantification"
+    ]
+  },
+  {
+    "slug": "motifer",
+    "name": "motifeR",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900245"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wangshisheng/motifeR",
+    "used_by_skills": [
+      "graph-network-construction-and-visualization",
+      "kinase-activity-aggregation-scoring",
+      "motif-discovery-sensitivity-comparison",
+      "motif-overrepresentation-significance-testing",
+      "networkkin-database-annotation",
+      "ptm-motif-enrichment-analysis",
+      "r-package-data-processing"
+    ]
+  },
+  {
+    "slug": "mrmd3-0",
+    "name": "MRMD3.0",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "class-imbalanced-protein-dataset-evaluation",
+      "cross-validated-classifier-benchmarking",
+      "feature-subset-selection",
+      "gradient-boosting-feature-ranking",
+      "protein-embedding-feature-selection",
+      "roc-auc-evaluation--5a9bf612d0c79238"
+    ]
+  },
+  {
+    "slug": "ms-gf",
+    "name": "MS-GF+",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/MSGFPlus/msgfplus",
+    "used_by_skills": [
+      "cross-search-engine-peptide-overlap-analysis",
+      "hla-allele-best-score-assignment",
+      "immunopeptidomics-fdr-filtering",
+      "mgf-spectra-conversion-and-database-searching",
+      "mhc-binding-affinity-prediction",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-sequence-set-intersection",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "ms-lims",
+    "name": "ms_lims",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.200900409"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/ms-lims",
+    "used_by_skills": [
+      "mass-spectrometry-spectrum-archival-schema-design",
+      "mgf-format-parsing",
+      "ms-lims-database-querying",
+      "peptide-identification-quantitation-linkage",
+      "proteomics-spectrum-database-storage"
+    ]
+  },
+  {
+    "slug": "msconvert",
+    "name": "msconvert",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100253"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "used_by_skills": [
+      "differential-abundance-significance-testing",
+      "fragment-ion-intensity-scoring",
+      "isobaric-peptide-qc-score-filtering",
+      "isobaric-quantification-cross-tool-benchmarking",
+      "isobaric-reporter-ion-quantification",
+      "isobaric-tmt-peptide-quantification",
+      "log10-reporter-intensity-correlation-analysis",
+      "ms2-vs-ms3-filter-cutoff-optimization",
+      "peptide-spectrum-matching-database-search",
+      "precursor-interference-qc-score-calculation",
+      "pride-dataset-reprocessing",
+      "protein-inference-and-quantification-aggregation",
+      "protein-level-peptide-aggregation",
+      "proteomics-database-search-and-psm-validation",
+      "proteomics-search-result-conversion",
+      "psm-hit-file-parsing",
+      "ratio-compression-benchmarking-against-mixing-ratio",
+      "raw-mass-spectrometry-peak-matching",
+      "reporter-ion-interference-assessment",
+      "scan-group-matching-across-quantification-tools",
+      "sps-ms3-interference-assessment",
+      "sps-ms3-qc-score-filtering",
+      "thermal-proteome-profiling-analysis",
+      "tmt-interference-qc-score-filtering"
+    ]
+  },
+  {
+    "slug": "msigdb",
+    "name": "MSigDB",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "msigdb-geneset-mapping"
+    ]
+  },
+  {
+    "slug": "msqc1",
+    "name": "msqc1",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900143"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "used_by_skills": [
+      "calibration-data-preprocessing",
+      "calibration-level-iterative-trimming",
+      "dynamic-linear-range-determination",
+      "mrm-dilution-series-analysis",
+      "precision-based-bias-calculation",
+      "replicate-cv-precision-calculation",
+      "spreadsheet-data-import",
+      "targeted-proteomics-assay-validation",
+      "targeted-proteomics-calibration-curve-fitting",
+      "targeted-proteomics-dilution-series-analysis",
+      "targeted-proteomics-linear-range-output",
+      "uloq-out-of-range-prediction-flagging"
+    ]
+  },
+  {
+    "slug": "msstats",
+    "name": "MSstats",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": []
+  },
+  {
+    "slug": "muscle",
+    "name": "MUSCLE",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509",
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "amino-acid-frequency-matrix-construction",
+      "cbp60-family-sequence-curation",
+      "consensus-sequence-construction",
+      "information-entropy-calculation-per-position",
+      "multiple-sequence-alignment-generation",
+      "multiple-sequence-alignment-muscle",
+      "multiple-sequence-alignment-residue-tallying",
+      "pdb-bvalue-structure-annotation",
+      "phylogenetic-tree-inference",
+      "protein-sequence-alignment",
+      "protein-sequence-conservation-quantification",
+      "protein-sequence-logo-generation",
+      "sequence-conservation-analysis"
+    ]
+  },
+  {
+    "slug": "musignal",
+    "name": "muSignAl",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202200252"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/ShuklaLab/muSignAl",
+    "used_by_skills": [
+      "auc-based-signature-performance-thresholding",
+      "auc-model-evaluation",
+      "auc-threshold-signature-filtering",
+      "biomarker-panel-prioritization",
+      "biomarker-signature-thresholding",
+      "elastic-net-feature-selection",
+      "feature-importance-frequency-estimation",
+      "feature-importance-threshold-filtering",
+      "multiple-omic-signature-auc-comparison",
+      "omic-signature-table-formatting",
+      "protein-frequency-counting-across-signature-panels",
+      "proteomic-biomarker-signature-discovery",
+      "proteomics-signature-table-parsing",
+      "r-package-installation-and-execution",
+      "subsample-resampling-omics"
+    ]
+  },
+  {
+    "slug": "mzid",
+    "name": "mzID",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "mzid-identification-parsing",
+      "orbitrap-hela-prtc-dataset-handling",
+      "peptide-to-protein-coordinate-mapping",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase",
+      "proteomics-data-visualization-r"
+    ]
+  },
+  {
+    "slug": "nasno-site",
+    "name": "NASNO-Site",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation"
+    ]
+  },
+  {
+    "slug": "neoflow",
+    "name": "NeoFlow",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/neoflow",
+    "used_by_skills": [
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "netbeans",
+    "name": "Netbeans",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.200900409"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/ms-lims",
+    "used_by_skills": [
+      "mascot-search-output-parsing",
+      "peptide-identification-quantitation-linkage"
+    ]
+  },
+  {
+    "slug": "netmhcpan",
+    "name": "NetMHCpan",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "hla-allele-best-score-assignment",
+      "mhc-binding-affinity-prediction",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "nextflow",
+    "name": "nextflow",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900143",
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "used_by_skills": []
+  },
+  {
+    "slug": "nnet",
+    "name": "nnet",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "oktoberfest",
+    "name": "Oktoberfest",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202300112"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "used_by_skills": [
+      "collision-energy-calibration",
+      "gain-loss-rescoring-visualization",
+      "irt-to-retention-time-alignment",
+      "koina-prediction-server-querying",
+      "lowess-curve-fitting",
+      "metaproteomics-psm-count-analysis",
+      "metaproteomics-search-space-comparison",
+      "multiprocessing-parallel-configuration",
+      "peptide-fragment-intensity-prediction",
+      "peptide-irt-prediction",
+      "peptide-property-prediction-via-koina",
+      "proteomics-rescoring-pipeline-execution",
+      "psm-count-benchmark-comparison",
+      "psm-data-driven-rescoring",
+      "psm-feature-generation-with-prediction-server",
+      "psm-rescoring-with-predicted-spectral-features",
+      "psm-retention-quantification-across-search-spaces",
+      "psm-selection-by-search-score",
+      "psm-target-decoy-confidence-filtering",
+      "public-proteomics-dataset-reanalysis",
+      "raw-spectra-format-conversion",
+      "rescoring-feature-generation",
+      "rescoring-vs-search-engine-performance-comparison",
+      "search-engine-output-format-conversion",
+      "search-space-susceptibility-analysis",
+      "spectral-library-format-generation",
+      "spectral-peak-annotation-of-psms",
+      "spectral-peak-annotation-with-predicted-fragments",
+      "target-decoy-fdr-estimation",
+      "wallclock-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "openms",
+    "name": "OpenMS",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": []
+  },
+  {
+    "slug": "pandas",
+    "name": "pandas",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400084"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/middle-down/Software",
+    "used_by_skills": [
+      "brno-nomenclature-ptm-annotation",
+      "chromatographic-retention-time-reproducibility-analysis",
+      "histone-ptm-relative-quantification",
+      "histone-tail-lc-separation-qc",
+      "isobaric-peptide-fragment-ion-ratio-correction",
+      "mascot-output-parsing",
+      "ptm-abundance-fold-change-comparison-between-cell-states"
+    ]
+  },
+  {
+    "slug": "pbase",
+    "name": "Pbase",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "isotopic-envelope-visualization",
+      "itraq-4plex-ms2-spectrum-overlay-visualization",
+      "lc-ms-raw-data-import",
+      "ma-plot-construction",
+      "ms-level-discrimination-ms1-ms2",
+      "multi-paradigm-r-graphics-comparison",
+      "mzid-identification-parsing",
+      "orbitrap-hela-prtc-dataset-handling",
+      "peptide-to-protein-coordinate-mapping",
+      "precursor-charge-state-filtering",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase",
+      "proteomics-data-visualization-r",
+      "single-peak-detection-from-mass-spectra",
+      "tmt-reporter-channel-ratio-analysis"
+    ]
+  },
+  {
+    "slug": "pdeep2",
+    "name": "pDeep2",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "feature-ablation-sensitivity-analysis",
+      "immunopeptidomics-fdr-filtering",
+      "immunopeptidomics-psm-feature-extraction",
+      "mgf-spectra-conversion-and-database-searching",
+      "msms-spectrum-prediction-spectral-angle-calculation",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "retention-time-prediction-transfer-learning",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-angle-similarity-scoring",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "pdv",
+    "name": "PDV",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wenbostar/PDV",
+    "used_by_skills": [
+      "comet-database-searching",
+      "immunopeptidomics-peptide-validation-tabulation",
+      "synthetic-peptide-lc-msms-confirmation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "percolator",
+    "name": "Percolator",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334",
+      "10.1002/pmic.202100253",
+      "10.1002/pmic.202300112"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "feature-ablation-sensitivity-analysis",
+      "gain-loss-rescoring-visualization",
+      "immunopeptidomics-fdr-filtering",
+      "immunopeptidomics-psm-feature-extraction",
+      "isobaric-reporter-ion-quantification",
+      "msms-spectrum-prediction-spectral-angle-calculation",
+      "peptide-spectrum-matching-database-search",
+      "pride-dataset-reprocessing",
+      "protein-inference-and-quantification-aggregation",
+      "psm-count-benchmark-comparison",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing",
+      "spectral-angle-similarity-scoring",
+      "spectral-peak-annotation-of-psms",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-estimation",
+      "thermal-proteome-profiling-analysis",
+      "tmt-interference-qc-score-filtering"
+    ]
+  },
+  {
+    "slug": "pga",
+    "name": "PGA",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "cross-search-engine-peptide-overlap-analysis",
+      "immunopeptidomics-fdr-filtering",
+      "mgf-spectra-conversion-and-database-searching",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "phosboost",
+    "name": "PhosBoost",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "used_by_skills": [
+      "binary-classifier-benchmarking",
+      "class-imbalance-weighted-training",
+      "classification-threshold-beta-sweep",
+      "classifier-performance-curve-visualization",
+      "classifier-prediction-count-comparison",
+      "classifier-probability-score-extraction",
+      "cross-species-phosphosite-prediction-transfer",
+      "diamond-protein-sequence-alignment",
+      "f-beta-score-computation",
+      "genome-browser-track-annotation",
+      "genome-wide-phosphoproteome-scoring",
+      "genomic-coordinate-mapping",
+      "gff3-annotation-merging",
+      "gradient-boosting-classifier-training",
+      "imbalanced-label-evaluation-metrics",
+      "phosphosite-label-annotation",
+      "phosphosite-peptide-window-extraction",
+      "precision-recall-metric-computation",
+      "precision-recall-tradeoff-analysis",
+      "protein-language-model-embedding-inference",
+      "protein-sequence-fasta-batch-processing",
+      "stacking-ensemble-model-training"
+    ]
+  },
+  {
+    "slug": "phospholingo",
+    "name": "PhosphoLingo",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "used_by_skills": [
+      "classification-threshold-beta-sweep",
+      "classifier-performance-curve-visualization",
+      "classifier-probability-score-extraction",
+      "f-beta-score-computation",
+      "imbalanced-label-evaluation-metrics",
+      "precision-recall-metric-computation",
+      "precision-recall-tradeoff-analysis",
+      "protein-language-model-embedding-inference"
+    ]
+  },
+  {
+    "slug": "popitam",
+    "name": "Popitam",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.200300402"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/chernan/popitam",
+    "used_by_skills": [
+      "ant-colony-optimization-graph-search",
+      "de-novo-spectrum-graph-modeling",
+      "mass-difference-edge-annotation",
+      "peak-node-representation",
+      "peptide-spectrum-matching",
+      "pheromone-trail-update-design",
+      "ranked-result-table-generation",
+      "spectrum-graph-construction",
+      "spectrum-graph-path-scoring",
+      "tandem-mass-spectrometry-peptide-identification",
+      "tandem-mass-spectrometry-spectrum-representation",
+      "theoretical-fragment-ion-matching",
+      "theoretical-peptide-sequence-matching"
+    ]
+  },
+  {
+    "slug": "presno",
+    "name": "PreSNO",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation",
+      "roc-auc-evaluation--c0a7021e46afa01b"
+    ]
+  },
+  {
+    "slug": "proc",
+    "name": "pROC",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023",
+      "10.1002/pmic.202200252"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "auc-based-signature-performance-thresholding",
+      "auc-model-evaluation",
+      "auc-threshold-signature-filtering",
+      "biomarker-panel-prioritization",
+      "biomarker-signature-thresholding",
+      "elastic-net-feature-selection",
+      "feature-importance-frequency-estimation",
+      "feature-importance-threshold-filtering",
+      "multiple-omic-signature-auc-comparison",
+      "omic-signature-table-formatting",
+      "proteomic-biomarker-signature-discovery",
+      "r-package-installation-and-execution",
+      "stratified-cross-validation-model-evaluation",
+      "subsample-resampling-omics"
+    ]
+  },
+  {
+    "slug": "proloc",
+    "name": "pRoloc",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "msnset-spatial-proteomics-data-handling",
+      "organelle-niche-annotation-visualization",
+      "spatial-proteomics-pca-ordination",
+      "svm-confidence-point-size-encoding"
+    ]
+  },
+  {
+    "slug": "prosit",
+    "name": "Prosit",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202300112"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "used_by_skills": [
+      "collision-energy-calibration",
+      "gain-loss-rescoring-visualization",
+      "irt-to-retention-time-alignment",
+      "koina-prediction-server-querying",
+      "lowess-curve-fitting",
+      "metaproteomics-search-space-comparison",
+      "multiprocessing-parallel-configuration",
+      "peptide-fragment-intensity-prediction",
+      "peptide-irt-prediction",
+      "peptide-property-prediction-via-koina",
+      "proteomics-rescoring-pipeline-execution",
+      "psm-data-driven-rescoring",
+      "psm-feature-generation-with-prediction-server",
+      "psm-rescoring-with-predicted-spectral-features",
+      "psm-selection-by-search-score",
+      "psm-target-decoy-confidence-filtering",
+      "public-proteomics-dataset-reanalysis",
+      "rescoring-feature-generation",
+      "spectral-library-format-generation",
+      "spectral-peak-annotation-of-psms",
+      "spectral-peak-annotation-with-predicted-fragments",
+      "target-decoy-fdr-estimation",
+      "wallclock-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "proteome-discoverer",
+    "name": "Proteome Discoverer",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400084"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/middle-down/Software",
+    "used_by_skills": []
+  },
+  {
+    "slug": "proteowizard",
+    "name": "ProteoWizard",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334",
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "comet-database-searching",
+      "immunopeptidomics-fdr-filtering",
+      "immunopeptidomics-peptide-validation-tabulation",
+      "mgf-spectra-conversion-and-database-searching",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "synthetic-peptide-lc-msms-confirmation",
+      "target-decoy-fdr-filtering"
+    ]
+  },
+  {
+    "slug": "prott5-xl-u50",
+    "name": "ProtT5-XL-U50",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/agemagician/ProtTrans",
+    "used_by_skills": [
+      "class-imbalance-weighted-training",
+      "classifier-prediction-count-comparison",
+      "classifier-probability-score-extraction",
+      "cross-species-phosphosite-prediction-transfer",
+      "genome-browser-track-annotation",
+      "genome-wide-phosphoproteome-scoring",
+      "gradient-boosting-classifier-training",
+      "imbalanced-label-evaluation-metrics",
+      "phosphosite-label-annotation",
+      "precision-recall-metric-computation",
+      "protein-language-model-embedding-inference",
+      "protein-sequence-fasta-batch-processing",
+      "stacking-ensemble-model-training"
+    ]
+  },
+  {
+    "slug": "prpred-drlf",
+    "name": "prPred-DRLF",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "bidirectional-lstm-feature-extraction",
+      "binary-classifier-metric-evaluation",
+      "class-imbalanced-protein-dataset-evaluation",
+      "classification-metrics-computation",
+      "cross-validated-classifier-benchmarking",
+      "cross-validation-model-assessment",
+      "fasta-sequence-clustering",
+      "feature-selection-matrix-handling",
+      "feature-subset-selection",
+      "feature-vector-concatenation-fusion",
+      "gradient-boosting-classification",
+      "gradient-boosting-feature-ranking",
+      "hmm-profile-alignment-scoring",
+      "independent-test-set-evaluation--677a6f1422260e6d",
+      "lgbm-feature-selection-and-classification",
+      "multilayer-lstm-sequence-representation",
+      "plant-r-protein-classification-context",
+      "plant-r-protein-prediction",
+      "plant-resistance-protein-dataset-preparation",
+      "pretrained-language-model-inference",
+      "protein-embedding-feature-selection",
+      "protein-sequence-deduplication",
+      "protein-sequence-embedding-generation",
+      "protein-sequence-prediction-benchmarking",
+      "protein-sequence-redundancy-filtering",
+      "roc-auc-evaluation--5a9bf612d0c79238",
+      "scatter-plot-visualization",
+      "sequence-identity-thresholding",
+      "umap-dimensionality-reduction"
+    ]
+  },
+  {
+    "slug": "prpred",
+    "name": "prPred",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "classification-metrics-computation",
+      "hmm-profile-alignment-scoring",
+      "independent-test-set-evaluation--677a6f1422260e6d",
+      "protein-sequence-prediction-benchmarking",
+      "roc-auc-evaluation--5a9bf612d0c79238"
+    ]
+  },
+  {
+    "slug": "pulseq-cest",
+    "name": "Pulseq-CEST",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28825"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/kherz/pulseq-cest",
+    "used_by_skills": [
+      "adc-event-readout-handoff-logic",
+      "bloch-mcconnell-simulation",
+      "cest-pool-configuration",
+      "cest-z-spectral-processing",
+      "cpp-sequence-interpreter-implementation",
+      "cross-language-numerical-validation",
+      "magnetic-resonance-fingerprinting-dictionary-matching",
+      "mex-cpp-matlab-python-interfacing",
+      "motion-correction-and-registration",
+      "mri-phantom-simulation-parameter-setup",
+      "mri-pulse-sequence-programming",
+      "mtrasym-map-computation-from-z-spectra",
+      "multi-site-quantitative-map-comparison",
+      "pca-denoising-malinowski-criterion",
+      "pulseq-cest-protocol-interpretation",
+      "pulseq-sequence-file-parsing",
+      "roi-based-phantom-spectra-comparison",
+      "simulation-runtime-benchmarking",
+      "vendor-sequence-framework-integration",
+      "wasabi-b0-field-correction",
+      "white-matter-roi-segmentation-spm",
+      "z-spectrum-normalization-and-mtrasym-calculation",
+      "z-spectrum-simulation"
+    ]
+  },
+  {
+    "slug": "pulseq",
+    "name": "Pulseq",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28825"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/pulseq/pulseq",
+    "used_by_skills": [
+      "adc-event-readout-handoff-logic",
+      "bloch-mcconnell-simulation",
+      "cest-pool-configuration",
+      "cpp-sequence-interpreter-implementation",
+      "cross-language-numerical-validation",
+      "magnetic-resonance-fingerprinting-dictionary-matching",
+      "magnetization-transfer-pool-modeling",
+      "mri-phantom-simulation-parameter-setup",
+      "mri-pulse-sequence-programming",
+      "mtr-asym-z-spectral-normalization",
+      "mtrasym-map-computation-from-z-spectra",
+      "multi-pool-magnetization-exchange-modeling",
+      "multi-site-quantitative-map-comparison",
+      "multi-vendor-mri-protocol-transferability-analysis",
+      "pulseq-cest-protocol-interpretation",
+      "pulseq-sequence-file-parsing",
+      "roi-based-phantom-spectra-comparison",
+      "simulation-runtime-benchmarking",
+      "vendor-sequence-framework-integration",
+      "wasabi-b0-field-correction",
+      "z-spectrum-simulation"
+    ]
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/bip.360221211",
+      "10.1002/mrm.28384",
+      "10.1002/pmic.202300112",
+      "10.1002/pmic.202100161",
+      "10.1002/mrm.28825"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "used_by_skills": [
+      "admm-constrained-optimization-execution",
+      "admm-solver-configuration",
+      "asa-benchmark-validation-against-reference",
+      "binary-classifier-metric-evaluation",
+      "bloch-mcconnell-simulation",
+      "cest-z-spectral-processing",
+      "class-imbalanced-protein-dataset-evaluation",
+      "classification-metrics-computation",
+      "coarse-to-fine-warm-start-optimization",
+      "collision-energy-calibration",
+      "computational-complexity-scaling-analysis",
+      "compute-time-tabulation-across-discretization",
+      "coulombic-electrostatic-modeling",
+      "cross-language-numerical-validation",
+      "cross-validated-classifier-benchmarking",
+      "cross-validation-model-assessment",
+      "cross-vendor-mri-pulse-sequence-comparison",
+      "diffusion-b-value-encoding-design",
+      "diffusion-encoding-moment-nulling-configuration",
+      "diffusion-encoding-waveform-design",
+      "disulfide-bond-detection-from-structures",
+      "dssp-strip-table-generation",
+      "eddy-current-nulling-constraint-configuration",
+      "feature-selection-matrix-handling",
+      "feature-subset-selection",
+      "gain-loss-rescoring-visualization",
+      "geodesic-icosahedron-tessellation",
+      "gradient-boosting-classification",
+      "gradient-boosting-feature-ranking",
+      "gradient-moment-nulling-constraint-design",
+      "gradient-moment-residual-tolerance-sweep",
+      "gradient-waveform-comparison-visualization",
+      "gradient-waveform-time-optimal-optimization",
+      "hmm-profile-alignment-scoring",
+      "hydrogen-bond-pattern-recognition",
+      "independent-test-set-evaluation--677a6f1422260e6d",
+      "intravoxel-phase-dispersion-simulation",
+      "irt-to-retention-time-alignment",
+      "koina-prediction-server-querying",
+      "lgbm-feature-selection-and-classification",
+      "lowess-curve-fitting",
+      "metaproteomics-psm-count-analysis",
+      "metaproteomics-search-space-comparison",
+      "mex-cpp-matlab-python-interfacing",
+      "moment-nulling-constraint-configuration",
+      "mri-gradient-hardware-constraint-setup",
+      "mri-gradient-moment-nulling",
+      "mri-gradient-waveform-optimization",
+      "mri-phantom-simulation-parameter-setup",
+      "mtrasym-map-computation-from-z-spectra",
+      "multi-pool-magnetization-exchange-modeling",
+      "multiprocessing-parallel-configuration",
+      "multithreaded-duration-search-benchmarking",
+      "optimization-compute-time-benchmarking",
+      "peptide-fragment-intensity-prediction",
+      "peptide-irt-prediction",
+      "peptide-property-prediction-via-koina",
+      "phase-contrast-mri-gradient-design",
+      "plant-r-protein-classification-context",
+      "plant-r-protein-prediction",
+      "pns-constraint-waveform-design",
+      "protein-backbone-geometry-computation",
+      "protein-embedding-feature-selection",
+      "protein-hydrogen-bond-energy-calculation",
+      "protein-sequence-embedding-generation",
+      "protein-sequence-prediction-benchmarking",
+      "protein-sequence-redundancy-filtering",
+      "proteomics-rescoring-pipeline-execution",
+      "psm-count-benchmark-comparison",
+      "psm-data-driven-rescoring",
+      "psm-feature-generation-with-prediction-server",
+      "psm-rescoring-with-predicted-spectral-features",
+      "psm-retention-quantification-across-search-spaces",
+      "psm-selection-by-search-score",
+      "psm-target-decoy-confidence-filtering",
+      "public-proteomics-dataset-reanalysis",
+      "pulseq-cest-protocol-interpretation",
+      "raw-spectra-format-conversion",
+      "rescoring-feature-generation",
+      "rescoring-vs-search-engine-performance-comparison",
+      "roc-auc-evaluation--5a9bf612d0c79238",
+      "roi-based-phantom-spectra-comparison",
+      "rolling-probe-surface-integration",
+      "rotation-matrix-constraint-transformation",
+      "scatter-plot-visualization",
+      "search-engine-output-format-conversion",
+      "search-space-susceptibility-analysis",
+      "secondary-structure-hbond-annotation",
+      "slice-obliquity-hardware-derating",
+      "spectral-library-format-generation",
+      "spectral-peak-annotation-of-psms",
+      "spectral-peak-annotation-with-predicted-fragments",
+      "target-decoy-fdr-estimation",
+      "umap-dimensionality-reduction",
+      "wallclock-runtime-benchmarking",
+      "z-spectrum-normalization-and-mtrasym-calculation"
+    ]
+  },
+  {
+    "slug": "r",
+    "name": "R",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023",
+      "10.1002/pmic.201900143",
+      "10.1002/mlf2.70002",
+      "10.1002/pmic.202300005",
+      "10.1002/pmic.201900245",
+      "10.1002/pmic.202200252",
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "3d-scan-intensity-visualization",
+      "aromaticity-index-computation",
+      "auc-based-signature-performance-thresholding",
+      "auc-model-evaluation",
+      "auc-threshold-signature-filtering",
+      "betanti-null-model-computation",
+      "biomarker-panel-prioritization",
+      "biomarker-signature-thresholding",
+      "bootstrap-subsampling-replicate-analysis",
+      "boxplot-visualization-across-cancer-types",
+      "calibration-curve-linear-regression",
+      "calibration-curve-visualization",
+      "calibration-data-preprocessing",
+      "calibration-level-iterative-trimming",
+      "calibration-model-summary-reporting",
+      "cancer-cell-line-data-processing",
+      "consecutive-threshold-interval-selection",
+      "dark-matter-cooccurrence-network-construction",
+      "dendrogram-mntd-diversity-calculation",
+      "deterministic-stochastic-process-classification",
+      "differential-abundance-gene-list-matching",
+      "dissolved-organic-matter-molecular-class-assignment",
+      "dom-assembly-process-quantification",
+      "dom-dissimilarity-matrix-computation",
+      "dom-microbe-bipartite-network-construction",
+      "dom-molecular-trait-visualization",
+      "dom-molecule-temperature-correlation",
+      "dom-relative-abundance-aggregation-by-class",
+      "double-bond-equivalent-estimation",
+      "dynamic-linear-range-determination",
+      "ecological-null-model-interpretation",
+      "elastic-net-feature-selection",
+      "elemental-composition-parsing",
+      "example-dataset-result-reproduction",
+      "feature-importance-frequency-estimation",
+      "feature-importance-threshold-filtering",
+      "fticr-ms-compositional-data-filtering",
+      "fticr-ms-elemental-ratio-categorization",
+      "fticr-ms-molecular-composition-analysis",
+      "functional-diversity-raoq-cwm-estimation",
+      "graph-network-construction-and-visualization",
+      "grouped-summary-statistics-computation",
+      "icer-index-computation",
+      "ion-image-slice-extraction",
+      "isotopic-envelope-visualization",
+      "itraq-4plex-ms2-spectrum-overlay-visualization",
+      "kinase-activity-aggregation-scoring",
+      "lc-ms-raw-data-import",
+      "lc-msms-biomarker-list-filtering",
+      "lcms-peptide-mass-table-parsing",
+      "ma-plot-construction",
+      "maldi-imaging-peptide-annotation",
+      "maldi-imaging-spectrum-averaging",
+      "maldi-mz-to-neutral-mass-conversion",
+      "maldi-peak-protein-correlation",
+      "maldi-tof-spectrum-preprocessing",
+      "mass-peak-picking-and-intensity-ranking",
+      "mass-spectrometry-charge-state-handling",
+      "mass-spectrometry-data-processing",
+      "maxquant-peptide-table-parsing",
+      "missing-measurement-exclusion",
+      "molecular-dendrogram-based-turnover-analysis",
+      "molecular-trait-calculation",
+      "motif-discovery-sensitivity-comparison",
+      "motif-overrepresentation-significance-testing",
+      "mrm-dilution-series-analysis",
+      "ms-level-discrimination-ms1-ms2",
+      "msnset-spatial-proteomics-data-handling",
+      "multi-panel-spectra-figure-rendering",
+      "multi-paradigm-r-graphics-comparison",
+      "multiple-omic-signature-auc-comparison",
+      "mz-mass-accuracy-matching",
+      "mzid-identification-parsing",
+      "network-level-specialization-calculation",
+      "networkkin-database-annotation",
+      "nmds-pcoa-ordination-of-molecular-composition",
+      "null-model-significance-testing",
+      "omic-signature-table-formatting",
+      "orbitrap-hela-prtc-dataset-handling",
+      "ordination-plot-visualization",
+      "organelle-niche-annotation-visualization",
+      "organic-matter-thermodynamic-metrics",
+      "pancancer-expression-analysis",
+      "peptide-gene-name-filtering",
+      "peptide-intensity-column-detection",
+      "peptide-mass-matching-within-tolerance-window",
+      "peptide-to-protein-coordinate-mapping",
+      "per-condition-summary-statistics-computation",
+      "permanova-regional-composition-testing",
+      "positive-negative-interaction-partitioning",
+      "precision-based-bias-calculation",
+      "precision-trueness-assessment",
+      "precision-trueness-table-generation",
+      "precursor-charge-state-filtering",
+      "protein-frequency-counting-across-signature-panels",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase",
+      "proteomic-biomarker-peak-annotation",
+      "proteomic-biomarker-signature-discovery",
+      "proteomics-data-visualization-r",
+      "proteomics-peptide-table-subsetting",
+      "proteomics-signature-table-parsing",
+      "proteomics-table-formatting",
+      "ptm-motif-enrichment-analysis",
+      "r-package-data-processing",
+      "r-package-installation-and-execution",
+      "r-package-statistical-workflow",
+      "region-specific-trend-comparison",
+      "regression-benchmark-validation",
+      "replicate-cv-precision-calculation",
+      "replicate-filtering-per-concentration-level",
+      "replicate-positivity-counting",
+      "response-factor-threshold-plotting",
+      "result-table-reference-comparison",
+      "retention-time-mz-heatmap-rendering",
+      "sample-subset-random-splitting",
+      "single-peak-detection-from-mass-spectra",
+      "spatial-proteomics-pca-ordination",
+      "spectral-intensity-transformation",
+      "spectral-smoothing-and-baseline-correction",
+      "spreadsheet-data-import",
+      "subsample-resampling-omics",
+      "svm-confidence-point-size-encoding",
+      "tabular-column-annotation-r",
+      "targeted-proteomics-assay-validation",
+      "targeted-proteomics-calibration-curve-fitting",
+      "targeted-proteomics-dilution-series-analysis",
+      "targeted-proteomics-linear-range-output",
+      "temperature-gradient-trend-regression",
+      "tmt-reporter-channel-ratio-analysis",
+      "uloq-out-of-range-prediction-flagging",
+      "warming-response-network-comparison",
+      "weighted-least-squares-calibration-fitting"
+    ]
+  },
+  {
+    "slug": "randomforest",
+    "name": "randomForest",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "recsno",
+    "name": "RecSNO",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation",
+      "roc-auc-evaluation--c0a7021e46afa01b"
+    ]
+  },
+  {
+    "slug": "rmarkdown",
+    "name": "rmarkdown",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": [
+      "3d-scan-intensity-visualization",
+      "isotopic-envelope-visualization",
+      "lc-ms-raw-data-import",
+      "maldi-tof-spectrum-preprocessing",
+      "ms-level-discrimination-ms1-ms2",
+      "multi-panel-spectra-figure-rendering",
+      "mzid-identification-parsing",
+      "peptide-to-protein-coordinate-mapping",
+      "protein-peptide-range-visualization",
+      "protein-sequence-loading-from-fasta",
+      "proteins-object-construction-pbase",
+      "retention-time-mz-heatmap-rendering",
+      "single-peak-detection-from-mass-spectra",
+      "spectral-intensity-transformation",
+      "spectral-smoothing-and-baseline-correction"
+    ]
+  },
+  {
+    "slug": "rmotifx",
+    "name": "rmotifx",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900245"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/omarwagih/rmotifx",
+    "used_by_skills": [
+      "motif-discovery-sensitivity-comparison",
+      "motif-overrepresentation-significance-testing",
+      "ptm-motif-enrichment-analysis",
+      "r-package-data-processing"
+    ]
+  },
+  {
+    "slug": "rpart",
+    "name": "rpart",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2023.07.023"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "used_by_skills": [
+      "stratified-cross-validation-model-evaluation"
+    ]
+  },
+  {
+    "slug": "sc-gan",
+    "name": "SC-GAN",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "used_by_skills": [
+      "3d-conditional-gan-training",
+      "3d-self-attention-module-implementation",
+      "adni-neuroimaging-data-handling",
+      "adversarial-training-stabilization-techniques",
+      "brain-area-rmse-loss-implementation",
+      "brain-tissue-regional-error-mapping",
+      "cross-model-benchmark-comparison",
+      "cross-model-compute-cost-tabulation",
+      "desikan-killiany-atlas-parcellation",
+      "diffusion-metric-map-synthesis",
+      "diffusion-mri-superresolution",
+      "dti-derived-quantitative-map-normalization",
+      "fa-map-synthesis-from-multimodal-mri",
+      "feature-matching-loss-implementation",
+      "gan-architecture-implementation",
+      "gan-based-medical-image-synthesis",
+      "gan-component-ablation-experiment-design",
+      "gan-hyperparameter-tuning-cross-validation",
+      "gan-training-hyperparameter-tuning",
+      "gan-training-time-profiling",
+      "gpu-compute-cost-benchmarking",
+      "image-quality-metric-computation",
+      "medical-image-intensity-normalization",
+      "min-max-intensity-normalization",
+      "multidimensional-diffusion-mri-challenge-data-handling",
+      "neuroimage-quality-metric-evaluation",
+      "nrmse-image-quality-evaluation",
+      "pet-image-synthesis-from-mri",
+      "pet-mri-coregistration",
+      "pet-surv-quantification",
+      "protocol-conditioning-via-adaptive-instance-normalization",
+      "reference-code-structural-comparison",
+      "regional-uptake-comparison-analysis",
+      "self-attention-module-contribution-analysis",
+      "spectral-normalization-implementation",
+      "tensorflow-gpu-distributed-training",
+      "tensorflow-model-instantiation-verification",
+      "training-convergence-plateau-detection"
+    ]
+  },
+  {
+    "slug": "scikit-learn-randomforestclassifier",
+    "name": "scikit-learn (RandomForestClassifier)",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "cross-validation-performance-evaluation",
+      "smote-class-imbalance-handling"
+    ]
+  },
+  {
+    "slug": "scikit-learn",
+    "name": "scikit-learn",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.554"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "used_by_skills": [
+      "binary-classifier-benchmarking",
+      "class-imbalance-weighted-training",
+      "classification-threshold-beta-sweep",
+      "classifier-performance-curve-visualization",
+      "cross-species-phosphosite-prediction-transfer",
+      "f-beta-score-computation",
+      "genome-browser-track-annotation",
+      "genome-wide-phosphoproteome-scoring",
+      "gradient-boosting-classifier-training",
+      "precision-recall-tradeoff-analysis",
+      "protein-language-model-embedding-inference",
+      "protein-sequence-fasta-batch-processing",
+      "stacking-ensemble-model-training"
+    ]
+  },
+  {
+    "slug": "scop3d",
+    "name": "Scop3D",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/scop3d",
+    "used_by_skills": [
+      "consensus-sequence-construction",
+      "conservation-metric-superimposition-on-3d-structure",
+      "information-entropy-calculation-per-position",
+      "multiple-sequence-alignment-muscle",
+      "pdb-bvalue-structure-annotation",
+      "pdb-file-parsing-and-manipulation",
+      "protein-sequence-logo-generation",
+      "sequence-conservation-analysis",
+      "sequence-position-to-structure-residue-mapping"
+    ]
+  },
+  {
+    "slug": "shiny",
+    "name": "Shiny",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202300005"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/budczies/MALDImIDshiny",
+    "used_by_skills": [
+      "differential-abundance-gene-list-matching",
+      "lc-msms-biomarker-list-filtering",
+      "maldi-imaging-peptide-annotation",
+      "maldi-mz-to-neutral-mass-conversion",
+      "maldi-peak-protein-correlation",
+      "mass-spectrometry-charge-state-handling",
+      "maxquant-peptide-table-parsing",
+      "mz-mass-accuracy-matching",
+      "peptide-gene-name-filtering",
+      "peptide-intensity-column-detection",
+      "peptide-mass-matching-within-tolerance-window",
+      "proteomic-biomarker-peak-annotation",
+      "proteomics-peptide-table-subsetting",
+      "replicate-positivity-counting",
+      "result-table-reference-comparison"
+    ]
+  },
+  {
+    "slug": "simpledsfviewer",
+    "name": "SimpleDSFviewer",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pro.3703"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/hscsun/SimpleDSFviewer-5.0",
+    "used_by_skills": [
+      "central-difference-derivative-computation",
+      "curve-segment-boundary-detection",
+      "curve-smoothing-comparison-analysis",
+      "derivative-curve-peak-identification",
+      "dsf-data-analysis",
+      "dsf-first-derivative-curve-peak-detection",
+      "dsf-fluorescence-data-processing",
+      "dsf-melting-curve-processing",
+      "dsf-melting-curve-smoothing-comparison",
+      "dsf-thermal-stability-analysis",
+      "fluorescence-curve-normalization",
+      "fluorescence-melting-curve-quality-interpretation",
+      "half-maximal-fluorescence-tm-calculation",
+      "heparin-protein-thermal-shift-interpretation",
+      "melting-curve-numerical-differentiation",
+      "melting-curve-piecewise-smoothing",
+      "melting-temperature-determination",
+      "min-max-scaling-of-fluorescence-data",
+      "multi-method-tm-comparison-across-plate-wells",
+      "per-point-signal-difference-computation",
+      "per-well-plate-data-processing",
+      "per-well-timeseries-processing",
+      "protein-thermal-stability-data-analysis",
+      "protein-unfolding-screening-rules",
+      "scientific-task-formulation",
+      "signal-smoothing-window-selection",
+      "surface-plot-visualization-of-curve-differences",
+      "thermal-denaturation-curve-classification"
+    ]
+  },
+  {
+    "slug": "skyline",
+    "name": "Skyline",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900143"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "used_by_skills": [
+      "calibration-curve-linear-regression",
+      "mrm-dilution-series-analysis",
+      "precision-based-bias-calculation",
+      "precision-trueness-table-generation",
+      "targeted-proteomics-assay-validation",
+      "targeted-proteomics-calibration-curve-fitting",
+      "weighted-least-squares-calibration-fitting"
+    ]
+  },
+  {
+    "slug": "sno-dca",
+    "name": "SNO-DCA",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.heliyon.2023.e23187"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "used_by_skills": [
+      "imbalanced-class-weight-configuration",
+      "independent-test-set-evaluation--dd3c94b213738397",
+      "mcc-sensitivity-specificity-metric-calculation",
+      "one-hot-peptide-sequence-encoding",
+      "roc-auc-evaluation--c0a7021e46afa01b",
+      "sno-site-onehot-sequence-encoding",
+      "sno-site-prediction-model-ablation"
+    ]
+  },
+  {
+    "slug": "t-sne",
+    "name": "t-SNE",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "dimensionality-reduction-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "tape-tasks-assessing-protein-embedding",
+    "name": "TAPE (tasks assessing protein embedding)",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.202100161"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "used_by_skills": [
+      "feature-subset-selection",
+      "plant-r-protein-classification-context",
+      "pretrained-language-model-inference",
+      "protein-sequence-embedding-generation"
+    ]
+  },
+  {
+    "slug": "tar",
+    "name": "tar",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": []
+  },
+  {
+    "slug": "tensorflow",
+    "name": "Tensorflow",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044",
+      "10.1002/mrm.28819"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": []
+  },
+  {
+    "slug": "tm-align",
+    "name": "TM-Align",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "dimensionality-reduction-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "umap",
+    "name": "UMAP",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pld3.509"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "used_by_skills": [
+      "dimensionality-reduction-runtime-benchmarking"
+    ]
+  },
+  {
+    "slug": "uniprot",
+    "name": "UniProt",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "fasta-sequence-handling",
+      "gpcr-benchmark-dataset-handling",
+      "sequence-homology-reduction"
+    ]
+  },
+  {
+    "slug": "weblogo",
+    "name": "WebLogo",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400354"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/scop3d",
+    "used_by_skills": [
+      "amino-acid-frequency-matrix-construction",
+      "consensus-sequence-construction",
+      "information-entropy-calculation-per-position",
+      "multiple-sequence-alignment-muscle",
+      "protein-sequence-logo-generation",
+      "sequence-conservation-analysis"
+    ]
+  },
+  {
+    "slug": "x-tandem",
+    "name": "X!Tandem",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201900334"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "used_by_skills": [
+      "cross-search-engine-peptide-overlap-analysis",
+      "fragment-spectrum-metadata-extraction",
+      "hla-allele-best-score-assignment",
+      "immunopeptidomics-fdr-filtering",
+      "java-library-benchmarking",
+      "mgf-spectra-conversion-and-database-searching",
+      "mhc-binding-affinity-prediction",
+      "modification-site-mapping",
+      "msms-search-result-file-parsing",
+      "msms-search-score-interpretation",
+      "parsing-performance-metrics-tabulation",
+      "peptide-identification-extraction",
+      "peptide-length-filtering-for-binding-evaluation",
+      "peptide-sequence-set-intersection",
+      "peptide-set-binder-ratio-comparison",
+      "percentile-rank-binder-classification",
+      "proteomics-identification-data-handling",
+      "psm-rescoring-with-percolator",
+      "retention-time-prediction-feature-generation",
+      "rt-feature-distribution-significance-testing",
+      "search-engine-peptide-count-reproduction",
+      "spectral-prediction-feature-generation",
+      "tab-delimited-proteomics-report-export",
+      "tandem-ms-result-parsing",
+      "target-decoy-fdr-filtering",
+      "xtandem-xml-result-parsing"
+    ]
+  },
+  {
+    "slug": "xcms",
+    "name": "xcms",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.201400392"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/lgatto/Pbase",
+    "used_by_skills": []
+  },
+  {
+    "slug": "xgboost",
+    "name": "XGBoost",
+    "edam_topics": [],
+    "dois": [
+      "10.1016/j.csbj.2021.08.044"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "used_by_skills": [
+      "benchmark-method-comparison",
+      "boosted-tree-classifier-training",
+      "cross-validation-performance-evaluation",
+      "five-fold-cross-validation-classifier-evaluation",
+      "focal-loss-binary-classification-training",
+      "gpcr-sequence-classification",
+      "protein-feature-concatenation-evaluation",
+      "protein-sequence-feature-dimensionality-reduction",
+      "smote-class-imbalance-handling",
+      "word2vec-cbow-model-training",
+      "yu-negative-sample-segmentation"
+    ]
+  },
+  {
+    "slug": "xtandem-parser",
+    "name": "XTandem Parser",
+    "edam_topics": [],
+    "dois": [
+      "10.1002/pmic.200900759"
+    ],
+    "techniques": [],
+    "license_tier": "unknown",
+    "license": null,
+    "license_detection": null,
+    "license_subject": null,
+    "repo_url": "https://github.com/compomics/xtandem-parser",
+    "used_by_skills": [
+      "fragment-ion-mz-intensity-extraction",
+      "fragment-spectrum-metadata-extraction",
+      "java-library-benchmarking",
+      "modification-site-mapping",
+      "msms-search-result-file-parsing",
+      "msms-search-score-interpretation",
+      "parsing-performance-metrics-tabulation",
+      "peptide-identification-extraction",
+      "proteomics-identification-data-handling",
+      "runtime-memory-profiling",
+      "tab-delimited-proteomics-report-export",
+      "tandem-ms-result-parsing",
+      "xtandem-xml-object-model-access",
+      "xtandem-xml-result-parsing"
+    ]
+  }
+]

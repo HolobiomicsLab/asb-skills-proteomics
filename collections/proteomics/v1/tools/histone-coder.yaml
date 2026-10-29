@@ -1,0 +1,16 @@
+name: Histone Coder
+slug: histone-coder
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.201400084
+  title: Middle‐down hybrid chromatography/tandem mass spectrometry workflow for characterization of combinatorial post‐translational modifications in histones
+source_repos:
+- https://github.com/middle-down/Software
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/middle-down/Software

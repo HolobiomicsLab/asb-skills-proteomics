@@ -1,0 +1,225 @@
+{
+  "access_map": {
+    "bronze": "link-only",
+    "closed": "link-only",
+    "gold": {
+      "otherwise": "open-access",
+      "permissive": "gold-oa"
+    },
+    "green": "green-oa",
+    "hybrid": {
+      "cc": "open-access",
+      "otherwise": "link-only"
+    },
+    "otherwise": "link-only",
+    "unknown": "link-only"
+  },
+  "capped_rows": [
+    {
+      "doi": "10.1002/mrm.28384",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/mrm.28819",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pld3.509",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.200300402",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.200900409",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.200900759",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.201100578",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.201400084",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.201400354",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.201500420",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.201900245",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.201900334",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.202100161",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pmic.202100253",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1002/pro.3703",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.csbj.2021.08.044",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.csbj.2023.07.023",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.heliyon.2023.e23187",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    }
+  ],
+  "counts": {
+    "access.type": {
+      "gold-oa": 2,
+      "green-oa": 5,
+      "link-only": 9,
+      "open-access": 12
+    },
+    "builds": 28,
+    "capped": 18,
+    "license_tier": {
+      "noncommercial": 5,
+      "open": 10,
+      "unknown": 13
+    },
+    "oa_status_raw": {
+      "bronze": 3,
+      "closed": 6,
+      "gold": 6,
+      "green": 5,
+      "hybrid": 8
+    },
+    "unique_dois": 28,
+    "unmatched": 0
+  },
+  "domain": "proteomics",
+  "duplicate_dois": [],
+  "inputs": {
+    "access_map": "1716c1f87ab08cb241c77e357c5e938b16a1d71d6d4022be7412da82fcb1a59b",
+    "builds/asbb_subwave_2026-08-31__coll_cbp60_db_cq/build_manifest.json": "fd535d33b562ff9a279a22723180ea2e2c413b87068461070892ecabd1ceffdf",
+    "builds/asbb_subwave_2026-08-31__coll_cbp60_db_cq/external_enrichment.json": "b1bd4033f34bdc0db9e2c093b4ebef706ce7901b9526cd2ac1f129528e29a4cc",
+    "builds/asbb_subwave_2026-08-31__coll_emcbow_gpcr_cq/build_manifest.json": "c25b0ae2d58e2741dfa58a7b2fbefd4ccbb88128644f8790d51aaa22cd835c2b",
+    "builds/asbb_subwave_2026-08-31__coll_emcbow_gpcr_cq/external_enrichment.json": "d58ac6386e260d2499a5a566ce3d7f72f3b16d8852589e72ec74b18207c8a669",
+    "builds/asbb_subwave_2026-08-31__coll_imopac_cq/build_manifest.json": "5db0d19face5b0e83f25760aa745549ca60a0841b7293badaf8c3122f9eb5ca6",
+    "builds/asbb_subwave_2026-08-31__coll_imopac_cq/external_enrichment.json": "53c468e73c6307d691e2402bd6a5e9eb1f76990493c7dabbfe3b443c8d21f6b7",
+    "builds/asbb_subwave_2026-08-31__coll_sno_dca_cq/build_manifest.json": "0fc11260722c85a7b5dd035108e8e494b636da32bf5299b98bf5618fe6feb893",
+    "builds/asbb_subwave_2026-08-31__coll_sno_dca_cq/external_enrichment.json": "6e948a8074eb3862fecdb07af95339f9316e93a39a46528838f48b22c6b3b619",
+    "builds/asbb_wave250_2026-09-01__coll_bandit_cq/build_manifest.json": "31ac3d29b2fc2cbc0ccb921f6a9b4a7c618cfb2cea56664c4e576c7d82940ce9",
+    "builds/asbb_wave250_2026-09-01__coll_bandit_cq/external_enrichment.json": "41b55bf4623806462cddfd19b9178d4984c14225cb1d8102a08840fdf6255706",
+    "builds/asbb_wave250_2026-09-01__coll_calibracurve_cq/build_manifest.json": "16a1e9012b8530f8375b33c46dfe6760d65eef154ffafb4cf70cdab83453c080",
+    "builds/asbb_wave250_2026-09-01__coll_calibracurve_cq/external_enrichment.json": "c67a779019c69bdbb3e3789654d231495d8bf480d78eb4a0a36cccbfb50a4288",
+    "builds/asbb_wave250_2026-09-01__coll_deeprescore_cq/build_manifest.json": "7b6cd15ca8264bb0d8c16cf8bdc27cf71da622b39837771fe885694a2945f007",
+    "builds/asbb_wave250_2026-09-01__coll_deeprescore_cq/external_enrichment.json": "6c1d577097f3f4ba7d7d20e26a8d5764bf9b00958fc07bae3f77d95885b9fd94",
+    "builds/asbb_wave250_2026-09-01__coll_dssp_cq/build_manifest.json": "efbf2a3a12bddf32f1c32ca1a76752ca9acce7a48a211bc783f782b95e5af1b6",
+    "builds/asbb_wave250_2026-09-01__coll_dssp_cq/external_enrichment.json": "818bf9cf59b09243424c56652a087492b39db44121fc828bc1f9abffd1728398",
+    "builds/asbb_wave250_2026-09-01__coll_gropt_cq/build_manifest.json": "ec23666fdfac058ec77239c872377baf5a50aea79182b1a16b5f4abd620b91aa",
+    "builds/asbb_wave250_2026-09-01__coll_gropt_cq/external_enrichment.json": "e0232ff0c9b878641db64a1304076ca0d931ea3574639e019420a033c22c9cb7",
+    "builds/asbb_wave250_2026-09-01__coll_iidom_cq/build_manifest.json": "926f7dd1fcee1cddbfc84a33b2753485bf64c18da55693605583712e0e7d35b5",
+    "builds/asbb_wave250_2026-09-01__coll_iidom_cq/external_enrichment.json": "1a16d17924d058af5120b7c2809d4f5a1b2779c0a4d5951ea0599dbd9b9fe552",
+    "builds/asbb_wave250_2026-09-01__coll_isobaricquant_cq/build_manifest.json": "a5a4d6005dc23519a292e321ffdcef885949ee804c2854dc6166eb430194a9fb",
+    "builds/asbb_wave250_2026-09-01__coll_isobaricquant_cq/external_enrichment.json": "f45914ba6ba8802d862a54afd72e3df5c953afb576d6b71cab95737e9a8abf36",
+    "builds/asbb_wave250_2026-09-01__coll_isoscale_cq/build_manifest.json": "7f4c62f76c0502b5ada8e901a548d58d0ac40d9829af1e5254e377dde79f472c",
+    "builds/asbb_wave250_2026-09-01__coll_isoscale_cq/external_enrichment.json": "baeb7ffeb7f6cfa3ce40c44c275706e974716a3366427472fc0409274d91e043",
+    "builds/asbb_wave250_2026-09-01__coll_jmzreader_cq/build_manifest.json": "94c982ca79a7e255d7a765a2e1a1e5cab85a33bd1403a6194c94741acf44c956",
+    "builds/asbb_wave250_2026-09-01__coll_jmzreader_cq/external_enrichment.json": "1f6be3fd72a44cf5e77727cb380470b69d413c21b7e2a94965e5322f31f4e622",
+    "builds/asbb_wave250_2026-09-01__coll_maldimid_cq/build_manifest.json": "e1f226ebe1415d52ba4fc36aa0e2021a6da2205c1504816b7dd99ced05d596be",
+    "builds/asbb_wave250_2026-09-01__coll_maldimid_cq/external_enrichment.json": "687680785c06c14132f4719d257d2c6ee092f25ee8127b80ed989cb438632dad",
+    "builds/asbb_wave250_2026-09-01__coll_motifer_cq/build_manifest.json": "b477b4cfd43b4bd5f574e5678d27d73daef0a2e1b8ef3437d5d0874797673b7b",
+    "builds/asbb_wave250_2026-09-01__coll_motifer_cq/external_enrichment.json": "56fdaba64f5beeec72b86bf25da818d1a805ee461b01a692b54d6811159f60f2",
+    "builds/asbb_wave250_2026-09-01__coll_ms_lims_cq/build_manifest.json": "2df103375546ee1233596fa339c6ecbb9863ec676f24b32d6aedb91d703bb49e",
+    "builds/asbb_wave250_2026-09-01__coll_ms_lims_cq/external_enrichment.json": "4fd0a4bd9e825dbf2916b9dd97f72fc202a9bca43f667df785f54fb5cfa67eb3",
+    "builds/asbb_wave250_2026-09-01__coll_mspc_morpheus_cq/build_manifest.json": "6295b5e126bc275676f9c119d483abc896015229db83c54e2fc8f8305e9159e3",
+    "builds/asbb_wave250_2026-09-01__coll_mspc_morpheus_cq/external_enrichment.json": "65c03e59606e0c02d2064d6388e72de3766964a414d7712a87bc5e211f759086",
+    "builds/asbb_wave250_2026-09-01__coll_musignal_cq/build_manifest.json": "c1173a406d8c5c7117e9408d612b187d993a70d316108019316111936124e31a",
+    "builds/asbb_wave250_2026-09-01__coll_musignal_cq/external_enrichment.json": "6c47f540ba3074b7f77bd3cd683e58d1cb45427952fc77ad83bd48656d047a94",
+    "builds/asbb_wave250_2026-09-01__coll_oktoberfest_cq/build_manifest.json": "6458e839d4580af45b968673483a91c5a1f2f1396116c9864350c79d1870e072",
+    "builds/asbb_wave250_2026-09-01__coll_oktoberfest_cq/external_enrichment.json": "9ff75233f89284303e8f184a4c3b1b7bc7d2ec732226f1a37f45826a6bcd0aeb",
+    "builds/asbb_wave250_2026-09-01__coll_pbase_cq/build_manifest.json": "4eeeb8de25d0bd4001b360a1ac40c9ef06a88e2e021b154e9c21db997afceec2",
+    "builds/asbb_wave250_2026-09-01__coll_pbase_cq/external_enrichment.json": "e40b69808d326868060ce0e664a2d35408d5ef06b5c0d9369a3dde12eae60186",
+    "builds/asbb_wave250_2026-09-01__coll_phosboost_cq/build_manifest.json": "60250e19af6c641379ff64c781ed53a987b15f63533a7847f4a88b62ba152d3c",
+    "builds/asbb_wave250_2026-09-01__coll_phosboost_cq/external_enrichment.json": "b2007b7f81397a58a805b29e91cdcceb6871ed57431a2ba2eecb05f0e8fe6e91",
+    "builds/asbb_wave250_2026-09-01__coll_popitam_cq/build_manifest.json": "db6e305ee0967519e7d4c33055f269f76fa56888b0ab8fecd98cdaf188c6339d",
+    "builds/asbb_wave250_2026-09-01__coll_popitam_cq/external_enrichment.json": "21f2a29ccd6c6eb3a8eec23644b0d64f2495cb75f8ba78692d58e60e74afe3d0",
+    "builds/asbb_wave250_2026-09-01__coll_prpred_drlf_cq/build_manifest.json": "ac30809421b651145cad76147f317ab4b923bc8b27a786ef9f0c72144d7242d9",
+    "builds/asbb_wave250_2026-09-01__coll_prpred_drlf_cq/external_enrichment.json": "8db7d5796b70f676fb997197b73120026b8481775f12aebd98806b6aeb9d5c79",
+    "builds/asbb_wave250_2026-09-01__coll_pulseq_cest_cq/build_manifest.json": "be6001cbdceffd6088dc5839660fb560bceed897039ba286843c76c75453d60f",
+    "builds/asbb_wave250_2026-09-01__coll_pulseq_cest_cq/external_enrichment.json": "25ea0507e7d5d1783798cd980594848d83044224030aaa3f04dd91d5b20b7111",
+    "builds/asbb_wave250_2026-09-01__coll_sc_gan_cq/build_manifest.json": "eb1f32ef2e65ecdc20528dd1bb4e5303a4c2e014dd1a15166a64e9960acf72c2",
+    "builds/asbb_wave250_2026-09-01__coll_sc_gan_cq/external_enrichment.json": "01e13c43577b2aef75317833ad1ef08159fa25583d095ba732be98d6be2d39b5",
+    "builds/asbb_wave250_2026-09-01__coll_scop3d_cq/build_manifest.json": "45d474f661e863da3ed40bd3b50dd44dedd48a90a1f14e669611dfdf4cf16e1a",
+    "builds/asbb_wave250_2026-09-01__coll_scop3d_cq/external_enrichment.json": "85357331c44b76f92c6c2186e3a048ee298718c03bdb01246e3f2d53937f6ce7",
+    "builds/asbb_wave250_2026-09-01__coll_simpledsfviewer_cq/build_manifest.json": "024558270cda7443c06cb12f4b2cf5e96475e975ccf70683628b0da0e0ffe1bf",
+    "builds/asbb_wave250_2026-09-01__coll_simpledsfviewer_cq/external_enrichment.json": "c658432cf1ad00647300ac2c9dbc6d92897098ce471ff2cca79bcd53a923c4d8",
+    "builds/asbb_wave250_2026-09-01__coll_xtandem_parser_cq/build_manifest.json": "e1f2aa227f05da55d6f7ff8b7275e539bb6416ec8e7c1dede32e245a7fddda3f",
+    "builds/asbb_wave250_2026-09-01__coll_xtandem_parser_cq/external_enrichment.json": "fee17a09cdb2d5580cba58d5ec04ee7601889e2f5395b9a32afe28528b8dfbb7",
+    "tiered": "126b2f5e548ea12a96dcfd0485fafc65335a0fba0add2503ee2e62b30b2e94ef"
+  },
+  "schema": "asbb-corpus-join-receipt/1.0",
+  "stage": "S4",
+  "unmatched_rows": []
+}

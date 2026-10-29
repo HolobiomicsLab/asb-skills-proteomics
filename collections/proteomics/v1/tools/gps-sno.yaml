@@ -1,0 +1,16 @@
+name: GPS-SNO
+slug: gps-sno
+version_used: 280.740.690.010
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.heliyon.2023.e23187
+  title: 'SNO-DCA: A model for predicting S-nitrosylation sites based on densely connected convolutional networks and attention mechanism'
+source_repos:
+- https://github.com/peanono/SNO-DCA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/peanono/SNO-DCA
