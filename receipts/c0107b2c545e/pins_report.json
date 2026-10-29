@@ -1,0 +1,95 @@
+{
+  "workflows": {
+    "immunopeptidomics_deep_rescoring": {
+      "avoid": [
+        {
+          "pin": "target-decoy-fdr-filtering",
+          "resolved_slug": "target-decoy-fdr-filtering",
+          "scope": "rescore_and_control_fdr",
+          "status": "resolved"
+        }
+      ],
+      "prefer": [
+        {
+          "pin": "comet-database-searching",
+          "resolved_slug": "comet-database-searching",
+          "stage": "search_psms",
+          "status": "resolved"
+        },
+        {
+          "pin": "immunopeptidomics-fdr-filtering",
+          "resolved_slug": "immunopeptidomics-fdr-filtering",
+          "stage": "select_training_psms",
+          "status": "resolved"
+        },
+        {
+          "pin": "retention-time-prediction-feature-generation",
+          "resolved_slug": "retention-time-prediction-feature-generation",
+          "stage": "generate_rt_features",
+          "status": "resolved"
+        },
+        {
+          "pin": "spectral-prediction-feature-generation",
+          "resolved_slug": "spectral-prediction-feature-generation",
+          "stage": "generate_spectral_features",
+          "status": "resolved"
+        },
+        {
+          "pin": "psm-rescoring-with-percolator",
+          "resolved_slug": "psm-rescoring-with-percolator",
+          "stage": "rescore_and_control_fdr",
+          "status": "resolved"
+        }
+      ],
+      "summary": {
+        "avoid_resolved": 1,
+        "avoid_total": 1,
+        "prefer_resolved": 5,
+        "prefer_total": 5
+      },
+      "workflow_id": "immunopeptidomics_deep_rescoring"
+    },
+    "isobaric_reporter_quantification": {
+      "avoid": [],
+      "prefer": [
+        {
+          "pin": "proteomics-database-search-and-psm-validation",
+          "resolved_slug": "proteomics-database-search-and-psm-validation",
+          "stage": "identify_psms",
+          "status": "resolved"
+        },
+        {
+          "pin": "isobaric-reporter-ion-quantification",
+          "resolved_slug": "isobaric-reporter-ion-quantification",
+          "stage": "quantify_reporter_ions",
+          "status": "resolved"
+        },
+        {
+          "pin": "isobaric-peptide-qc-score-filtering",
+          "resolved_slug": "isobaric-peptide-qc-score-filtering",
+          "stage": "filter_interference",
+          "status": "resolved"
+        },
+        {
+          "pin": "protein-inference-and-quantification-aggregation",
+          "resolved_slug": "protein-inference-and-quantification-aggregation",
+          "stage": "aggregate_proteins",
+          "status": "resolved"
+        },
+        {
+          "pin": "differential-abundance-significance-testing",
+          "resolved_slug": "differential-abundance-significance-testing",
+          "stage": "test_differential_abundance",
+          "status": "resolved"
+        }
+      ],
+      "summary": {
+        "avoid_resolved": 0,
+        "avoid_total": 0,
+        "prefer_resolved": 5,
+        "prefer_total": 5
+      },
+      "workflow_id": "isobaric_reporter_quantification"
+    }
+  }
+}

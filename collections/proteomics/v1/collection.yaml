@@ -33,7 +33,7 @@ contributors:
 cut_id: c0107b2c545e
 skills_count: 558
 tools_count: 163
-workflows_count: 0
+workflows_count: 2
 skills:
 - 3d-conditional-gan-training
 - 3d-scan-intensity-visualization

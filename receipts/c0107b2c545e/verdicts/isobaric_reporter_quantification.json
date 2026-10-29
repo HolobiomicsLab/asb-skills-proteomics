@@ -1,0 +1,21 @@
+{
+  "workflow": "isobaric_reporter_quantification",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "intra-protein-cv-precision-analysis measures within-protein precision and does not perform the required differential-abundance significance comparison.",
+      "severity": "advisory",
+      "slug": "intra-protein-cv-precision-analysis",
+      "stage": "test_differential_abundance"
+    }
+  ],
+  "verdict": "pass"
+}
