@@ -24,7 +24,7 @@
 
 ## TL;DR
 
-This repository holds the proteomics skill collection of AgenticScienceBuilder (ASB): 558 skills over 163 software tools and 2 composite workflows, distilled from 28 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper and quotes it. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
+This repository holds the proteomics skill collection of AgenticScienceBuilder (ASB): 558 skills over 163 software tools and 2 composite workflows, distilled from 28 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper; 282 of the 558 also quote it or its repository README. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
 
 ## Status
 
@@ -75,9 +75,10 @@ The tier is advice about the tool. It does not change the licence of this collec
 
 ## Install
 
-Claude Code, from the directory that holds your clone of this repository:
+Claude Code, from the directory that holds your clone of this repository, with the candidate branch checked out (the default branch `main` does not hold the collection yet):
 
 ```bash
+git -C asb-skills-proteomics switch candidate/c0107b2c545e
 claude plugin marketplace add ./asb-skills-proteomics
 claude plugin install proteomics@asb-skills-proteomics
 ```
@@ -123,7 +124,7 @@ The gate checks that every included paper has an allowed access type, caps the l
 
 22 of the 28 included papers are open access according to `corpus.yaml` (`access.is_oa`). The other 6 are closed access and listed as `link-only`.
 
-Each leaf names its source paper in `provenance.source_papers` (558 of 558 leaves) and quotes it, or its repository README, in an `## Evidence` section (557 of 558).
+Each leaf names its source paper in `provenance.source_papers` (558 of 558 leaves). 282 of the 558 quote it, or its repository README, in their `## Evidence` section. In the other 276, the gate parsed no quote span (`gate_report.json`, `strip_verbatim_similarity`, `coverage.files_without_spans`). In 273 of them the section is empty or its quotes are withheld because they could not be anchored in the source. In 2 the section holds a quote in a form the gate parser does not read. 1 have no `## Evidence` section.
 
 ## Related repositories
 

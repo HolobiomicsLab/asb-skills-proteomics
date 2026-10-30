@@ -27,13 +27,14 @@ commercially, **provided you give appropriate credit**: cite the collection
 
 ## Verbatim quotations from scientific papers
 
-Short verbatim quotes from the source papers are included in the `## Evidence`
-section of each skill solely for scientific attribution. They are reproduced under
+Short verbatim quotes from the source papers, or from their repository READMEs, are
+included in the `## Evidence` section of a skill when the quote could be anchored in
+the source, solely for scientific attribution. They are reproduced under
 **fair use / quotation right** (UK copyright §30; EU Copyright Directive
 Art. 5.3(d); US Copyright 17 U.S.C. §107):
 
 - Quotes are minimal (typically one sentence), non-substitutive.
-- Attribution is provided via the DOI and title in `provenance.source_papers`.
+- Attribution is provided via the DOI (and the title, where recorded) in `provenance.source_papers`.
 - No commercial use of the verbatim quotes themselves is intended.
 
 If a rights holder objects to a specific quote, please open an issue and it will
