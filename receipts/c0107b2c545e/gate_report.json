@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-29T19:19:14.587930+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/proteomics/candidate",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/proteomics/candidate/corpus.yaml",
+  "generated_at": "2026-10-30T13:47:40.953912+00:00",
+  "collection_dir": "collections/proteomics/v1",
+  "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "vendored-fallback",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "5fa3e69b74d078b4e35632ae5e2c37411eff9e118d30f1d95109f19b30ba4c56",
+      "sha256": "4196425e119b4fd7d82c990a71b476f63aee3ac08a0a6e41ad7bf433a386c620",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -54,8 +54,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2752,
-          "sha256": "f753438b70bf6f991671f8fb693c939cd70ad9bd8a174474883433160d3ae6b1"
+          "bytes": 2518,
+          "sha256": "6728aecbedd1e7fbd0926b0576c377b71ea345d76577f403f58a03c62de7b9b7"
         },
         {
           "path": "CITATION.cff",
@@ -6340,5 +6340,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "67458023e14a078f064eb8fbc785eb142e02662aba5539680534bc93b546a9c0"
+  "receipt_sha256": "e7507334929b7d480b1cab3f3dafad525702373f92a587d4731141ab6186b34c"
 }

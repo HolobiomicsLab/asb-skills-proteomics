@@ -1,7 +1,7 @@
 ASBB release gate — strict mode
   scope      : content-policy checks and bound artifact integrity
-  collection : /private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/proteomics/candidate
-  corpus     : /private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/proteomics/candidate/corpus.yaml
+  collection : collections/proteomics/v1
+  corpus     : collections/proteomics/v1/corpus.yaml
   reuse      : vendored-fallback
   parser     : scripts.release_gate (gate-owned)
   checks:
@@ -22,4 +22,4 @@ ASBB release gate — strict mode
     NOT_APPLICABLE  cut_manifest (gates []) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [manifest bindings]
     PASS  target_stability (gates []) [hard-gate] — checked=1 / skipped=0 / missing=0 / failed=0 [target and input snapshots]
   overall    : PASS  (exit 0)
-  report     : /private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/proteomics/receipts/gate_report.json
+  report     : /private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/readme-fix/regate/proteomics/gate_report.json
