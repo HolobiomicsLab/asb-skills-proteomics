@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/builds/proteomics",
+  "builds_root": "proteomics",
   "counts": {
     "builds": 28,
     "input_files": 1761,
@@ -1773,7 +1773,7 @@
     "corpus/skills/z-spectrum-simulation/tools.json": "da76b962972028755a83934c1a95eebcea12e7a1cddcc80f5a7068e822f660f3",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "9a5f2cf1450b214ca1168330b5ff411d2da75a9505689ab838c6acc99d9be42d",
+  "output_tree_sha256": "d6abc40954775b24d4c204fee51e2abedb86cca20cc0ef9232678589e5de51a8",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"
