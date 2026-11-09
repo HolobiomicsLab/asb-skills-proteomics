@@ -10,7 +10,7 @@ when_to_use_negative:
   to benchmark against (e.g. internal ablation of CBOW vs BOW vs combined features)
 - The evaluation requires a different negative-sample strategy than Yu's 4-group segmentation
   — mixing strategies invalidates the comparison
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0080
@@ -47,7 +47,7 @@ metadata:
   - Extreme Gradient Boosting
   - Gensim
   - XGBoost
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0080

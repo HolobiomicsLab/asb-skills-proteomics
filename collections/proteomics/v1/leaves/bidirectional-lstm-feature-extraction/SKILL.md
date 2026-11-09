@@ -10,7 +10,7 @@ when_to_use_negative:
 - Traditional hand-crafted features (e.g. k-spaced amino acid pairs as in prPred)
   are explicitly preferred or computational resources (GPU) are unavailable, since
   deep representation learning features require elevated computing resources
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0080
@@ -46,7 +46,7 @@ metadata:
   - LightGBM (LGBM)
   - eFeature
   - prPred-DRLF
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0080

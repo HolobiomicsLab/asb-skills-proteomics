@@ -8,7 +8,7 @@ when_to_use_negative:
   so no largest/smallest-space retention comparison can be formed
 - PSM tables are search-engine-only results without Oktoberfest rescoring, if the
   goal is to quantify the benefit conferred by rescoring
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -39,7 +39,7 @@ metadata:
   - Oktoberfest
   - Python
   - mokapot
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

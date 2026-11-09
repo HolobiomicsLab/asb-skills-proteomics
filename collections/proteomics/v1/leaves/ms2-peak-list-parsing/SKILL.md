@@ -10,7 +10,7 @@ when_to_use_negative:
   formats (DTA, MS2, MGF, PKL, mzXML, mzData, mzML, PRIDE XML)
 - Only converting to a common format rather than structuring records — jmzReader-gui
   already exports all supported formats to mgf directly
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0121
@@ -46,7 +46,7 @@ metadata:
   - Maven
   - jmzReader
   - jmzReader-gui
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0121

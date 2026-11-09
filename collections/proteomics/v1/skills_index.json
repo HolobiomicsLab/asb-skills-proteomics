@@ -151,7 +151,7 @@
   "slug": "admm-solver-configuration",
   "name": "admm-solver-configuration",
   "description": "Use when you need to solve a constrained MRI gradient waveform design problem — e.g. gmax, smax, gradient moment nulling, eddy current or PNS constraints — via GrOpt's ADMM solver and need correct stopping, tolerance, and warm-start configuration.",
-  "edam_operation": "http://edamontology.org/operation_3932",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3300",
    "http://edamontology.org/topic_3444"
@@ -293,7 +293,7 @@
   "slug": "aromaticity-index-computation",
   "name": "aromaticity-index-computation",
   "description": "Use when you have FT-ICR MS molecular formula lists (element composition with C/H/O/N/P/S) and need aromaticity classification or DBE-based traits for dissolved organic matter molecules.",
-  "edam_operation": "http://edamontology.org/operation_0241",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102"
   ],
@@ -464,7 +464,7 @@
   "slug": "benchmark-method-comparison",
   "name": "benchmark-method-comparison",
   "description": "Use when a proposed classifier must be compared head-to-head with a published baseline on the same benchmark dataset and negative-sample segmentation, and mean AUC/Acc/Precision must be assembled into a comparison table.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0080"
@@ -523,7 +523,7 @@
   "slug": "bidirectional-lstm-feature-extraction",
   "name": "bidirectional-lstm-feature-extraction",
   "description": "Use when raw protein sequences in FASTA format must be converted into dense numerical embeddings for a machine-learning classifier (e.g. identifying plant R proteins with LGBM), and pretrained deep representation learning models are available.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0080"
@@ -745,7 +745,7 @@
   "slug": "bootstrap-subsampling-replicate-analysis",
   "name": "bootstrap-subsampling-replicate-analysis",
   "description": "Use when comparing co-occurrence network statistics between known-formula (KK) and dark-matter-inclusive (DK) networks from DOM molecular formula tables, since network metrics like degree centrality depend on node count and subsampling removes that confound.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -1319,7 +1319,7 @@
   "slug": "class-imbalanced-protein-dataset-evaluation",
   "name": "class-imbalanced-protein-dataset-evaluation",
   "description": "Use when benchmarking protein sequence classifiers on a dataset with unequal positive/negative counts (e.g., 1:2 ratio like 152 R proteins vs 304 non-R), where accuracy alone can mask weak minority-class recall and F1/AUC must be reported alongside it.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_0092"
   ],
@@ -1589,11 +1589,7 @@
   "name": "collision-energy-calibration",
   "description": "Use when search-engine results and spectra (raw/mzml/d/hdf) are available and you need the per-file optimal NCE for Prosit/Koina spectral predictions, e.g. before spectral library generation or rescoring.",
   "edam_operation": "http://edamontology.org/operation_3221",
-  "edam_topics": [
-   "http://edamontology.org/topic_3520",
-   "http://edamontology.org/topic_3522",
-   "http://edamontology.org/topic_0092"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3520", "http://edamontology.org/topic_0092"],
   "tools": [
    "Koina",
    "Oktoberfest",
@@ -1621,7 +1617,7 @@
   "slug": "comet-database-searching",
   "name": "comet-database-searching",
   "description": "Use when raw immunopeptidomics (MHC-bound peptide) MS/MS data has been converted to MGF and you need PSM-level peptide-spectrum matches against a target-decoy protein database for downstream FDR filtering, rescoring, or validation.",
-  "edam_operation": "http://edamontology.org/operation_3759",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0121",
    "http://edamontology.org/topic_3520"
@@ -2303,7 +2299,7 @@
   "slug": "cv-parameter-extraction",
   "name": "cv-parameter-extraction",
   "description": "Use when an mzIdentML file or downstream tool references an external mzData peak list file and you must extract spectrum IDs, cvParam metadata, and peak arrays into a structured record per spectrum.",
-  "edam_operation": "http://edamontology.org/operation_3212",
+  "edam_operation": "http://edamontology.org/operation_3211",
   "edam_topics": [
    "http://edamontology.org/topic_0121"
   ],
@@ -2669,7 +2665,7 @@
   "slug": "diffusion-b-value-encoding-design",
   "name": "diffusion-b-value-encoding-design",
   "description": "Use when a diffusion protocol (e.g. b=1000 mm2/s, six-direction tensor encoding) needs a gradient waveform that meets Gmax/Smax hardware limits and moment nulling on a specific scanner, or when waveforms must be reproduced across GE and Siemens platforms.",
-  "edam_operation": "http://edamontology.org/operation_0273",
+  "edam_operation": "http://edamontology.org/operation_2949",
   "edam_topics": [
    "http://edamontology.org/topic_3391"
   ],
@@ -3063,10 +3059,7 @@
   "name": "dom-molecule-temperature-correlation",
   "description": "Use when FT-ICR MS DOM molecular compositional matrices are paired with per-sample temperature (or another environmental gradient) metadata and the goal is to quantify thermal responses at both the molecular (MER) and compositional (iCER) levels.",
   "edam_operation": "http://edamontology.org/operation_3465",
-  "edam_topics": [
-   "http://edamontology.org/topic_0091",
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0091"],
   "tools": [
    "R",
    "devtools",
@@ -4336,7 +4329,7 @@
   "slug": "gan-based-medical-image-synthesis",
   "name": "gan-based-medical-image-synthesis",
   "description": "Use when the task is cross-domain neuroimage synthesis (e.g., T1w/FLAIR MRI to PET or DTI-derived maps) or multidimensional diffusion MRI superresolution where stable GAN training and 3D spatial consistency matter.",
-  "edam_operation": "http://edamontology.org/operation_3699",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3444",
    "http://edamontology.org/topic_3304"
@@ -4394,7 +4387,7 @@
   "slug": "gan-hyperparameter-tuning-cross-validation",
   "name": "gan-hyperparameter-tuning-cross-validation",
   "description": "Use when training conditional GANs (SC-GAN, 2D/3D cGAN, Att cGAN) on 256x256x256 medical images and you need to select hyperparameters (mu, lambda, lr, batch size) fairly via cross-validation before benchmarking.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3444",
    "http://edamontology.org/topic_3384",
@@ -4523,7 +4516,7 @@
   "slug": "genome-wide-phosphoproteome-scoring",
   "name": "genome-wide-phosphoproteome-scoring",
   "description": "Use when you have a complete proteome FASTA (e.g. wheat, oat, barley, maize) and pre-trained PhosBoost models, and need phosphorylation probability scores for all S/T/Y residues plus browser visualization tracks.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_0621"
   ],
@@ -5298,7 +5291,7 @@
   "slug": "hydrogen-bond-pattern-recognition",
   "name": "hydrogen-bond-pattern-recognition",
   "description": "Use when per-residue secondary structure assignments (helices, ladders, sheets, turns, bends) must be derived from backbone hydrogen-bond patterns in an mmCIF/PDB structure using DSSP.",
-  "edam_operation": "http://edamontology.org/operation_2418",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0736",
    "http://edamontology.org/topic_2814"
@@ -5330,10 +5323,7 @@
   "name": "icer-index-computation",
   "description": "Use when you have a DOM molecular compositional matrix (FT-ICR MS) plus per-sample environmental metadata (e.g., temperature) and need a sample-level indicator of compositional-level environmental response, such as DOM thermal response to experimental warming.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_0091",
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0091"],
   "tools": [
    "FT-ICR MS",
    "R",
@@ -5687,10 +5677,8 @@
   "slug": "intravoxel-phase-dispersion-simulation",
   "name": "intravoxel-phase-dispersion-simulation",
   "description": "Decision support for choosing allowable residual moment tolerances (M0/M1/M2) in motion-compensated diffusion gradient design, when you must trade optimizer compute time against ADC accuracy ≤5%.",
-  "edam_operation": "http://edamontology.org/operation_0242",
-  "edam_topics": [
-   "http://edamontology.org/topic_3392"
-  ],
+  "edam_operation": "http://edamontology.org/operation_0438",
+  "edam_topics": [],
   "tools": [
    "C",
    "Cython",
@@ -6307,11 +6295,7 @@
   "name": "lc-ms-raw-data-import",
   "description": "Use when a raw MS run (e.g. an mzML/TMT experiment such as PXD000001 acquired on a Thermo Orbitrap Q Exactive) must be loaded into R at scan level to plot retention-time vs m/z heat maps, 3D scan maps, or MS/MS2 spectra.",
   "edam_operation": "http://edamontology.org/operation_0335",
-  "edam_topics": [
-   "http://edamontology.org/topic_3520",
-   "http://edamontology.org/topic_3522",
-   "http://edamontology.org/topic_0091"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3520", "http://edamontology.org/topic_0091"],
   "tools": [
    "BiocStyle",
    "Pbase",
@@ -8014,7 +7998,7 @@
   "slug": "ms-lims-database-querying",
   "name": "ms-lims-database-querying",
   "description": "Use when MS-driven proteomics spectra, identifications and quantification results are already stored in a populated ms_lims central database and need to be interrogated, filtered, statistically summarized, or exported (e.g., for PRIDE submission).",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0622"
@@ -8046,7 +8030,7 @@
   "slug": "ms2-peak-list-parsing",
   "name": "ms2-peak-list-parsing",
   "description": "Use when input is an MS2 (or related peak list: dta, mgf, pkl, mzXML, mzData, mzML, PRIDE XML) file and you need one structured record per spectrum with header fields and a peak list, especially as spectra for mzIdentML-based analysis.",
-  "edam_operation": "http://edamontology.org/operation_0271",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092",
    "http://edamontology.org/topic_0121"
@@ -8794,7 +8778,7 @@
   "slug": "mzid-identification-parsing",
   "name": "mzid-identification-parsing",
   "description": "Use when you have mzIdentML (.mzid) identification output from an LC-MSMS search (e.g. MSGF+ on Thermo Orbitrap Q Exactive data) and need to map identified peptides onto protein sequences in R.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_0121",
    "http://edamontology.org/topic_3520"
@@ -10277,9 +10261,7 @@
   "name": "permanova-regional-composition-testing",
   "description": "Use when FT-ICR MS-derived DOM molecular compositional data (samples x molecular formula presence/absence and relative abundance) must be compared between predefined groups, e.g., climatic regions, to test compositional similarity.",
   "edam_operation": "http://edamontology.org/operation_3460",
-  "edam_topics": [
-   "http://edamontology.org/topic_3279"
-  ],
+  "edam_topics": [],
   "tools": [
    "R",
    "devtools",
@@ -10366,9 +10348,7 @@
   "name": "pet-surv-quantification",
   "description": "Use when regional amyloid-PET uptake must be quantified as SUVR over cortical/subcortical parcellations and compared between measured PET and MRI-synthesized PET.",
   "edam_operation": "http://edamontology.org/operation_3799",
-  "edam_topics": [
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": [],
   "tools": [
    "ANTs (N4ITK module)",
    "FreeSurfer",
@@ -10915,7 +10895,7 @@
   "slug": "precursor-charge-state-filtering",
   "name": "precursor-charge-state-filtering",
   "description": "Use when one peptide ID appears on multiple MS2 spectra with different precursor charge states (e.g. z=2 vs z=3 in an iTRAQ 4-plex experiment) and the goal is a charge-resolved spectral overlay comparison.",
-  "edam_operation": "http://edamontology.org/operation_0395",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0092"
@@ -11184,7 +11164,7 @@
   "slug": "primary-protein-hit-selection",
   "name": "primary-protein-hit-selection",
   "description": "Use when storing or reporting peptide identifications from Mascot Server (or similar) output where each peptide maps to multiple progenitor proteins and a single representative protein must be reported per peptide.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_0121",
    "http://edamontology.org/topic_3520"
@@ -12066,10 +12046,7 @@
   "name": "proteomic-biomarker-peak-annotation",
   "description": "Use when you have a list of monoisotopic MALDI imaging [M+H]+ m/z peaks (positive mode) and an LC-MS/MS peptide mass table (e.g., peptides.txt) and need to identify which imaging peaks correspond to proteomically observed peptides.",
   "edam_operation": "http://edamontology.org/operation_3631",
-  "edam_topics": [
-   "http://edamontology.org/topic_0092",
-   "http://edamontology.org/topic_3522"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0092", "http://edamontology.org/topic_3520"],
   "tools": [
    "MALDImID",
    "R",
@@ -12528,7 +12505,7 @@
   "slug": "psm-data-driven-rescoring",
   "name": "psm-data-driven-rescoring",
   "description": "Use when MaxQuant (or similar) search results exist but identifications collapse on large search spaces, and Prosit-predicted fragment intensities plus mokapot FDR estimation could recover more PSMs at the same FDR.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0121"
@@ -12626,7 +12603,7 @@
   "slug": "psm-rescoring-with-percolator",
   "name": "psm-rescoring-with-percolator",
   "description": "Use when PSMs from search engines such as Comet, MS-GF+, X!Tandem, or MaxQuant need to be rescored to improve peptide identification sensitivity, especially for immunopeptidomics (MHC-binding peptide) data.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0121"
@@ -13120,7 +13097,7 @@
   "slug": "ranked-result-table-generation",
   "name": "ranked-result-table-generation",
   "description": "Use when you have candidate theoretical peptide sequences from a database search plus a parsed spectrum graph of an MS/MS spectrum, and need to produce a final peptide ranking table by correlation score.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_0092"
@@ -13145,7 +13122,7 @@
   "slug": "ratio-compression-benchmarking-against-mixing-ratio",
   "name": "ratio-compression-benchmarking-against-mixing-ratio",
   "description": "Use when isobarically-labeled (TMT/TMTpro/iTRAQ) data contain samples mixed at a known ratio and you need to determine which QC score predicts reduced quantitative accuracy (ratio compression) at MS2 vs MS3.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0121"
@@ -14197,7 +14174,7 @@
   "slug": "search-engine-peptide-count-reproduction",
   "name": "search-engine-peptide-count-reproduction",
   "description": "Use when reproducing or validating published immunopeptidomics peptide identification gains — e.g., comparing per-engine unique peptide counts before and after deep learning-based rescoring on datasets like PRIDE PXD004894 or MassIVE MSV000084442.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0121"
@@ -14247,7 +14224,7 @@
   "slug": "search-space-susceptibility-analysis",
   "name": "search-space-susceptibility-analysis",
   "description": "Use when comparing confident PSM retention across increasing database/search-space sizes in metaproteomics, to decide whether rescoring mitigates identification losses from expanded search spaces.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0121"
@@ -14820,10 +14797,7 @@
   "name": "spectral-intensity-transformation",
   "description": "Use when you need to preprocess and inspect a single MALDI-TOF or other 2D MS1-level mass spectrum in R, starting with intensity transformation to stabilize variance across the mass range before smoothing, baseline removal, and peak detection.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3520",
-   "http://edamontology.org/topic_3218"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3520"],
   "tools": [
    "BiocStyle",
    "MALDIquant",
@@ -15770,7 +15744,7 @@
   "slug": "target-decoy-fdr-filtering",
   "name": "target-decoy-fdr-filtering",
   "description": "Use when peptide identifications from search engines (Comet, MS-GF+, X!Tandem, MaxQuant) must be filtered to 1% FDR at PSM and peptide levels before overlap, ablation, or neoantigen analyses.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_0121",
    "http://edamontology.org/topic_3520"

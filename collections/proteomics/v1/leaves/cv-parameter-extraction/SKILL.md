@@ -10,7 +10,7 @@ when_to_use_negative:
   per-spectrum records — jmzReader-gui's mgf export covers format conversion instead
 - The spectra are embedded inside the mzIdentML file itself; mzIdentML files do not
   contain spectra data but refer to external peak list files
-edam_operation: http://edamontology.org/operation_3212
+edam_operation: http://edamontology.org/operation_3211
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -39,7 +39,7 @@ metadata:
   - Maven
   - jmzML
   - jmzReader
-  edam_operation: http://edamontology.org/operation_3212
+  edam_operation: http://edamontology.org/operation_3211
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

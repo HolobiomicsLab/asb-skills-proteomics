@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3221
 edam_topics:
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3522
 - http://edamontology.org/topic_0092
 tools:
 - name: Oktoberfest
@@ -53,7 +52,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3221
   edam_topics:
   - http://edamontology.org/topic_3520
-  - http://edamontology.org/topic_3522
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

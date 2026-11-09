@@ -799,9 +799,6 @@ edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3172
 - http://edamontology.org/topic_3173
-- http://edamontology.org/topic_3218
-- http://edamontology.org/topic_3272
-- http://edamontology.org/topic_3279
 - http://edamontology.org/topic_3292
 - http://edamontology.org/topic_3299
 - http://edamontology.org/topic_3300
@@ -821,7 +818,6 @@ edam_topics:
 - http://edamontology.org/topic_3382
 - http://edamontology.org/topic_3384
 - http://edamontology.org/topic_3391
-- http://edamontology.org/topic_3392
 - http://edamontology.org/topic_3398
 - http://edamontology.org/topic_3399
 - http://edamontology.org/topic_3418
@@ -834,7 +830,6 @@ edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_3520
-- http://edamontology.org/topic_3522
 - http://edamontology.org/topic_3577
 domain_topics: []
 source_collections:

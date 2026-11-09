@@ -8,7 +8,7 @@ when_to_use_negative:
   does not predict secondary structure
 - When input is not a protein coordinate file with resolvable backbone atoms (mmCIF
   or PDB), since H-bond detection requires calculated backbone CO–NH energies
-edam_operation: http://edamontology.org/operation_2418
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0736
 - http://edamontology.org/topic_2814
@@ -47,7 +47,7 @@ metadata:
   - DSSP
   - Python
   - mkdssp
-  edam_operation: http://edamontology.org/operation_2418
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0736
   - http://edamontology.org/topic_2814

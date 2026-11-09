@@ -11,7 +11,7 @@ when_to_use_negative:
 - Synthesizing quantitative modalities where min-max rescaling to 0-1 would corrupt
   the quantitative metric values (the authors note normalization negatively affects
   DTI metrics).
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3444
 - http://edamontology.org/topic_3384
@@ -50,7 +50,7 @@ metadata:
   - Attention cGAN (Att cGAN)
   - SC-GAN
   - TensorFlow
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3444
   - http://edamontology.org/topic_3384

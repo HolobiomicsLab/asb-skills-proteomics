@@ -10,7 +10,7 @@ when_to_use_negative:
   network analyses (commProc, iDME, H2, iCER) — these are separate iDOM functions,
   not molTrait
 - The dataset is not molecular compositional DOM data (e.g. taxonomic abundance tables)
-edam_operation: http://edamontology.org/operation_0241
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -39,7 +39,7 @@ metadata:
   - R
   - devtools
   - iDOM
-  edam_operation: http://edamontology.org/operation_0241
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

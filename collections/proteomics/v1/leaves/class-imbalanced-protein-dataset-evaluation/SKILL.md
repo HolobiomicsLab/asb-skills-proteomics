@@ -12,7 +12,7 @@ when_to_use_negative:
   comparison metric, making the full precision/recall/F1/AUC grid unnecessary
 - When negative-class sequences are incompletely annotated such that only positive-set
   evaluation is meaningful (as the article found for HMMER comparison)
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -49,7 +49,7 @@ metadata:
   - Python
   - Python 3.7
   - prPred-DRLF
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

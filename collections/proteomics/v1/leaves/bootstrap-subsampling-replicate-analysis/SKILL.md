@@ -11,7 +11,7 @@ when_to_use_negative:
   (use the commProc function instead) or DOM-microbe network specialization (use H2)
 - When molecular formula annotations distinguishing known molecules from dark matter
   are unavailable — the KK/DK split cannot be constructed
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -41,7 +41,7 @@ metadata:
   - R
   - devtools
   - iDOM
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

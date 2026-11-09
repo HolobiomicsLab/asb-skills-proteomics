@@ -12,8 +12,7 @@ when_to_use_negative:
 - No co-registered T1w image is available, so no reliable brain mask or FreeSurfer
   parcellation can be derived
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: FreeSurfer 5.3.0
   role: Performs T1w preprocessing and parcellation into the 110 Desikan-Killiany
@@ -44,8 +43,7 @@ metadata:
   - FreeSurfer 5.3.0
   - SC-GAN
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

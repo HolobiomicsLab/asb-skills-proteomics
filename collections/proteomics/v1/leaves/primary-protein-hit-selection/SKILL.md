@@ -8,7 +8,7 @@ when_to_use_negative:
   already providing a single protein group per identification)
 - The Mascot output already designates a single top protein hit and no peptide-to-multiple-proteins
   ambiguity exists
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -49,7 +49,7 @@ metadata:
   - compomics-utilities
   - dbtoolkit
   - ms-lims 7.7.7
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

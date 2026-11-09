@@ -13,7 +13,7 @@ when_to_use_negative:
   percentile rank <= 2%) outside this skill
 - Input identifications are already rescored feature-level outputs (e.g., existing
   Percolator q-value tables) rather than raw search-engine PSM results
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -74,7 +74,7 @@ metadata:
   - ProteoWizard
   - X!Tandem
   - pDeep2
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121
