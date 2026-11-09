@@ -11,7 +11,7 @@ when_to_use_negative:
   job type instead
 - No access to a prediction server (e.g. Koina) is available, so Prosit fragment-intensity
   predictions required for feature generation cannot be retrieved
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -49,7 +49,7 @@ metadata:
   - Prosit
   - Python
   - mokapot
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

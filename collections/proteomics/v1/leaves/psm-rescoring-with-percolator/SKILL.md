@@ -10,7 +10,7 @@ when_to_use_negative:
   MaxQuant) since DeepRescore cannot extract engine-specific features for other tools
 - Only low-confidence PSMs are available with no high-quality peptides (1% FDR) to
   fine-tune the AutoRT run-specific RT models
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -71,7 +71,7 @@ metadata:
   - ProteoWizard
   - X!Tandem
   - pDeep2
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

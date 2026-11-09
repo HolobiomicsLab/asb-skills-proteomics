@@ -11,7 +11,7 @@ when_to_use_negative:
   terms, acoustic noise, or gradient heating limits (listed as future work)
 - The waveform is so long (e.g. multiecho turbo-spin echo) that the default choice
   of N and dt must be redesigned, rather than a standard DWI b-value encoding
-edam_operation: http://edamontology.org/operation_0273
+edam_operation: http://edamontology.org/operation_2949
 edam_topics:
 - http://edamontology.org/topic_3391
 tools:
@@ -57,7 +57,7 @@ metadata:
   - GrOpt
   - Matlab
   - Python
-  edam_operation: http://edamontology.org/operation_0273
+  edam_operation: http://edamontology.org/operation_2949
   edam_topics:
   - http://edamontology.org/topic_3391
   provenance_tier: literature

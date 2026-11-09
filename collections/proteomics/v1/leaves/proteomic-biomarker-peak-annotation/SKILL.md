@@ -14,7 +14,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3631
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: MALDImID
   role: R package implementing the MALDI-to-LC-MS peptide mass matching with proton-mass
@@ -44,7 +44,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3631
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

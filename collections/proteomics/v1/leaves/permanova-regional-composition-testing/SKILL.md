@@ -11,8 +11,7 @@ when_to_use_negative:
 - Groups have unequal dispersion that could confound PERMANOVA significance (differences
   in multivariate spread can mimic compositional differences)
 edam_operation: http://edamontology.org/operation_3460
-edam_topics:
-- http://edamontology.org/topic_3279
+edam_topics: []
 tools:
 - name: iDOM
   role: R package providing commDis for computing Jaccard, Bray-Curtis, and UniFrac
@@ -44,8 +43,7 @@ metadata:
   - iDOM
   - vegan
   edam_operation: http://edamontology.org/operation_3460
-  edam_topics:
-  - http://edamontology.org/topic_3279
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

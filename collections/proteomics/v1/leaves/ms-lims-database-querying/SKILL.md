@@ -11,7 +11,7 @@ when_to_use_negative:
   ms_lims schema specifically
 - FASTA sequence database manipulation is needed — dbtoolkit is the CompOmics tool
   for merging, shuffling and truncating sequence databases, not ms_lims
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0622
@@ -48,7 +48,7 @@ metadata:
   - compomics-utilities
   - ms-lims
   - ms_lims
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0622

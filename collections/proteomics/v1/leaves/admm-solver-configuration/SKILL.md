@@ -11,7 +11,7 @@ when_to_use_negative:
   noise, or gradient heating limits — these are listed as future work
 - Very long waveforms (e.g. multiecho turbo-spin echo), where the default choice of
   N and dt may need adjustment
-edam_operation: http://edamontology.org/operation_3932
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3300
 - http://edamontology.org/topic_3444
@@ -59,7 +59,7 @@ metadata:
   - GrOpt
   - Matlab
   - Python
-  edam_operation: http://edamontology.org/operation_3932
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3300
   - http://edamontology.org/topic_3444

@@ -11,7 +11,7 @@ when_to_use_negative:
   cleavage) searches
 - Defining MHC binders from predicted binding affinity, where the correct cutoff is
   a percentile rank score <= 2%, not FDR filtering
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -68,7 +68,7 @@ metadata:
   - ProteoWizard
   - X!Tandem
   - pDeep2
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

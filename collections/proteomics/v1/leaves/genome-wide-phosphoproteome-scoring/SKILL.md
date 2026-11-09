@@ -10,7 +10,7 @@ when_to_use_negative:
   (length-31 windows) rather than a whole proteome — use per-site scoring instead
 - High precision is required with minimal false positives — PhosBoost has a precision-recall
   tradeoff with more predicted false positives than PhosphoLingo and DeepPhos
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0621
 tools:
@@ -50,7 +50,7 @@ metadata:
   - PhosBoost
   - ProtT5-XL-U50
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0621
   provenance_tier: literature

@@ -8,7 +8,7 @@ when_to_use_negative:
 - Input is processed peptide/protein data (e.g. a Proteins object or MSnSet) rather
   than raw MS2 spectra in an MSnExp
 - The goal is peptide-to-protein mapping rather than spectral fragment-ion comparison
-edam_operation: http://edamontology.org/operation_0395
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0092
@@ -38,7 +38,7 @@ metadata:
   - Pbase
   - R
   - protViz
-  edam_operation: http://edamontology.org/operation_0395
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0092

@@ -10,7 +10,7 @@ when_to_use_negative:
   ProteoWizard first
 - The goal is de novo sequencing or open/modifiable search-space analysis rather than
   fixed-parameter database searching against a defined FASTA
-edam_operation: http://edamontology.org/operation_3759
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -46,7 +46,7 @@ metadata:
   - DeepRescore
   - PDV
   - ProteoWizard
-  edam_operation: http://edamontology.org/operation_3759
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520

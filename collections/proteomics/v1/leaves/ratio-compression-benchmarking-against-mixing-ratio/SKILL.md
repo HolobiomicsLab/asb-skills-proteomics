@@ -10,7 +10,7 @@ when_to_use_negative:
   QC scores and reporter-ion ratios do not apply
 - The goal is protein-level differential analysis rather than auditing which precursor-level
   QC score predicts quantification inaccuracy
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0121
@@ -46,7 +46,7 @@ metadata:
   - Java
   - Java 17
   - msconvert
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0121

@@ -11,7 +11,7 @@ when_to_use_negative:
   exist) — the correlation score depends on the parsed graph representation.
 - No candidate theoretical peptide sequences are available from a database search
   to match against the spectrum.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0092
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/chernan/popitam
   tools:
   - Popitam
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0092

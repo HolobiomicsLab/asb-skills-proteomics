@@ -12,7 +12,7 @@ when_to_use_negative:
 - Tasks requiring 2D slice-wise synthesis where 3D consistency is not needed — 2D
   conditional GAN is a lighter alternative (SC-GAN prediction error was 18–29% lower,
   but at higher compute cost)
-edam_operation: http://edamontology.org/operation_3699
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3444
 - http://edamontology.org/topic_3304
@@ -52,7 +52,7 @@ metadata:
   - FSL EDDY
   - FSL TOPUP
   - SC-GAN
-  edam_operation: http://edamontology.org/operation_3699
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3444
   - http://edamontology.org/topic_3304

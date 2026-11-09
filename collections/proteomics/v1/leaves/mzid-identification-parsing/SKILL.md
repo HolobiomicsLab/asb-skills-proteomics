@@ -9,7 +9,7 @@ when_to_use_negative:
 - Input is a quantification feature table (e.g. an MSnSet) rather than an mzIdentML
   identification file, since no peptide-to-protein coordinate mapping from mzid is
   possible
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_3520
@@ -44,7 +44,7 @@ metadata:
   - knitr
   - mzID
   - rmarkdown
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_3520
