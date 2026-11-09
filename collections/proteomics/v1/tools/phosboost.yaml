@@ -1,0 +1,21 @@
+name: PhosBoost
+slug: phosboost
+version_used: null
+edam_topics: []
+evidence_spans:
+- We benchmarked the performance of PhosBoost compared to two established protein phosphorylation classification methods, namely PhosphoLingo (v0.1.0) (Zuallaert et al., 2022) and DeepPhos (Luo et al.,
+- We benchmarked the performance of PhosBoost compared to two established protein phosphorylation classification methods, namely PhosphoLingo
+- We implemented PhosBoost as a stacking classifier composed of two stacked base‐classifiers and a metaclassifier, using a 5‐fold cross‐validation approach.
+- Here, we present PhosBoost, a machine-learning approach that leverages protein language models and gradient-boosting trees to predict protein phosphorylation
+- A detailed markdown page provides explanations for all analysis steps, code for reproducing results and figures, and links to raw data and results, which are available on GitHub at
+derived_from:
+- doi: 10.1002/pld3.554
+  title: 'PhosBoost: Improved phosphorylation prediction recall using gradient boosting and protein language models'
+source_repos:
+- https://github.com/eporetsky/PhosBoost
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eporetsky/PhosBoost

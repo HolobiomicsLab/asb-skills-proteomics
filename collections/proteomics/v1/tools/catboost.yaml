@@ -1,0 +1,22 @@
+name: CatBoost
+slug: catboost
+version_used: 1.1.1
+edam_topics: []
+evidence_spans:
+- The stacking classifier is comprised of two CatBoost base classifiers (v1.1.1) (Dorogush et al., 2018)
+- The stacking classifier is comprised of two CatBoost base classifiers (v1.1.1) (Dorogush et al., 2018), one trained using the balanced class weight parameter
+- The stacking classifier consists of two CatBoost base classifiers, one classifier using balanced class weights based on label frequency
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.044
+  title: 'EMCBOW-GPCR: A method for identifying G-protein coupled receptors based on word embedding and wordbooks'
+- doi: 10.1002/pld3.554
+  title: 'PhosBoost: Improved phosphorylation prediction recall using gradient boosting and protein language models'
+source_repos:
+- https://github.com/454170054/EMCBOW-GPCR
+- https://github.com/eporetsky/PhosBoost
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/454170054/EMCBOW-GPCR

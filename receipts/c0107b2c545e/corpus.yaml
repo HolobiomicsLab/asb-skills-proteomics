@@ -1,0 +1,503 @@
+schema: asb-corpus/1.0
+collection: proteomics
+version: 1
+summary:
+  total: 28
+  included: 28
+  hold: 0
+papers:
+- name: asbb_wave250_2026-09-01__coll_dssp_cq
+  doi: 10.1002/bip.360221211
+  title: 'Dictionary of protein secondary structure: Pattern recognition of hydrogen‐bonded and geometrical features'
+  category: proteomics
+  repo_url: https://github.com/PDB-REDO/dssp
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_bandit_cq
+  doi: 10.1002/minf.202000144
+  title: 'BANΔIT: B’‐Factor Analysis for Drug Design and Structural Biology'
+  category: proteomics
+  repo_url: https://github.com/FBarthels/BANDIT
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_iidom_cq
+  doi: 10.1002/mlf2.70002
+  title: 'iDOM : Statistical analysis of dissolved organic matter characterized by high‐resolution mass spectrometry'
+  category: proteomics
+  repo_url: https://github.com/jianjunwang/iDOM
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_gropt_cq
+  doi: 10.1002/mrm.28384
+  title: A gradient optimization toolbox for general purpose time‐optimal MRI gradient waveform design
+  category: proteomics
+  repo_url: https://github.com/cmr-group/gropt
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_sc_gan_cq
+  doi: 10.1002/mrm.28819
+  title: Three‐dimensional self‐attention conditional GAN with spectral normalization for multimodal neuroimaging synthesis
+  category: proteomics
+  repo_url: https://github.com/Haoyulance/SC-GAN
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_pulseq_cest_cq
+  doi: 10.1002/mrm.28825
+  title: 'Pulseq‐CEST: Towards multi‐site multi‐vendor compatibility and reproducibility of CEST experiments using an open‐source sequence standard'
+  category: proteomics
+  repo_url: https://github.com/kherz/pulseq-cest
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_cbp60_db_cq
+  doi: 10.1002/pld3.509
+  title: 'CBP60‐DB: An AlphaFold‐predicted plant kingdom‐wide database of the CALMODULIN‐BINDING PROTEIN 60 protein family with a novel structural clustering algorithm'
+  category: proteomics
+  repo_url: https://github.com/KeaunAmani/cbp60db
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_phosboost_cq
+  doi: 10.1002/pld3.554
+  title: 'PhosBoost: Improved phosphorylation prediction recall using gradient boosting and protein language models'
+  category: proteomics
+  repo_url: https://github.com/eporetsky/PhosBoost
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_popitam_cq
+  doi: 10.1002/pmic.200300402
+  title: 'Popitam: Towards new heuristic strategies to improve protein identification from tandem mass spectrometry data'
+  category: proteomics
+  repo_url: https://github.com/chernan/popitam
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ms_lims_cq
+  doi: 10.1002/pmic.200900409
+  title: ms_lims, a simple yet powerful open source laboratory information management system for MS‐driven proteomics
+  category: proteomics
+  repo_url: https://github.com/compomics/ms-lims
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: true
+    oa_status_raw: bronze
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_xtandem_parser_cq
+  doi: 10.1002/pmic.200900759
+  title: 'XTandem Parser: An open‐source library to parse and analyse X!Tandem MS/MS search results'
+  category: proteomics
+  repo_url: https://github.com/compomics/xtandem-parser
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_jmzreader_cq
+  doi: 10.1002/pmic.201100578
+  title: 'jmzReader: A Java parser library to process and visualize multiple text and XML‐based mass spectrometry data formats'
+  category: proteomics
+  repo_url: https://github.com/PRIDE-Archive/jmzReader
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: true
+    oa_status_raw: bronze
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_isoscale_cq
+  doi: 10.1002/pmic.201400084
+  title: Middle‐down hybrid chromatography/tandem mass spectrometry workflow for characterization of combinatorial post‐translational modifications in histones
+  category: proteomics
+  repo_url: https://github.com/middle-down/Software
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_scop3d_cq
+  doi: 10.1002/pmic.201400354
+  title: 'Scop3D: Three‐dimensional visualization of sequence conservation'
+  category: proteomics
+  repo_url: https://github.com/compomics/scop3d
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_pbase_cq
+  doi: 10.1002/pmic.201400392
+  title: Visualization of proteomics data using R and Bioconductor
+  category: proteomics
+  repo_url: https://github.com/lgatto/Pbase
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_mspc_morpheus_cq
+  doi: 10.1002/pmic.201500420
+  title: 'Morpheus Spectral Counter: A computational tool for label‐free quantitative mass spectrometry using the Morpheus search engine'
+  category: proteomics
+  repo_url: https://github.com/dcgemperline/Morpheus_SpC
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_calibracurve_cq
+  doi: 10.1002/pmic.201900143
+  title: 'CalibraCurve: A Tool for Calibration of Targeted MS‐Based Measurements'
+  category: proteomics
+  repo_url: https://github.com/mpc-bioinformatics/CalibraCurve
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_motifer_cq
+  doi: 10.1002/pmic.201900245
+  title: 'motifeR: An Integrated Web Software for Identification and Visualization of Protein Posttranslational Modification Motifs'
+  category: proteomics
+  repo_url: https://github.com/wangshisheng/motifeRapp
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_deeprescore_cq
+  doi: 10.1002/pmic.201900334
+  title: 'DeepRescore: Leveraging Deep Learning to Improve Peptide Identification in Immunopeptidomics'
+  category: proteomics
+  repo_url: https://github.com/bzhanglab/DeepRescore
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_prpred_drlf_cq
+  doi: 10.1002/pmic.202100161
+  title: 'prPred‐DRLF: Plant R protein predictor using deep representation learning features'
+  category: proteomics
+  repo_url: https://github.com/Wangys-prog/prPred-DRLF
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_isobaricquant_cq
+  doi: 10.1002/pmic.202100253
+  title: IsobaricQuant enables cross‐platform quantification, visualization, and filtering of isobarically‐labeled peptides
+  category: proteomics
+  repo_url: https://github.com/Villen-Lab/isobaricquant
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_musignal_cq
+  doi: 10.1002/pmic.202200252
+  title: 'muSignAl: An algorithm to search for multiple omic signatures with similar predictive performance'
+  category: proteomics
+  repo_url: https://github.com/ShuklaLab/muSignAl
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_maldimid_cq
+  doi: 10.1002/pmic.202300005
+  title: 'MALDImID: Spatialomics R package and Shiny app for more specific identification of MALDI imaging proteolytic peaks using LC‐MS/MS‐based proteomic biomarker discovery data'
+  category: proteomics
+  repo_url: https://github.com/budczies/MALDImIDshiny
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_oktoberfest_cq
+  doi: 10.1002/pmic.202300112
+  title: 'Oktoberfest: Open‐source spectral library generation and rescoring pipeline based on Prosit'
+  category: proteomics
+  repo_url: https://github.com/wilhelm-lab/oktoberfest
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_simpledsfviewer_cq
+  doi: 10.1002/pro.3703
+  title: 'SimpleDSFviewer: A tool to analyze and view differential scanning fluorimetry data for characterizing protein thermal stability and interactions'
+  category: proteomics
+  repo_url: https://github.com/hscsun/SimpleDSFviewer-5.0
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: true
+    oa_status_raw: bronze
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_emcbow_gpcr_cq
+  doi: 10.1016/j.csbj.2021.08.044
+  title: 'EMCBOW-GPCR: A method for identifying G-protein coupled receptors based on word embedding and wordbooks'
+  category: proteomics
+  repo_url: https://github.com/454170054/EMCBOW-GPCR
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_imopac_cq
+  doi: 10.1016/j.csbj.2023.07.023
+  title: 'IMOPAC: A web server for interactive multiomics and pharmacological analyses of patient-derived cancer cell lines'
+  category: proteomics
+  repo_url: https://github.com/wolfgangsk07/IMOPAC
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_sno_dca_cq
+  doi: 10.1016/j.heliyon.2023.e23187
+  title: 'SNO-DCA: A model for predicting S-nitrosylation sites based on densely connected convolutional networks and attention mechanism'
+  category: proteomics
+  repo_url: https://github.com/peanono/SNO-DCA
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall

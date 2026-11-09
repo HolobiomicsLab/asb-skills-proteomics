@@ -1,0 +1,16 @@
+name: XTandem Parser
+slug: xtandem-parser
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.200900759
+  title: 'XTandem Parser: An open‐source library to parse and analyse X!Tandem MS/MS search results'
+source_repos:
+- https://github.com/compomics/xtandem-parser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compomics/xtandem-parser

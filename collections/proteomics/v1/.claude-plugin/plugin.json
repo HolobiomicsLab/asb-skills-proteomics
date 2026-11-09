@@ -1,0 +1,16 @@
+{
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "description": "ASB Proteomics: 558 evidence-grounded skills collected from a consolidated literature cut with local retrieval.",
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-proteomics",
+  "keywords": [
+    "proteomics",
+    "scientific skills"
+  ],
+  "license": "CC-BY-4.0",
+  "name": "proteomics",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-proteomics",
+  "version": "0.1.0"
+}

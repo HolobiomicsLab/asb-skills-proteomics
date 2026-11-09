@@ -1,0 +1,215 @@
+schema_version: 0.3.0
+workflow_id: isobaric_reporter_quantification
+kind: composite-workflow
+techniques: []
+steps:
+- id: identify_psms
+  goal: identify and validate peptide-spectrum matches for isobaric quantification
+  edam_operation: http://edamontology.org/operation_3630
+  skills:
+  - proteomics-database-search-and-psm-validation
+  - proteomics-search-result-conversion
+  - comet-database-searching
+  - peptide-spectrum-matching-database-search
+  tools:
+  - Comet
+  - IsobaricQuant
+  - Java
+  - Mokapot
+  - msconvert
+  inputs:
+  - type: mzml
+    flavour: isobaric-msms
+  - type: fasta
+    flavour: target-decoy-proteome
+  - type: text
+    flavour: database-search-and-fdr-parameters
+  outputs:
+  - type: csv
+    flavour: isobaricquant-validated-psm-hits
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-201900334
+    - asb-paper-10-1002-pmic-202100253
+    dois:
+    - 10.1002/pmic.201900334
+    - 10.1002/pmic.202100253
+  after: []
+  candidate_tools:
+  - Java 17
+  - DeepRescore
+  - PDV
+  - ProteoWizard
+  - Percolator
+- id: quantify_reporter_ions
+  goal: extract peptide-level reporter intensities and scan interference scores
+  edam_operation: http://edamontology.org/operation_3630
+  skills:
+  - isobaric-reporter-ion-quantification
+  - isobaric-tmt-peptide-quantification
+  - isobaric-quantification-cross-tool-benchmarking
+  - precursor-interference-qc-score-calculation
+  tools:
+  - Comet
+  - IsobaricQuant
+  - Java
+  - Java 17
+  - Percolator
+  - msconvert
+  inputs:
+  - type: mzml
+    flavour: isobaric-msms
+  - type: csv
+    flavour: isobaricquant-validated-psm-hits
+  - type: text
+    flavour: isobaricquant-configuration
+  outputs:
+  - type: csv
+    flavour: isobaric-peptide-quantification-with-qc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-202100253
+    dois:
+    - 10.1002/pmic.202100253
+  after:
+  - identify_psms
+  inputs_from:
+    identify_psms:
+    - csv:isobaricquant-validated-psm-hits
+- id: filter_interference
+  goal: remove peptide reporter measurements with unsupported co-isolation scores
+  edam_operation: http://edamontology.org/operation_3634
+  skills:
+  - isobaric-peptide-qc-score-filtering
+  - reporter-ion-interference-assessment
+  - tmt-interference-qc-score-filtering
+  tools:
+  - Comet
+  - IsobaricQuant
+  - Java
+  - Java 17
+  - msconvert
+  inputs:
+  - type: csv
+    flavour: isobaric-peptide-quantification-with-qc
+  - type: text
+    flavour: interference-thresholds
+  outputs:
+  - type: csv
+    flavour: filtered-peptide-reporter-quantification
+  - type: csv
+    flavour: interference-filter-qc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-202100253
+    dois:
+    - 10.1002/pmic.202100253
+  after:
+  - quantify_reporter_ions
+  candidate_tools:
+  - Percolator
+  inputs_from:
+    quantify_reporter_ions:
+    - csv:isobaric-peptide-quantification-with-qc
+- id: aggregate_proteins
+  goal: roll matched unfiltered and filtered peptide intensities up to proteins
+  edam_operation: http://edamontology.org/operation_3630
+  skills:
+  - protein-inference-and-quantification-aggregation
+  - protein-level-peptide-aggregation
+  tools:
+  - Comet
+  - IsobaricQuant
+  - Java
+  - Percolator
+  - msconvert
+  inputs:
+  - type: csv
+    flavour: isobaric-peptide-quantification-with-qc
+  - type: csv
+    flavour: filtered-peptide-reporter-quantification
+  - type: csv
+    flavour: isobaricquant-validated-psm-hits
+  outputs:
+  - type: csv
+    flavour: unfiltered-protein-reporter-matrix
+  - type: csv
+    flavour: filtered-protein-reporter-matrix
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-202100253
+    dois:
+    - 10.1002/pmic.202100253
+  after:
+  - identify_psms
+  - quantify_reporter_ions
+  - filter_interference
+  inputs_from:
+    identify_psms:
+    - csv:isobaricquant-validated-psm-hits
+    quantify_reporter_ions:
+    - csv:isobaric-peptide-quantification-with-qc
+    filter_interference:
+    - csv:filtered-peptide-reporter-quantification
+- id: test_differential_abundance
+  goal: compare protein significance before and after interference filtering
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - differential-abundance-significance-testing
+  - intra-protein-cv-precision-analysis
+  tools:
+  - Comet
+  - IsobaricQuant
+  - Java
+  - Java 17
+  - msconvert
+  inputs:
+  - type: csv
+    flavour: unfiltered-protein-reporter-matrix
+  - type: csv
+    flavour: filtered-protein-reporter-matrix
+  - type: csv
+    flavour: isobaric-peptide-quantification-with-qc
+  - type: csv
+    flavour: sample-design
+  outputs:
+  - type: csv
+    flavour: unfiltered-differential-protein-abundance
+  - type: csv
+    flavour: filtered-differential-protein-abundance
+  - type: csv
+    flavour: differential-significance-changes
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-202100253
+    dois:
+    - 10.1002/pmic.202100253
+  after:
+  - quantify_reporter_ions
+  - aggregate_proteins
+  candidate_tools:
+  - IsobaricQuant benchmark
+  inputs_from:
+    quantify_reporter_ions:
+    - csv:isobaric-peptide-quantification-with-qc
+    aggregate_proteins:
+    - csv:unfiltered-protein-reporter-matrix
+    - csv:filtered-protein-reporter-matrix
+verification:
+  final_outputs:
+  - path: validated_psm_hits.csv
+    type: file
+  - path: isopep_extra.csv
+    type: file
+  - path: filtered_peptide_reporters.csv
+    type: file
+  - path: unfiltered_protein_reporter_matrix.csv
+    type: file
+  - path: filtered_protein_reporter_matrix.csv
+    type: file
+  - path: differential_significance_changes.csv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

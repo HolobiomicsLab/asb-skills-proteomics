@@ -1,0 +1,16 @@
+name: TM-Align
+slug: tm-align
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pld3.509
+  title: 'CBP60‐DB: An AlphaFold‐predicted plant kingdom‐wide database of the CALMODULIN‐BINDING PROTEIN 60 protein family with a novel structural clustering algorithm'
+source_repos:
+- https://github.com/KeaunAmani/cbp60db
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KeaunAmani/cbp60db

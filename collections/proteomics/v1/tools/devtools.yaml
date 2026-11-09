@@ -1,0 +1,21 @@
+name: devtools
+slug: devtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("jianjunwang/iDOM")
+- install.packages("devtools")
+derived_from:
+- doi: 10.1002/mlf2.70002
+  title: "<i>iDOM</i>\n                    : Statistical analysis of dissolved organic matter characterized by high‐resolution mass spectrometry"
+- doi: 10.1002/pmic.202200252
+  title: 'muSignAl: An algorithm to search for multiple omic signatures with similar predictive performance'
+source_repos:
+- https://github.com/jianjunwang/iDOM
+- https://github.com/ShuklaLab/muSignAl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jianjunwang/iDOM

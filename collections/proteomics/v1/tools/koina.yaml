@@ -1,0 +1,18 @@
+name: Koina
+slug: koina
+version_used: null
+edam_topics: []
+evidence_spans:
+- Access to functions that interface either a Koina server to retrieve predictions from various prediction models.
+- interface either a Koina server to retrieve predictions from various prediction models
+derived_from:
+- doi: 10.1002/pmic.202300112
+  title: 'Oktoberfest: Open‐source spectral library generation and rescoring pipeline based on Prosit'
+source_repos:
+- https://github.com/wilhelm-lab/oktoberfest
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wilhelm-lab/oktoberfest

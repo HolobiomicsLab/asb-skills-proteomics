@@ -1,0 +1,17 @@
+name: MALDImID
+slug: maldimid
+version_used: null
+edam_topics: []
+evidence_spans:
+- we implemented an R package and Shiny app to exploit liquid chromatography-tandem mass spectrometry (LC-MS/MS)-based proteomic biomarker discovery data
+derived_from:
+- doi: 10.1002/pmic.202300005
+  title: 'MALDImID: Spatialomics R package and Shiny app for more specific identification of MALDI imaging proteolytic peaks using LC‐MS/MS‐based proteomic biomarker discovery data'
+source_repos:
+- https://github.com/budczies/MALDImIDshiny
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/budczies/MALDImIDshiny

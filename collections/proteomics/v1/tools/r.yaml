@@ -1,0 +1,43 @@
+name: R
+slug: r
+version_used: 4.1.2
+edam_topics: []
+evidence_spans:
+- R = citation(),
+- Installing packages in R from zip source.
+- we implemented an R package and Shiny app to exploit liquid chromatography-tandem mass spectrometry (LC-MS/MS)-based proteomic biomarker discovery data
+- muSignAl was coded in R v3.6, and require a couple of packages (`glmnet` and `pROC`) to be pre-installed
+- muSignAl was coded in R v3.6
+- Here, we provided a short overview of the application of the R software
+- '{r style, echo = FALSE, results = ''asis'', message=FALSE}'
+- Here, we provided a short overview of the application of the R software to the visualization of proteomics data.
+- "output:\n  BiocStyle::html_document:\n    toc: true"
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.023
+  title: 'IMOPAC: A web server for interactive multiomics and pharmacological analyses of patient-derived cancer cell lines'
+- doi: 10.1002/pmic.201900143
+  title: 'CalibraCurve: A Tool for Calibration of Targeted MS‐Based Measurements'
+- doi: 10.1002/mlf2.70002
+  title: "<i>iDOM</i>\n                    : Statistical analysis of dissolved organic matter characterized by high‐resolution mass spectrometry"
+- doi: 10.1002/pmic.202300005
+  title: 'MALDImID: Spatialomics R package and Shiny app for more specific identification of MALDI imaging proteolytic peaks using LC‐MS/MS‐based proteomic biomarker discovery data'
+- doi: 10.1002/pmic.201900245
+  title: 'motifeR: An Integrated Web Software for Identification and Visualization of Protein Posttranslational Modification Motifs'
+- doi: 10.1002/pmic.202200252
+  title: 'muSignAl: An algorithm to search for multiple omic signatures with similar predictive performance'
+- doi: 10.1002/pmic.201400392
+  title: Visualization of proteomics data using R and Bioconductor
+source_repos:
+- https://github.com/wolfgangsk07/IMOPAC
+- https://github.com/mpc-bioinformatics/CalibraCurve
+- https://github.com/jianjunwang/iDOM
+- https://github.com/budczies/MALDImIDshiny
+- https://github.com/wangshisheng/motifeRapp
+- https://github.com/ShuklaLab/muSignAl
+- https://github.com/lgatto/Pbase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wolfgangsk07/IMOPAC

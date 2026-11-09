@@ -1,0 +1,1 @@
+{"builds": 28, "dry_run": false, "input_files": 1761, "manifest_doi_stamped": 0, "skills": 558, "status": "collected", "tools": 163, "workflows": 0}

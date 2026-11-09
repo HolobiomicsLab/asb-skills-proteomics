@@ -1,0 +1,16 @@
+name: Matlab Runtime
+slug: matlab-runtime
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pro.3703
+  title: 'SimpleDSFviewer: A tool to analyze and view differential scanning fluorimetry data for characterizing protein thermal stability and interactions'
+source_repos:
+- https://github.com/hscsun/SimpleDSFviewer-5.0
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hscsun/SimpleDSFviewer-5.0

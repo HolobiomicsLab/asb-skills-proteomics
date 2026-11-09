@@ -1,0 +1,19 @@
+name: DIAMOND
+slug: diamond
+version_used: 2.1.6
+edam_topics: []
+evidence_spans:
+- DIAMOND alignment step (v2.1.6)
+- annotate with the PhosBoost prediction results and the DIAMOND pairwise alignment analysis results
+- To enhance phosphosite annotation, we employed a sequence-based DIAMOND alignment step (v2.1.6) (Buchfink et al., 2021).
+derived_from:
+- doi: 10.1002/pld3.554
+  title: 'PhosBoost: Improved phosphorylation prediction recall using gradient boosting and protein language models'
+source_repos:
+- https://github.com/eporetsky/PhosBoost
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eporetsky/PhosBoost

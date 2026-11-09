@@ -1,0 +1,20 @@
+name: glmnet
+slug: glmnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- require a couple of packages (`glmnet` and `pROC`) to be pre-installed
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.023
+  title: 'IMOPAC: A web server for interactive multiomics and pharmacological analyses of patient-derived cancer cell lines'
+- doi: 10.1002/pmic.202200252
+  title: 'muSignAl: An algorithm to search for multiple omic signatures with similar predictive performance'
+source_repos:
+- https://github.com/wolfgangsk07/IMOPAC
+- https://github.com/ShuklaLab/muSignAl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wolfgangsk07/IMOPAC

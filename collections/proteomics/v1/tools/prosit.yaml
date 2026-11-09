@@ -1,0 +1,20 @@
+name: Prosit
+slug: prosit
+version_used: null
+edam_topics: []
+evidence_spans:
+- ML and deep learning (DL) models for peptide property prediction such as Prosit
+- For Prosit MultiFrag, this option can be one of "HCD, ECD, EID, ETciD, UVPD"
+- For Prosit MultiFrag, this option can be one of "HCD, ECD, EID, ETciD, UVPD"; default = "HCD"
+- ML and deep learning (DL) models for peptide property prediction such as Prosit have enabled the creation of high quality in silico reference libraries
+derived_from:
+- doi: 10.1002/pmic.202300112
+  title: 'Oktoberfest: Open‐source spectral library generation and rescoring pipeline based on Prosit'
+source_repos:
+- https://github.com/wilhelm-lab/oktoberfest
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wilhelm-lab/oktoberfest

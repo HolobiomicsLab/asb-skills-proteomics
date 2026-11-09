@@ -1,0 +1,17 @@
+name: msqc1
+slug: msqc1
+version_used: null
+edam_topics: []
+evidence_spans:
+- msqc1 = citation("msqc1")[1]
+derived_from:
+- doi: 10.1002/pmic.201900143
+  title: 'CalibraCurve: A Tool for Calibration of Targeted MS‐Based Measurements'
+source_repos:
+- https://github.com/mpc-bioinformatics/CalibraCurve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mpc-bioinformatics/CalibraCurve

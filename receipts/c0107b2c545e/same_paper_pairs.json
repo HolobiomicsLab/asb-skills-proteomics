@@ -1,0 +1,1483 @@
+{
+  "auto_merges_applied": false,
+  "components_ge_0_90": 53,
+  "components_ge_0_95": 4,
+  "input_digests": {
+    "coverage_summary_sha256": "c0107b2c545e824677f37c159001cce9d7899786256f2f6da486047ed0618210",
+    "outputs": 558
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "left": {
+        "canonical_slug": "dsf-melting-curve-processing",
+        "merge_kind": "single",
+        "output_id": "dsf-melting-curve-processing"
+      },
+      "right": {
+        "canonical_slug": "dsf-melting-curve-smoothing-comparison",
+        "merge_kind": "single",
+        "output_id": "dsf-melting-curve-smoothing-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.949875
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-binary-ptm-abundance-statistics",
+        "merge_kind": "single",
+        "output_id": "histone-binary-ptm-abundance-statistics"
+      },
+      "right": {
+        "canonical_slug": "histone-combinatorial-ptm-abundance-normalization",
+        "merge_kind": "single",
+        "output_id": "histone-combinatorial-ptm-abundance-normalization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.948507
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-melting-curve-smoothing-comparison",
+        "merge_kind": "single",
+        "output_id": "dsf-melting-curve-smoothing-comparison"
+      },
+      "right": {
+        "canonical_slug": "melting-curve-piecewise-smoothing",
+        "merge_kind": "single",
+        "output_id": "melting-curve-piecewise-smoothing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.947089
+    },
+    {
+      "left": {
+        "canonical_slug": "multiple-sequence-alignment-generation",
+        "merge_kind": "single",
+        "output_id": "multiple-sequence-alignment-generation"
+      },
+      "right": {
+        "canonical_slug": "protein-sequence-alignment",
+        "merge_kind": "single",
+        "output_id": "protein-sequence-alignment"
+      },
+      "run": "asbb_subwave_2026-08-31__coll_cbp60_db_cq",
+      "score": 0.945034
+    },
+    {
+      "left": {
+        "canonical_slug": "peptide-spectrum-matching",
+        "merge_kind": "single",
+        "output_id": "peptide-spectrum-matching"
+      },
+      "right": {
+        "canonical_slug": "theoretical-peptide-sequence-matching",
+        "merge_kind": "single",
+        "output_id": "theoretical-peptide-sequence-matching"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_popitam_cq",
+      "score": 0.944705
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-peptide-fragment-ion-ratio-correction",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-fragment-ion-ratio-correction"
+      },
+      "right": {
+        "canonical_slug": "isobaric-peptide-fragment-ratio-quantification",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-fragment-ratio-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.94231
+    },
+    {
+      "left": {
+        "canonical_slug": "mascot-output-parsing",
+        "merge_kind": "single",
+        "output_id": "mascot-output-parsing"
+      },
+      "right": {
+        "canonical_slug": "mascot-result-parsing",
+        "merge_kind": "single",
+        "output_id": "mascot-result-parsing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.941095
+    },
+    {
+      "left": {
+        "canonical_slug": "precursor-ion-information-parsing",
+        "merge_kind": "single",
+        "output_id": "precursor-ion-information-parsing"
+      },
+      "right": {
+        "canonical_slug": "precursor-ion-metadata-extraction",
+        "merge_kind": "single",
+        "output_id": "precursor-ion-metadata-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.937117
+    },
+    {
+      "left": {
+        "canonical_slug": "gan-hyperparameter-tuning-cross-validation",
+        "merge_kind": "single",
+        "output_id": "gan-hyperparameter-tuning-cross-validation"
+      },
+      "right": {
+        "canonical_slug": "gan-training-hyperparameter-tuning",
+        "merge_kind": "single",
+        "output_id": "gan-training-hyperparameter-tuning"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.937023
+    },
+    {
+      "left": {
+        "canonical_slug": "plant-r-protein-classification-context",
+        "merge_kind": "single",
+        "output_id": "plant-r-protein-classification-context"
+      },
+      "right": {
+        "canonical_slug": "plant-r-protein-prediction",
+        "merge_kind": "single",
+        "output_id": "plant-r-protein-prediction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prpred_drlf_cq",
+      "score": 0.936758
+    },
+    {
+      "left": {
+        "canonical_slug": "mtr-asym-z-spectral-normalization",
+        "merge_kind": "single",
+        "output_id": "mtr-asym-z-spectral-normalization"
+      },
+      "right": {
+        "canonical_slug": "z-spectrum-normalization-and-mtrasym-calculation",
+        "merge_kind": "single",
+        "output_id": "z-spectrum-normalization-and-mtrasym-calculation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pulseq_cest_cq",
+      "score": 0.936162
+    },
+    {
+      "left": {
+        "canonical_slug": "ms2-peak-list-parsing",
+        "merge_kind": "single",
+        "output_id": "ms2-peak-list-parsing"
+      },
+      "right": {
+        "canonical_slug": "peak-list-parser-implementation",
+        "merge_kind": "single",
+        "output_id": "peak-list-parser-implementation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.935152
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-binary-ptm-abundance-statistics",
+        "merge_kind": "single",
+        "output_id": "histone-binary-ptm-abundance-statistics"
+      },
+      "right": {
+        "canonical_slug": "histone-ptm-relative-quantification",
+        "merge_kind": "single",
+        "output_id": "histone-ptm-relative-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.934733
+    },
+    {
+      "left": {
+        "canonical_slug": "calibration-curve-linear-regression",
+        "merge_kind": "single",
+        "output_id": "calibration-curve-linear-regression"
+      },
+      "right": {
+        "canonical_slug": "calibration-curve-visualization",
+        "merge_kind": "single",
+        "output_id": "calibration-curve-visualization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.934143
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-binary-ptm-abundance-statistics",
+        "merge_kind": "single",
+        "output_id": "histone-binary-ptm-abundance-statistics"
+      },
+      "right": {
+        "canonical_slug": "histone-ptm-co-occurrence-frequency-analysis",
+        "merge_kind": "single",
+        "output_id": "histone-ptm-co-occurrence-frequency-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.933142
+    },
+    {
+      "left": {
+        "canonical_slug": "proteomics-database-search-and-psm-validation",
+        "merge_kind": "single",
+        "output_id": "proteomics-database-search-and-psm-validation"
+      },
+      "right": {
+        "canonical_slug": "proteomics-search-result-conversion",
+        "merge_kind": "single",
+        "output_id": "proteomics-search-result-conversion"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.931413
+    },
+    {
+      "left": {
+        "canonical_slug": "proteomics-peptide-table-subsetting",
+        "merge_kind": "single",
+        "output_id": "proteomics-peptide-table-subsetting"
+      },
+      "right": {
+        "canonical_slug": "proteomics-table-formatting",
+        "merge_kind": "single",
+        "output_id": "proteomics-table-formatting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maldimid_cq",
+      "score": 0.930696
+    },
+    {
+      "left": {
+        "canonical_slug": "proteomics-rescoring-pipeline-execution",
+        "merge_kind": "single",
+        "output_id": "proteomics-rescoring-pipeline-execution"
+      },
+      "right": {
+        "canonical_slug": "public-proteomics-dataset-reanalysis",
+        "merge_kind": "single",
+        "output_id": "public-proteomics-dataset-reanalysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_oktoberfest_cq",
+      "score": 0.928597
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-peptide-abundance-deconvolution",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-abundance-deconvolution"
+      },
+      "right": {
+        "canonical_slug": "relative-peptide-abundance-quantification",
+        "merge_kind": "single",
+        "output_id": "relative-peptide-abundance-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.928324
+    },
+    {
+      "left": {
+        "canonical_slug": "diffusion-mri-superresolution",
+        "merge_kind": "single",
+        "output_id": "diffusion-mri-superresolution"
+      },
+      "right": {
+        "canonical_slug": "multidimensional-diffusion-mri-challenge-data-handling",
+        "merge_kind": "single",
+        "output_id": "multidimensional-diffusion-mri-challenge-data-handling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.928305
+    },
+    {
+      "left": {
+        "canonical_slug": "feature-importance-frequency-estimation",
+        "merge_kind": "single",
+        "output_id": "feature-importance-frequency-estimation"
+      },
+      "right": {
+        "canonical_slug": "feature-importance-threshold-filtering",
+        "merge_kind": "single",
+        "output_id": "feature-importance-threshold-filtering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_musignal_cq",
+      "score": 0.92793
+    },
+    {
+      "left": {
+        "canonical_slug": "auc-based-signature-performance-thresholding",
+        "merge_kind": "single",
+        "output_id": "auc-based-signature-performance-thresholding"
+      },
+      "right": {
+        "canonical_slug": "auc-threshold-signature-filtering",
+        "merge_kind": "single",
+        "output_id": "auc-threshold-signature-filtering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_musignal_cq",
+      "score": 0.927745
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-ptm-co-occurrence-frequency-analysis",
+        "merge_kind": "single",
+        "output_id": "histone-ptm-co-occurrence-frequency-analysis"
+      },
+      "right": {
+        "canonical_slug": "histone-ptm-relative-quantification",
+        "merge_kind": "single",
+        "output_id": "histone-ptm-relative-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.926091
+    },
+    {
+      "left": {
+        "canonical_slug": "calibration-curve-visualization",
+        "merge_kind": "single",
+        "output_id": "calibration-curve-visualization"
+      },
+      "right": {
+        "canonical_slug": "calibration-model-summary-reporting",
+        "merge_kind": "single",
+        "output_id": "calibration-model-summary-reporting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.926066
+    },
+    {
+      "left": {
+        "canonical_slug": "targeted-proteomics-assay-validation",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-assay-validation"
+      },
+      "right": {
+        "canonical_slug": "targeted-proteomics-linear-range-output",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-linear-range-output"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.926044
+    },
+    {
+      "left": {
+        "canonical_slug": "3d-self-attention-module-implementation",
+        "merge_kind": "single",
+        "output_id": "3d-self-attention-module-implementation"
+      },
+      "right": {
+        "canonical_slug": "self-attention-module-contribution-analysis",
+        "merge_kind": "single",
+        "output_id": "self-attention-module-contribution-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.92477
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-reporter-ion-quantification",
+        "merge_kind": "single",
+        "output_id": "isobaric-reporter-ion-quantification"
+      },
+      "right": {
+        "canonical_slug": "reporter-ion-ratio-accuracy-assessment",
+        "merge_kind": "single",
+        "output_id": "reporter-ion-ratio-accuracy-assessment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.924263
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-model-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-model-benchmark-comparison"
+      },
+      "right": {
+        "canonical_slug": "gan-hyperparameter-tuning-cross-validation",
+        "merge_kind": "single",
+        "output_id": "gan-hyperparameter-tuning-cross-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.924215
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-combinatorial-ptm-abundance-normalization",
+        "merge_kind": "single",
+        "output_id": "histone-combinatorial-ptm-abundance-normalization"
+      },
+      "right": {
+        "canonical_slug": "histone-ptm-co-occurrence-frequency-analysis",
+        "merge_kind": "single",
+        "output_id": "histone-ptm-co-occurrence-frequency-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.923219
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-peptide-fragment-ratio-quantification",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-fragment-ratio-quantification"
+      },
+      "right": {
+        "canonical_slug": "relative-peptide-abundance-quantification",
+        "merge_kind": "single",
+        "output_id": "relative-peptide-abundance-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.922812
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-fluorescence-data-processing",
+        "merge_kind": "single",
+        "output_id": "dsf-fluorescence-data-processing"
+      },
+      "right": {
+        "canonical_slug": "min-max-scaling-of-fluorescence-data",
+        "merge_kind": "single",
+        "output_id": "min-max-scaling-of-fluorescence-data"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.922765
+    },
+    {
+      "left": {
+        "canonical_slug": "spectrum-graph-construction",
+        "merge_kind": "single",
+        "output_id": "spectrum-graph-construction"
+      },
+      "right": {
+        "canonical_slug": "spectrum-graph-path-scoring",
+        "merge_kind": "single",
+        "output_id": "spectrum-graph-path-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_popitam_cq",
+      "score": 0.922709
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-melting-curve-smoothing-comparison",
+        "merge_kind": "single",
+        "output_id": "dsf-melting-curve-smoothing-comparison"
+      },
+      "right": {
+        "canonical_slug": "melting-curve-numerical-differentiation",
+        "merge_kind": "single",
+        "output_id": "melting-curve-numerical-differentiation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.922299
+    },
+    {
+      "left": {
+        "canonical_slug": "multithreaded-duration-search-benchmarking",
+        "merge_kind": "single",
+        "output_id": "multithreaded-duration-search-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "optimization-compute-time-benchmarking",
+        "merge_kind": "single",
+        "output_id": "optimization-compute-time-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_gropt_cq",
+      "score": 0.921004
+    },
+    {
+      "left": {
+        "canonical_slug": "binary-classifier-benchmarking",
+        "merge_kind": "single",
+        "output_id": "binary-classifier-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosting-classifier-training",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-classifier-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_phosboost_cq",
+      "score": 0.920745
+    },
+    {
+      "left": {
+        "canonical_slug": "reporter-ion-interference-assessment",
+        "merge_kind": "single",
+        "output_id": "reporter-ion-interference-assessment"
+      },
+      "right": {
+        "canonical_slug": "reporter-ion-ratio-accuracy-assessment",
+        "merge_kind": "single",
+        "output_id": "reporter-ion-ratio-accuracy-assessment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.920528
+    },
+    {
+      "left": {
+        "canonical_slug": "mass-spectrometry-data-management",
+        "merge_kind": "single",
+        "output_id": "mass-spectrometry-data-management"
+      },
+      "right": {
+        "canonical_slug": "mass-spectrometry-spectrum-archival-schema-design",
+        "merge_kind": "single",
+        "output_id": "mass-spectrometry-spectrum-archival-schema-design"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ms_lims_cq",
+      "score": 0.920405
+    },
+    {
+      "left": {
+        "canonical_slug": "peak-list-parser-implementation",
+        "merge_kind": "single",
+        "output_id": "peak-list-parser-implementation"
+      },
+      "right": {
+        "canonical_slug": "pkl-peak-list-format-parsing",
+        "merge_kind": "single",
+        "output_id": "pkl-peak-list-format-parsing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.920301
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-melting-curve-processing",
+        "merge_kind": "single",
+        "output_id": "dsf-melting-curve-processing"
+      },
+      "right": {
+        "canonical_slug": "melting-curve-numerical-differentiation",
+        "merge_kind": "single",
+        "output_id": "melting-curve-numerical-differentiation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.918874
+    },
+    {
+      "left": {
+        "canonical_slug": "mri-gradient-waveform-optimization",
+        "merge_kind": "single",
+        "output_id": "mri-gradient-waveform-optimization"
+      },
+      "right": {
+        "canonical_slug": "phase-contrast-mri-gradient-design",
+        "merge_kind": "single",
+        "output_id": "phase-contrast-mri-gradient-design"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_gropt_cq",
+      "score": 0.918412
+    },
+    {
+      "left": {
+        "canonical_slug": "calibration-curve-linear-regression",
+        "merge_kind": "single",
+        "output_id": "calibration-curve-linear-regression"
+      },
+      "right": {
+        "canonical_slug": "weighted-least-squares-calibration-fitting",
+        "merge_kind": "single",
+        "output_id": "weighted-least-squares-calibration-fitting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.918296
+    },
+    {
+      "left": {
+        "canonical_slug": "dom-molecular-trait-visualization",
+        "merge_kind": "single",
+        "output_id": "dom-molecular-trait-visualization"
+      },
+      "right": {
+        "canonical_slug": "molecular-trait-calculation",
+        "merge_kind": "single",
+        "output_id": "molecular-trait-calculation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_iidom_cq",
+      "score": 0.918256
+    },
+    {
+      "left": {
+        "canonical_slug": "xtandem-xml-object-model-access",
+        "merge_kind": "single",
+        "output_id": "xtandem-xml-object-model-access"
+      },
+      "right": {
+        "canonical_slug": "xtandem-xml-result-parsing",
+        "merge_kind": "single",
+        "output_id": "xtandem-xml-result-parsing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_xtandem_parser_cq",
+      "score": 0.917857
+    },
+    {
+      "left": {
+        "canonical_slug": "half-maximal-fluorescence-tm-calculation",
+        "merge_kind": "single",
+        "output_id": "half-maximal-fluorescence-tm-calculation"
+      },
+      "right": {
+        "canonical_slug": "min-max-scaling-of-fluorescence-data",
+        "merge_kind": "single",
+        "output_id": "min-max-scaling-of-fluorescence-data"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.917703
+    },
+    {
+      "left": {
+        "canonical_slug": "spectral-peak-annotation-of-psms",
+        "merge_kind": "single",
+        "output_id": "spectral-peak-annotation-of-psms"
+      },
+      "right": {
+        "canonical_slug": "spectral-peak-annotation-with-predicted-fragments",
+        "merge_kind": "single",
+        "output_id": "spectral-peak-annotation-with-predicted-fragments"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_oktoberfest_cq",
+      "score": 0.917358
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-model-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-model-benchmark-comparison"
+      },
+      "right": {
+        "canonical_slug": "cross-model-compute-cost-tabulation",
+        "merge_kind": "single",
+        "output_id": "cross-model-compute-cost-tabulation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.917198
+    },
+    {
+      "left": {
+        "canonical_slug": "targeted-proteomics-calibration-curve-fitting",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-calibration-curve-fitting"
+      },
+      "right": {
+        "canonical_slug": "targeted-proteomics-dilution-series-analysis",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-dilution-series-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.916978
+    },
+    {
+      "left": {
+        "canonical_slug": "gradient-moment-nulling-constraint-design",
+        "merge_kind": "single",
+        "output_id": "gradient-moment-nulling-constraint-design"
+      },
+      "right": {
+        "canonical_slug": "moment-nulling-constraint-configuration",
+        "merge_kind": "single",
+        "output_id": "moment-nulling-constraint-configuration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_gropt_cq",
+      "score": 0.916798
+    },
+    {
+      "left": {
+        "canonical_slug": "calibration-curve-linear-regression",
+        "merge_kind": "single",
+        "output_id": "calibration-curve-linear-regression"
+      },
+      "right": {
+        "canonical_slug": "calibration-model-summary-reporting",
+        "merge_kind": "single",
+        "output_id": "calibration-model-summary-reporting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.916761
+    },
+    {
+      "left": {
+        "canonical_slug": "histone-combinatorial-ptm-abundance-normalization",
+        "merge_kind": "single",
+        "output_id": "histone-combinatorial-ptm-abundance-normalization"
+      },
+      "right": {
+        "canonical_slug": "histone-ptm-relative-quantification",
+        "merge_kind": "single",
+        "output_id": "histone-ptm-relative-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.916617
+    },
+    {
+      "left": {
+        "canonical_slug": "targeted-proteomics-assay-validation",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-assay-validation"
+      },
+      "right": {
+        "canonical_slug": "targeted-proteomics-calibration-curve-fitting",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-calibration-curve-fitting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.916134
+    },
+    {
+      "left": {
+        "canonical_slug": "precursor-ion-metadata-extraction",
+        "merge_kind": "single",
+        "output_id": "precursor-ion-metadata-extraction"
+      },
+      "right": {
+        "canonical_slug": "precursor-metadata-extraction-from-peak-lists",
+        "merge_kind": "single",
+        "output_id": "precursor-metadata-extraction-from-peak-lists"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.915968
+    },
+    {
+      "left": {
+        "canonical_slug": "pet-image-synthesis-from-mri",
+        "merge_kind": "single",
+        "output_id": "pet-image-synthesis-from-mri"
+      },
+      "right": {
+        "canonical_slug": "pet-mri-coregistration",
+        "merge_kind": "single",
+        "output_id": "pet-mri-coregistration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.915134
+    },
+    {
+      "left": {
+        "canonical_slug": "mri-gradient-hardware-constraint-setup",
+        "merge_kind": "single",
+        "output_id": "mri-gradient-hardware-constraint-setup"
+      },
+      "right": {
+        "canonical_slug": "mri-gradient-waveform-optimization",
+        "merge_kind": "single",
+        "output_id": "mri-gradient-waveform-optimization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_gropt_cq",
+      "score": 0.91486
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-melting-curve-processing",
+        "merge_kind": "single",
+        "output_id": "dsf-melting-curve-processing"
+      },
+      "right": {
+        "canonical_slug": "melting-curve-piecewise-smoothing",
+        "merge_kind": "single",
+        "output_id": "melting-curve-piecewise-smoothing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.914011
+    },
+    {
+      "left": {
+        "canonical_slug": "peptide-to-protein-coordinate-mapping",
+        "merge_kind": "single",
+        "output_id": "peptide-to-protein-coordinate-mapping"
+      },
+      "right": {
+        "canonical_slug": "protein-peptide-range-visualization",
+        "merge_kind": "single",
+        "output_id": "protein-peptide-range-visualization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pbase_cq",
+      "score": 0.913306
+    },
+    {
+      "left": {
+        "canonical_slug": "biomarker-signature-thresholding",
+        "merge_kind": "single",
+        "output_id": "biomarker-signature-thresholding"
+      },
+      "right": {
+        "canonical_slug": "proteomic-biomarker-signature-discovery",
+        "merge_kind": "single",
+        "output_id": "proteomic-biomarker-signature-discovery"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_musignal_cq",
+      "score": 0.913233
+    },
+    {
+      "left": {
+        "canonical_slug": "melting-curve-numerical-differentiation",
+        "merge_kind": "single",
+        "output_id": "melting-curve-numerical-differentiation"
+      },
+      "right": {
+        "canonical_slug": "melting-curve-piecewise-smoothing",
+        "merge_kind": "single",
+        "output_id": "melting-curve-piecewise-smoothing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.912614
+    },
+    {
+      "left": {
+        "canonical_slug": "psm-data-driven-rescoring",
+        "merge_kind": "single",
+        "output_id": "psm-data-driven-rescoring"
+      },
+      "right": {
+        "canonical_slug": "psm-rescoring-with-predicted-spectral-features",
+        "merge_kind": "single",
+        "output_id": "psm-rescoring-with-predicted-spectral-features"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_oktoberfest_cq",
+      "score": 0.912486
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-discovery-sensitivity-comparison",
+        "merge_kind": "single",
+        "output_id": "motif-discovery-sensitivity-comparison"
+      },
+      "right": {
+        "canonical_slug": "motif-overrepresentation-significance-testing",
+        "merge_kind": "single",
+        "output_id": "motif-overrepresentation-significance-testing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_motifer_cq",
+      "score": 0.912294
+    },
+    {
+      "left": {
+        "canonical_slug": "precision-recall-metric-computation",
+        "merge_kind": "single",
+        "output_id": "precision-recall-metric-computation"
+      },
+      "right": {
+        "canonical_slug": "precision-recall-tradeoff-analysis",
+        "merge_kind": "single",
+        "output_id": "precision-recall-tradeoff-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_phosboost_cq",
+      "score": 0.912044
+    },
+    {
+      "left": {
+        "canonical_slug": "image-quality-metric-computation",
+        "merge_kind": "single",
+        "output_id": "image-quality-metric-computation"
+      },
+      "right": {
+        "canonical_slug": "neuroimage-quality-metric-evaluation",
+        "merge_kind": "single",
+        "output_id": "neuroimage-quality-metric-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.911577
+    },
+    {
+      "left": {
+        "canonical_slug": "mtrasym-map-computation-from-z-spectra",
+        "merge_kind": "single",
+        "output_id": "mtrasym-map-computation-from-z-spectra"
+      },
+      "right": {
+        "canonical_slug": "z-spectrum-normalization-and-mtrasym-calculation",
+        "merge_kind": "single",
+        "output_id": "z-spectrum-normalization-and-mtrasym-calculation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pulseq_cest_cq",
+      "score": 0.910923
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-fluorescence-data-processing",
+        "merge_kind": "single",
+        "output_id": "dsf-fluorescence-data-processing"
+      },
+      "right": {
+        "canonical_slug": "fluorescence-curve-normalization",
+        "merge_kind": "single",
+        "output_id": "fluorescence-curve-normalization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.910563
+    },
+    {
+      "left": {
+        "canonical_slug": "targeted-proteomics-calibration-curve-fitting",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-calibration-curve-fitting"
+      },
+      "right": {
+        "canonical_slug": "targeted-proteomics-linear-range-output",
+        "merge_kind": "single",
+        "output_id": "targeted-proteomics-linear-range-output"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.910349
+    },
+    {
+      "left": {
+        "canonical_slug": "retention-time-prediction-feature-generation",
+        "merge_kind": "single",
+        "output_id": "retention-time-prediction-feature-generation"
+      },
+      "right": {
+        "canonical_slug": "retention-time-prediction-transfer-learning",
+        "merge_kind": "single",
+        "output_id": "retention-time-prediction-transfer-learning"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deeprescore_cq",
+      "score": 0.909551
+    },
+    {
+      "left": {
+        "canonical_slug": "msnset-spatial-proteomics-data-handling",
+        "merge_kind": "single",
+        "output_id": "msnset-spatial-proteomics-data-handling"
+      },
+      "right": {
+        "canonical_slug": "spatial-proteomics-pca-ordination",
+        "merge_kind": "single",
+        "output_id": "spatial-proteomics-pca-ordination"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pbase_cq",
+      "score": 0.909413
+    },
+    {
+      "left": {
+        "canonical_slug": "gradient-moment-nulling-constraint-design",
+        "merge_kind": "single",
+        "output_id": "gradient-moment-nulling-constraint-design"
+      },
+      "right": {
+        "canonical_slug": "gradient-moment-residual-tolerance-sweep",
+        "merge_kind": "single",
+        "output_id": "gradient-moment-residual-tolerance-sweep"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_gropt_cq",
+      "score": 0.909233
+    },
+    {
+      "left": {
+        "canonical_slug": "java-mass-spectrometry-parser-reconstruction",
+        "merge_kind": "single",
+        "output_id": "java-mass-spectrometry-parser-reconstruction"
+      },
+      "right": {
+        "canonical_slug": "mass-spectrometry-record-serialization",
+        "merge_kind": "single",
+        "output_id": "mass-spectrometry-record-serialization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.908909
+    },
+    {
+      "left": {
+        "canonical_slug": "z-spectrum-normalization-and-mtrasym-calculation",
+        "merge_kind": "single",
+        "output_id": "z-spectrum-normalization-and-mtrasym-calculation"
+      },
+      "right": {
+        "canonical_slug": "z-spectrum-simulation",
+        "merge_kind": "single",
+        "output_id": "z-spectrum-simulation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pulseq_cest_cq",
+      "score": 0.9089
+    },
+    {
+      "left": {
+        "canonical_slug": "spectral-intensity-transformation",
+        "merge_kind": "single",
+        "output_id": "spectral-intensity-transformation"
+      },
+      "right": {
+        "canonical_slug": "spectral-smoothing-and-baseline-correction",
+        "merge_kind": "single",
+        "output_id": "spectral-smoothing-and-baseline-correction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pbase_cq",
+      "score": 0.907828
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-peptide-qc-score-filtering",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-qc-score-filtering"
+      },
+      "right": {
+        "canonical_slug": "peptide-observation-loss-quantification",
+        "merge_kind": "single",
+        "output_id": "peptide-observation-loss-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.90673
+    },
+    {
+      "left": {
+        "canonical_slug": "calibration-model-summary-reporting",
+        "merge_kind": "single",
+        "output_id": "calibration-model-summary-reporting"
+      },
+      "right": {
+        "canonical_slug": "weighted-least-squares-calibration-fitting",
+        "merge_kind": "single",
+        "output_id": "weighted-least-squares-calibration-fitting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.906336
+    },
+    {
+      "left": {
+        "canonical_slug": "gan-architecture-implementation",
+        "merge_kind": "single",
+        "output_id": "gan-architecture-implementation"
+      },
+      "right": {
+        "canonical_slug": "gan-hyperparameter-tuning-cross-validation",
+        "merge_kind": "single",
+        "output_id": "gan-hyperparameter-tuning-cross-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.905979
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-peptide-abundance-deconvolution",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-abundance-deconvolution"
+      },
+      "right": {
+        "canonical_slug": "isobaric-peptide-fragment-ratio-quantification",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-fragment-ratio-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.905832
+    },
+    {
+      "left": {
+        "canonical_slug": "central-difference-derivative-computation",
+        "merge_kind": "single",
+        "output_id": "central-difference-derivative-computation"
+      },
+      "right": {
+        "canonical_slug": "per-point-signal-difference-computation",
+        "merge_kind": "single",
+        "output_id": "per-point-signal-difference-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.905718
+    },
+    {
+      "left": {
+        "canonical_slug": "gan-architecture-implementation",
+        "merge_kind": "single",
+        "output_id": "gan-architecture-implementation"
+      },
+      "right": {
+        "canonical_slug": "gan-training-time-profiling",
+        "merge_kind": "single",
+        "output_id": "gan-training-time-profiling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.905477
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-peptide-cofragmentation-splitting",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-cofragmentation-splitting"
+      },
+      "right": {
+        "canonical_slug": "isobaric-peptide-fragment-ratio-quantification",
+        "merge_kind": "single",
+        "output_id": "isobaric-peptide-fragment-ratio-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isoscale_cq",
+      "score": 0.905294
+    },
+    {
+      "left": {
+        "canonical_slug": "gradient-boosting-classification",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-classification"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosting-feature-ranking",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-feature-ranking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prpred_drlf_cq",
+      "score": 0.90494
+    },
+    {
+      "left": {
+        "canonical_slug": "dsf-fluorescence-data-processing",
+        "merge_kind": "single",
+        "output_id": "dsf-fluorescence-data-processing"
+      },
+      "right": {
+        "canonical_slug": "half-maximal-fluorescence-tm-calculation",
+        "merge_kind": "single",
+        "output_id": "half-maximal-fluorescence-tm-calculation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.904915
+    },
+    {
+      "left": {
+        "canonical_slug": "gradient-boosting-classifier-training",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-classifier-training"
+      },
+      "right": {
+        "canonical_slug": "stacking-ensemble-model-training",
+        "merge_kind": "single",
+        "output_id": "stacking-ensemble-model-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_phosboost_cq",
+      "score": 0.904802
+    },
+    {
+      "left": {
+        "canonical_slug": "min-max-intensity-normalization",
+        "merge_kind": "single",
+        "output_id": "min-max-intensity-normalization"
+      },
+      "right": {
+        "canonical_slug": "spectral-normalization-implementation",
+        "merge_kind": "single",
+        "output_id": "spectral-normalization-implementation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.904466
+    },
+    {
+      "left": {
+        "canonical_slug": "motif-discovery-sensitivity-comparison",
+        "merge_kind": "single",
+        "output_id": "motif-discovery-sensitivity-comparison"
+      },
+      "right": {
+        "canonical_slug": "ptm-motif-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "ptm-motif-enrichment-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_motifer_cq",
+      "score": 0.90439
+    },
+    {
+      "left": {
+        "canonical_slug": "fragment-ion-intensity-scoring",
+        "merge_kind": "single",
+        "output_id": "fragment-ion-intensity-scoring"
+      },
+      "right": {
+        "canonical_slug": "reporter-ion-ratio-accuracy-assessment",
+        "merge_kind": "single",
+        "output_id": "reporter-ion-ratio-accuracy-assessment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.903761
+    },
+    {
+      "left": {
+        "canonical_slug": "precursor-interference-qc-score-calculation",
+        "merge_kind": "single",
+        "output_id": "precursor-interference-qc-score-calculation"
+      },
+      "right": {
+        "canonical_slug": "qc-score-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "qc-score-correlation-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.903684
+    },
+    {
+      "left": {
+        "canonical_slug": "peptide-length-filtering-for-binding-evaluation",
+        "merge_kind": "single",
+        "output_id": "peptide-length-filtering-for-binding-evaluation"
+      },
+      "right": {
+        "canonical_slug": "peptide-set-binder-ratio-comparison",
+        "merge_kind": "single",
+        "output_id": "peptide-set-binder-ratio-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_deeprescore_cq",
+      "score": 0.903538
+    },
+    {
+      "left": {
+        "canonical_slug": "isobaric-reporter-ion-quantification",
+        "merge_kind": "single",
+        "output_id": "isobaric-reporter-ion-quantification"
+      },
+      "right": {
+        "canonical_slug": "reporter-ion-interference-assessment",
+        "merge_kind": "single",
+        "output_id": "reporter-ion-interference-assessment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_isobaricquant_cq",
+      "score": 0.90336
+    },
+    {
+      "left": {
+        "canonical_slug": "peptide-spectrum-matching",
+        "merge_kind": "single",
+        "output_id": "peptide-spectrum-matching"
+      },
+      "right": {
+        "canonical_slug": "tandem-mass-spectrometry-peptide-identification",
+        "merge_kind": "single",
+        "output_id": "tandem-mass-spectrometry-peptide-identification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_popitam_cq",
+      "score": 0.903111
+    },
+    {
+      "left": {
+        "canonical_slug": "gan-training-hyperparameter-tuning",
+        "merge_kind": "single",
+        "output_id": "gan-training-hyperparameter-tuning"
+      },
+      "right": {
+        "canonical_slug": "min-max-intensity-normalization",
+        "merge_kind": "single",
+        "output_id": "min-max-intensity-normalization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sc_gan_cq",
+      "score": 0.903086
+    },
+    {
+      "left": {
+        "canonical_slug": "protein-sequence-deduplication",
+        "merge_kind": "single",
+        "output_id": "protein-sequence-deduplication"
+      },
+      "right": {
+        "canonical_slug": "protein-sequence-redundancy-filtering",
+        "merge_kind": "single",
+        "output_id": "protein-sequence-redundancy-filtering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prpred_drlf_cq",
+      "score": 0.902595
+    },
+    {
+      "left": {
+        "canonical_slug": "fluorescence-curve-normalization",
+        "merge_kind": "single",
+        "output_id": "fluorescence-curve-normalization"
+      },
+      "right": {
+        "canonical_slug": "min-max-scaling-of-fluorescence-data",
+        "merge_kind": "single",
+        "output_id": "min-max-scaling-of-fluorescence-data"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.902194
+    },
+    {
+      "left": {
+        "canonical_slug": "mass-spectrometry-record-serialization",
+        "merge_kind": "single",
+        "output_id": "mass-spectrometry-record-serialization"
+      },
+      "right": {
+        "canonical_slug": "scan-metadata-extraction-mass-spectrometry",
+        "merge_kind": "single",
+        "output_id": "scan-metadata-extraction-mass-spectrometry"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.902055
+    },
+    {
+      "left": {
+        "canonical_slug": "structure-based-drug-design",
+        "merge_kind": "single",
+        "output_id": "structure-based-drug-design"
+      },
+      "right": {
+        "canonical_slug": "structure-based-drug-design-b-factor-annotation",
+        "merge_kind": "single",
+        "output_id": "structure-based-drug-design-b-factor-annotation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bandit_cq",
+      "score": 0.902054
+    },
+    {
+      "left": {
+        "canonical_slug": "lcms-peptide-mass-table-parsing",
+        "merge_kind": "single",
+        "output_id": "lcms-peptide-mass-table-parsing"
+      },
+      "right": {
+        "canonical_slug": "peptide-mass-matching-within-tolerance-window",
+        "merge_kind": "single",
+        "output_id": "peptide-mass-matching-within-tolerance-window"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maldimid_cq",
+      "score": 0.901812
+    },
+    {
+      "left": {
+        "canonical_slug": "peptide-spectrum-identification-storage",
+        "merge_kind": "single",
+        "output_id": "peptide-spectrum-identification-storage"
+      },
+      "right": {
+        "canonical_slug": "proteomics-spectrum-database-storage",
+        "merge_kind": "single",
+        "output_id": "proteomics-spectrum-database-storage"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ms_lims_cq",
+      "score": 0.901506
+    },
+    {
+      "left": {
+        "canonical_slug": "java-mass-spectrometry-parser-reconstruction",
+        "merge_kind": "single",
+        "output_id": "java-mass-spectrometry-parser-reconstruction"
+      },
+      "right": {
+        "canonical_slug": "scan-metadata-extraction-mass-spectrometry",
+        "merge_kind": "single",
+        "output_id": "scan-metadata-extraction-mass-spectrometry"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_jmzreader_cq",
+      "score": 0.901314
+    },
+    {
+      "left": {
+        "canonical_slug": "de-novo-spectrum-graph-modeling",
+        "merge_kind": "single",
+        "output_id": "de-novo-spectrum-graph-modeling"
+      },
+      "right": {
+        "canonical_slug": "spectrum-graph-path-scoring",
+        "merge_kind": "single",
+        "output_id": "spectrum-graph-path-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_popitam_cq",
+      "score": 0.901052
+    },
+    {
+      "left": {
+        "canonical_slug": "calibration-curve-visualization",
+        "merge_kind": "single",
+        "output_id": "calibration-curve-visualization"
+      },
+      "right": {
+        "canonical_slug": "weighted-least-squares-calibration-fitting",
+        "merge_kind": "single",
+        "output_id": "weighted-least-squares-calibration-fitting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.900794
+    },
+    {
+      "left": {
+        "canonical_slug": "class-imbalance-weighted-training",
+        "merge_kind": "single",
+        "output_id": "class-imbalance-weighted-training"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosting-classifier-training",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-classifier-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_phosboost_cq",
+      "score": 0.900678
+    },
+    {
+      "left": {
+        "canonical_slug": "lcms-peptide-mass-table-parsing",
+        "merge_kind": "single",
+        "output_id": "lcms-peptide-mass-table-parsing"
+      },
+      "right": {
+        "canonical_slug": "proteomics-peptide-table-subsetting",
+        "merge_kind": "single",
+        "output_id": "proteomics-peptide-table-subsetting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maldimid_cq",
+      "score": 0.900172
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "left": {
+        "canonical_slug": "precision-trueness-assessment",
+        "merge_kind": "single",
+        "output_id": "precision-trueness-assessment"
+      },
+      "right": {
+        "canonical_slug": "precision-trueness-table-generation",
+        "merge_kind": "single",
+        "output_id": "precision-trueness-table-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_calibracurve_cq",
+      "score": 0.961389
+    },
+    {
+      "left": {
+        "canonical_slug": "de-novo-spectrum-graph-modeling",
+        "merge_kind": "single",
+        "output_id": "de-novo-spectrum-graph-modeling"
+      },
+      "right": {
+        "canonical_slug": "spectrum-graph-construction",
+        "merge_kind": "single",
+        "output_id": "spectrum-graph-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_popitam_cq",
+      "score": 0.960439
+    },
+    {
+      "left": {
+        "canonical_slug": "magnetization-transfer-pool-modeling",
+        "merge_kind": "single",
+        "output_id": "magnetization-transfer-pool-modeling"
+      },
+      "right": {
+        "canonical_slug": "multi-pool-magnetization-exchange-modeling",
+        "merge_kind": "single",
+        "output_id": "multi-pool-magnetization-exchange-modeling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pulseq_cest_cq",
+      "score": 0.960319
+    },
+    {
+      "left": {
+        "canonical_slug": "derivative-curve-peak-identification",
+        "merge_kind": "single",
+        "output_id": "derivative-curve-peak-identification"
+      },
+      "right": {
+        "canonical_slug": "dsf-first-derivative-curve-peak-detection",
+        "merge_kind": "single",
+        "output_id": "dsf-first-derivative-curve-peak-detection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpledsfviewer_cq",
+      "score": 0.959077
+    }
+  ],
+  "runs": 28,
+  "skills": 558,
+  "surplus_leaves": {
+    "ge_0_90": 88,
+    "ge_0_95": 4
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "outputs/asbb_classA_papers_2026-09-17_filtered/proteomics/corpus"
+}

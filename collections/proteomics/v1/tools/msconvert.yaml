@@ -1,0 +1,16 @@
+name: msconvert
+slug: msconvert
+version_used: 3.0.22010
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pmic.202100253
+  title: IsobaricQuant enables cross‐platform quantification, visualization, and filtering of isobarically‐labeled peptides
+source_repos:
+- https://github.com/Villen-Lab/isobaricquant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Villen-Lab/isobaricquant

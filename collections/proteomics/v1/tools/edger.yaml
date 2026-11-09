@@ -1,0 +1,17 @@
+name: edgeR
+slug: edger
+version_used: null
+edam_topics: []
+evidence_spans:
+- or DESeq2 [26] and edgeR [27] for RNA-Seq data, also offer MA plots for customized out-of-the-box data visualization.
+derived_from:
+- doi: 10.1002/pmic.201400392
+  title: Visualization of proteomics data using R and Bioconductor
+source_repos:
+- https://github.com/lgatto/Pbase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lgatto/Pbase

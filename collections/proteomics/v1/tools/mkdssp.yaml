@@ -1,0 +1,20 @@
+name: mkdssp
+slug: mkdssp
+version_used: null
+edam_topics: []
+evidence_spans:
+- See [manual page](doc/mkdssp.md) for more info.
+- See [manual page](doc/mkdssp.md) for more info
+- See [manual page](doc/mkdssp.md) for more info. Or even better, see the [DSSP website](https://pdb-redo.eu/dssp).
+- from mkdssp import dssp
+derived_from:
+- doi: 10.1002/bip.360221211
+  title: 'Dictionary of protein secondary structure: Pattern recognition of hydrogen‐bonded and geometrical features'
+source_repos:
+- https://github.com/PDB-REDO/dssp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PDB-REDO/dssp

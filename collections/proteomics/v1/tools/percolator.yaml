@@ -1,0 +1,23 @@
+name: Percolator
+slug: percolator
+version_used: '3.4'
+edam_topics: []
+evidence_spans:
+- re.rescore_with_percolator
+derived_from:
+- doi: 10.1002/pmic.201900334
+  title: 'DeepRescore: Leveraging Deep Learning to Improve Peptide Identification in Immunopeptidomics'
+- doi: 10.1002/pmic.202100253
+  title: IsobaricQuant enables cross‐platform quantification, visualization, and filtering of isobarically‐labeled peptides
+- doi: 10.1002/pmic.202300112
+  title: 'Oktoberfest: Open‐source spectral library generation and rescoring pipeline based on Prosit'
+source_repos:
+- https://github.com/bzhanglab/DeepRescore
+- https://github.com/Villen-Lab/isobaricquant
+- https://github.com/wilhelm-lab/oktoberfest
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bzhanglab/DeepRescore

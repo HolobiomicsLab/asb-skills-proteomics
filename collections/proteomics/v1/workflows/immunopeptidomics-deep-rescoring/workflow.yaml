@@ -1,0 +1,279 @@
+schema_version: 0.3.0
+workflow_id: immunopeptidomics_deep_rescoring
+kind: composite-workflow
+techniques: []
+steps:
+- id: search_psms
+  goal: search immunopeptidomics spectra against a target-decoy protein database
+  edam_operation: http://edamontology.org/operation_3759
+  skills:
+  - comet-database-searching
+  - mgf-spectra-conversion-and-database-searching
+  - cross-search-engine-peptide-overlap-analysis
+  tools:
+  - Comet
+  - DeepRescore
+  - PDV
+  - ProteoWizard
+  inputs:
+  - type: mgf
+    flavour: immunopeptidomics-msms
+  - type: fasta
+    flavour: target-decoy-proteome
+  - type: text
+    flavour: comet-search-parameters
+  outputs:
+  - type: tsv
+    flavour: target-decoy-psms
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-201900334
+    dois:
+    - 10.1002/pmic.201900334
+  after: []
+  candidate_tools:
+  - AutoRT
+  - Docker
+  - GPTime
+  - MS-GF+
+  - MaxQuant
+  - NextFlow
+  - PGA
+  - X!Tandem
+  - pDeep2
+- id: select_training_psms
+  goal: select high-confidence peptides for run-specific feature models
+  edam_operation: http://edamontology.org/operation_2239
+  skills:
+  - immunopeptidomics-fdr-filtering
+  - psm-target-decoy-confidence-filtering
+  - target-decoy-fdr-filtering
+  - target-decoy-fdr-estimation
+  tools:
+  - AutoRT
+  - DeepRescore
+  - Docker
+  - GPTime
+  - MS-GF+
+  - MaxQuant
+  - NextFlow
+  - PGA
+  - Percolator
+  - ProteoWizard
+  - X!Tandem
+  - pDeep2
+  inputs:
+  - type: tsv
+    flavour: target-decoy-psms
+  outputs:
+  - type: tsv
+    flavour: fdr-filtered-training-psms
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-201900334
+    - asb-paper-10-1002-pmic-202300112
+    dois:
+    - 10.1002/pmic.201900334
+    - 10.1002/pmic.202300112
+  after:
+  - search_psms
+  candidate_tools:
+  - Koina
+  - Oktoberfest
+  - Prosit
+  - Python
+  - mokapot
+  - ANNOVAR
+  - Comet
+  - Customprodbj
+  - HLAthena
+  - MHCflurry
+  - NeoFlow
+  - NetMHCpan
+  - PDV
+  inputs_from:
+    search_psms:
+    - tsv:target-decoy-psms
+- id: generate_rt_features
+  goal: derive run-specific retention-time error features for every PSM
+  edam_operation: http://edamontology.org/operation_3767
+  skills:
+  - retention-time-prediction-feature-generation
+  - retention-time-prediction-transfer-learning
+  - rt-feature-distribution-significance-testing
+  tools:
+  - ANNOVAR
+  - AutoRT
+  - Customprodbj
+  - DeepRescore
+  - Docker
+  - GPTime
+  - HLAthena
+  - MHCflurry
+  - MS-GF+
+  - MaxQuant
+  - NeoFlow
+  - NetMHCpan
+  - NextFlow
+  - PGA
+  - Percolator
+  - ProteoWizard
+  - X!Tandem
+  - pDeep2
+  inputs:
+  - type: mgf
+    flavour: immunopeptidomics-msms
+  - type: tsv
+    flavour: target-decoy-psms
+  - type: tsv
+    flavour: fdr-filtered-training-psms
+  - type: model
+    flavour: pretrained-autort-base
+  - type: text
+    flavour: deeprescore-search-and-instrument-parameters
+  outputs:
+  - type: tsv
+    flavour: psm-retention-time-features
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-201900334
+    dois:
+    - 10.1002/pmic.201900334
+  after:
+  - search_psms
+  - select_training_psms
+  inputs_from:
+    search_psms:
+    - tsv:target-decoy-psms
+    select_training_psms:
+    - tsv:fdr-filtered-training-psms
+- id: generate_spectral_features
+  goal: derive predicted-versus-observed fragment-spectrum features for every PSM
+  edam_operation: http://edamontology.org/operation_3646
+  skills:
+  - spectral-prediction-feature-generation
+  - msms-spectrum-prediction-spectral-angle-calculation
+  - spectral-angle-similarity-scoring
+  - immunopeptidomics-psm-feature-extraction
+  tools:
+  - ANNOVAR
+  - AutoRT
+  - Customprodbj
+  - DeepRescore
+  - Docker
+  - HLAthena
+  - MHCflurry
+  - MS-GF+
+  - MaxQuant
+  - NeoFlow
+  - NetMHCpan
+  - NextFlow
+  - PGA
+  - Percolator
+  - ProteoWizard
+  - X!Tandem
+  - pDeep2
+  inputs:
+  - type: mgf
+    flavour: immunopeptidomics-msms
+  - type: tsv
+    flavour: target-decoy-psms
+  - type: tsv
+    flavour: fdr-filtered-training-psms
+  - type: model
+    flavour: pretrained-pdeep2-instrument-model
+  - type: text
+    flavour: deeprescore-search-and-instrument-parameters
+  outputs:
+  - type: tsv
+    flavour: psm-spectral-angle-features
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-201900334
+    dois:
+    - 10.1002/pmic.201900334
+  after:
+  - search_psms
+  - select_training_psms
+  candidate_tools:
+  - Comet
+  inputs_from:
+    search_psms:
+    - tsv:target-decoy-psms
+    select_training_psms:
+    - tsv:fdr-filtered-training-psms
+- id: rescore_and_control_fdr
+  goal: rescore PSMs and emit final PSM and peptide sets at one-percent FDR
+  edam_operation: http://edamontology.org/operation_3648
+  skills:
+  - psm-rescoring-with-percolator
+  - psm-rescoring-with-predicted-spectral-features
+  tools:
+  - ANNOVAR
+  - AutoRT
+  - Customprodbj
+  - DeepRescore
+  - Docker
+  - GPTime
+  - HLAthena
+  - MHCflurry
+  - MS-GF+
+  - MaxQuant
+  - NeoFlow
+  - NetMHCpan
+  - NextFlow
+  - PGA
+  - Percolator
+  - ProteoWizard
+  - X!Tandem
+  - pDeep2
+  inputs:
+  - type: mgf
+    flavour: immunopeptidomics-msms
+  - type: tsv
+    flavour: target-decoy-psms
+  - type: tsv
+    flavour: psm-retention-time-features
+  - type: tsv
+    flavour: psm-spectral-angle-features
+  - type: text
+    flavour: deeprescore-search-and-instrument-parameters
+  outputs:
+  - type: tsv
+    flavour: deeprescore-psm-final
+  - type: tsv
+    flavour: deeprescore-peptide-final
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1002-pmic-201900334
+    - asb-paper-10-1002-pmic-202300112
+    dois:
+    - 10.1002/pmic.201900334
+    - 10.1002/pmic.202300112
+  after:
+  - search_psms
+  - generate_rt_features
+  - generate_spectral_features
+  candidate_tools:
+  - Koina
+  - Oktoberfest
+  - Prosit
+  - Python
+  - mokapot
+  inputs_from:
+    search_psms:
+    - tsv:target-decoy-psms
+    generate_rt_features:
+    - tsv:psm-retention-time-features
+    generate_spectral_features:
+    - tsv:psm-spectral-angle-features
+verification:
+  final_outputs:
+  - path: deeprescore_psm_final.tsv
+    type: file
+  - path: deeprescore_pep_final.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

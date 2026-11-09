@@ -1,0 +1,21 @@
+{
+  "workflow": "immunopeptidomics_deep_rescoring",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "cross-search-engine-peptide-overlap-analysis compares completed identification sets and does not run the required Comet target-decoy search.",
+      "severity": "advisory",
+      "slug": "cross-search-engine-peptide-overlap-analysis",
+      "stage": "search_psms"
+    }
+  ],
+  "verdict": "pass"
+}

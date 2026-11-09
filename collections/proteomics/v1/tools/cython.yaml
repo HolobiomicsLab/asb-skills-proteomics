@@ -1,0 +1,16 @@
+name: Cython
+slug: cython
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/mrm.28384
+  title: A gradient optimization toolbox for general purpose time‐optimal MRI gradient waveform design
+source_repos:
+- https://github.com/cmr-group/gropt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cmr-group/gropt

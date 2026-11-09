@@ -1,0 +1,20 @@
+name: Pbase
+slug: pbase
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**Package:** [`Pbase`](http://bioconductor.org/packages/devel/bioc/html/Pbase.html)'
+- library("Pbase")
+- '**Package:** [`Pbase`](http://bioconductor.org/packages/devel/bioc/html/Pbase.html)<br />'
+- This vignette briefly introduces the central data object of the `Pbase` package, namely `Proteins` instances
+derived_from:
+- doi: 10.1002/pmic.201400392
+  title: Visualization of proteomics data using R and Bioconductor
+source_repos:
+- https://github.com/lgatto/Pbase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lgatto/Pbase

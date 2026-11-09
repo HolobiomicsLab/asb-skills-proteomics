@@ -1,0 +1,41 @@
+name: Python
+slug: python
+version_used: '3.10'
+edam_topics: []
+evidence_spans:
+- After that you can use dssp in a python script, like this
+- 'After that you can use dssp in a python script, like this:'
+- Since version 4.5.2 it is possible to build a Python module
+- an open source Python package
+- You need Python 3.10+ and Poetry_
+- You need Python 3.10+
+- The python implementation wraps the C++ code with SWIG (Simplified Wrapper and Interface Generator) and is simplified by a python parser.
+- The python implementation wraps the C++ code with SWIG (Simplified Wrapper and Interface Generator)
+- The python implementation wraps the C++ code with SWIG (Simplified Wrapper and Interface Generator) and is simplified by a python parser
+- definitions from within MATLAB, python and other software programming packages, which are usually open source
+- Example codes to create different CEST preparation periods in MATLAB and python are provided at the projects' website
+- rapid and simple sequence definitions from within MATLAB, python and other software programming packages, which are usually open source
+derived_from:
+- doi: 10.1002/bip.360221211
+  title: 'Dictionary of protein secondary structure: Pattern recognition of hydrogen‐bonded and geometrical features'
+- doi: 10.1002/mrm.28384
+  title: A gradient optimization toolbox for general purpose time‐optimal MRI gradient waveform design
+- doi: 10.1002/pmic.202300112
+  title: 'Oktoberfest: Open‐source spectral library generation and rescoring pipeline based on Prosit'
+- doi: 10.1002/pmic.202100161
+  title: 'prPred‐DRLF: Plant R protein predictor using deep representation learning features'
+- doi: 10.1002/mrm.28825
+  title: 'Pulseq‐CEST: Towards multi‐site multi‐vendor compatibility and reproducibility of CEST experiments using an open‐source sequence standard'
+source_repos:
+- https://github.com/PDB-REDO/dssp
+- https://github.com/cmr-group/gropt
+- https://github.com/wilhelm-lab/oktoberfest
+- https://github.com/Wangys-prog/prPred-DRLF
+- https://github.com/KerstinHut/pypulseq-cest
+- https://github.com/kherz/pulseq-cest
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PDB-REDO/dssp

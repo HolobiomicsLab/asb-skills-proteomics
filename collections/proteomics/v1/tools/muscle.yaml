@@ -1,0 +1,19 @@
+name: MUSCLE
+slug: muscle
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pld3.509
+  title: 'CBP60‐DB: An AlphaFold‐predicted plant kingdom‐wide database of the CALMODULIN‐BINDING PROTEIN 60 protein family with a novel structural clustering algorithm'
+- doi: 10.1002/pmic.201400354
+  title: 'Scop3D: Three‐dimensional visualization of sequence conservation'
+source_repos:
+- https://github.com/KeaunAmani/cbp60db
+- https://github.com/compomics/scop3d
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KeaunAmani/cbp60db

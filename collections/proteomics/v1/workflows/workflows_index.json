@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "immunopeptidomics-deep-rescoring",
+    "name": "immunopeptidomics-deep-rescoring-workflow",
+    "description": "Use when MGF immunopeptidomics spectra must be searched without enzyme specificity, augmented with run-specific retention-time and predicted-spectrum features, rescored, and controlled at both PSM and peptide false-discovery levels.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "search_psms",
+      "select_training_psms",
+      "generate_rt_features",
+      "generate_spectral_features",
+      "rescore_and_control_fdr"
+    ],
+    "member_tools": [
+      "Comet",
+      "DeepRescore",
+      "PDV",
+      "ProteoWizard",
+      "AutoRT",
+      "Docker",
+      "GPTime",
+      "MS-GF+",
+      "MaxQuant",
+      "NextFlow",
+      "PGA",
+      "Percolator",
+      "X!Tandem",
+      "pDeep2",
+      "ANNOVAR",
+      "Customprodbj",
+      "HLAthena",
+      "MHCflurry",
+      "NeoFlow",
+      "NetMHCpan"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "isobaric-reporter-quantification",
+    "name": "isobaric-reporter-quantification-workflow",
+    "description": "Use when TMT, TMTpro, or iTRAQ mzML runs must be searched, quantified at the reporter-ion level, filtered for co-isolation interference, aggregated to proteins, and tested for condition-level abundance changes.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "identify_psms",
+      "quantify_reporter_ions",
+      "filter_interference",
+      "aggregate_proteins",
+      "test_differential_abundance"
+    ],
+    "member_tools": [
+      "Comet",
+      "IsobaricQuant",
+      "Java",
+      "Mokapot",
+      "msconvert",
+      "Java 17",
+      "Percolator"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]
