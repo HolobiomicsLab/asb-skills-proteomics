@@ -1,11 +1,11 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-31T16:36:52.200510+00:00",
+  "generated_at": "2026-11-10T08:01:30.966764+00:00",
   "collection_dir": "collections/proteomics/v1",
   "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
-  "promote_logic_source": "vendored-fallback",
+  "promote_logic_source": "agentic_science_builder.release.promote",
   "evidence_parser_source": "scripts.release_gate (gate-owned)",
   "policy": {
     "version": "asbb-content-gate/1.4",
@@ -43,12 +43,12 @@
       "10.5281/"
     ],
     "max_leaves_per_evidence_span": 10,
-    "config_sha256": "ae01e4e04fdb86270787e6803fd494e49f49ad0be8324986434b66cf5e7cd7aa",
-    "implementation_sha256": "e92c291297ed60dc568d1dc5f94a10dee43946f027713002a648e4f807c7206f"
+    "config_sha256": "b0119e2ec7c8a0fd33ce30eac249c4fb658b1fa34a5f866d5622f6bab698c190",
+    "implementation_sha256": "d0e6ced672181e093ee4f3002c7910a5a1bbb982d4e6cebea0150d37fd80562e"
   },
   "binding": {
     "payload": {
-      "sha256": "ba78351acbd7a7bc3ac2fc401776ede7b13d09d5a26b7afdbc8dc338d9127b5e",
+      "sha256": "72b5f7497ed4533104a14462ff33ff1df01deac2d170efc1293401788f131417",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -57,7 +57,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 515,
-          "sha256": "07d2c5005fd0d01ad01e3b681c62e11a7238765c1b8077fd14208dd9ba7a6b19"
+          "sha256": "44653d4f84916e893e75378689fee0cca61e66ddbde3d2957c7b79d65983b169"
         },
         {
           "path": ".zenodo.json",
@@ -66,8 +66,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 688,
-          "sha256": "dfaa541aabc0fb699d480b885e85790b3b24f24b4b06768526aed5415f9afa1a"
+          "bytes": 856,
+          "sha256": "9bb50231326a126b9571e4d58a1a20273a067823cdb1b426095c29571f0c2650"
         },
         {
           "path": "bin",
@@ -80,8 +80,8 @@
         },
         {
           "path": "collection.yaml",
-          "bytes": 28246,
-          "sha256": "dba7037f3b000bc6c3db39e2d29d3c5d20309279f733ce9f5e722a7019b6b687"
+          "bytes": 28061,
+          "sha256": "91d06721ddbfcd855c577776f1692c1c6159f0ee7947764e7ff9f18ab178a4bd"
         },
         {
           "path": "corpus.yaml",
@@ -148,8 +148,8 @@
         },
         {
           "path": "leaves/admm-solver-configuration/SKILL.md",
-          "bytes": 8820,
-          "sha256": "cd3356181d7fbf4a6d954f8916f4a3b3f7839809af02ad079562afd19e265fe7"
+          "bytes": 8752,
+          "sha256": "bd205ffa0151730e005d916a764855cb03412b73b78ac39ee96627a95f3f9f35"
         },
         {
           "path": "leaves/adni-neuroimaging-data-handling",
@@ -193,8 +193,8 @@
         },
         {
           "path": "leaves/aromaticity-index-computation/SKILL.md",
-          "bytes": 6403,
-          "sha256": "da037923b98ed5ab04d6ec99d1503f61ece8181759ca31124ce71bfd87aba142"
+          "bytes": 6335,
+          "sha256": "c5ed4aace737d0de1460c10f503bda2ec1246623db2891f3b59fa35129b68e81"
         },
         {
           "path": "leaves/asa-benchmark-validation-against-reference",
@@ -248,7 +248,7 @@
         {
           "path": "leaves/benchmark-method-comparison/SKILL.md",
           "bytes": 8126,
-          "sha256": "79167539c121d31979e2ecd1eeaf42905010cd6c46c5792e84fae9e5633ea887"
+          "sha256": "dfaed95dab4f4dc484f6158bcfeae9566c1020546fa200d5111152323cdaf429"
         },
         {
           "path": "leaves/betanti-null-model-computation",
@@ -266,7 +266,7 @@
         {
           "path": "leaves/bidirectional-lstm-feature-extraction/SKILL.md",
           "bytes": 7864,
-          "sha256": "b7bcff654d4515907f1f80495f8dee47d3c5ecfaf9cd3c307816fd68db499d81"
+          "sha256": "7b3e8ee77a191f1d56428bdbed56d7f4b36df1bb73036b80ea912ff71c6b7e96"
         },
         {
           "path": "leaves/binary-classifier-benchmarking",
@@ -328,8 +328,8 @@
         },
         {
           "path": "leaves/bootstrap-subsampling-replicate-analysis/SKILL.md",
-          "bytes": 7659,
-          "sha256": "b07d1a8674e047e7e0aa9e9817098726c9efdb0fb870f8a8ede9ff7fee6f39f5"
+          "bytes": 7591,
+          "sha256": "ab8a6f1c95a4ac74295d8203e5cb4ff3f55abedca54e283e6f5894a7e8a4fe2e"
         },
         {
           "path": "leaves/boxplot-visualization-across-cancer-types",
@@ -509,7 +509,7 @@
         {
           "path": "leaves/class-imbalanced-protein-dataset-evaluation/SKILL.md",
           "bytes": 8312,
-          "sha256": "975cd3ca44da983c7cf924dfb26b85b9c545a8de713f66a934c30798ecebff2c"
+          "sha256": "16cf58db663f0ce10dec04ed650b3196ed87ba5bd50c30287a933197130ae194"
         },
         {
           "path": "leaves/classification-metrics-computation",
@@ -589,8 +589,8 @@
         },
         {
           "path": "leaves/collision-energy-calibration/SKILL.md",
-          "bytes": 7115,
-          "sha256": "a288fb5105e78cb817654620687d21a24c0380438811e564b400fff9d6f0a02e"
+          "bytes": 7039,
+          "sha256": "9678377d3cd68cdbec627f9e22832221d5209234e1c6bbd787274c7dedb38e11"
         },
         {
           "path": "leaves/comet-database-searching",
@@ -598,8 +598,8 @@
         },
         {
           "path": "leaves/comet-database-searching/SKILL.md",
-          "bytes": 7768,
-          "sha256": "413ebd179c986941aa888fdbaddff2b11abf386245b6d0f7c041515bbc5e8f6b"
+          "bytes": 7700,
+          "sha256": "255cb09d00cee75068662755d35b181d2406cf25f5db1d5e234ca1545699c8ed"
         },
         {
           "path": "leaves/common-spectra-interface-reconstruction",
@@ -806,7 +806,7 @@
         {
           "path": "leaves/cv-parameter-extraction/SKILL.md",
           "bytes": 6208,
-          "sha256": "de89557db958b989d6e41dc4deb22d5aec8198189f3c98b89cd27ee5a5ae9569"
+          "sha256": "211516237f16715f17ff841cc9ac4cd778a38987a24453c89cafda469f56a6b5"
         },
         {
           "path": "leaves/cz-fragment-ion-series-interpretation",
@@ -923,7 +923,7 @@
         {
           "path": "leaves/diffusion-b-value-encoding-design/SKILL.md",
           "bytes": 7634,
-          "sha256": "13676c8b8a3ef5f560d7d86ce131fc56f1ba829bc198cb88df7588a51d855b7d"
+          "sha256": "9fdb1aa80d6177195c3afdb296d6cb33d307169107c6510c7f27a708ba259b10"
         },
         {
           "path": "leaves/diffusion-encoding-moment-nulling-configuration",
@@ -1048,8 +1048,8 @@
         },
         {
           "path": "leaves/dom-molecule-temperature-correlation/SKILL.md",
-          "bytes": 7542,
-          "sha256": "2029761838bee49110602e2201f3569242470f1f6a37552ce7ae94740764f894"
+          "bytes": 7466,
+          "sha256": "5b773bf7d52483c4fb4802e252c4aefd25c5a0382911a37e9ac5d3d15618e254"
         },
         {
           "path": "leaves/dom-relative-abundance-aggregation-by-class",
@@ -1444,8 +1444,8 @@
         },
         {
           "path": "leaves/gan-based-medical-image-synthesis/SKILL.md",
-          "bytes": 7800,
-          "sha256": "1a3e22d394ea811f4e8aedf2d65f58a04535d233dea289e41fddd9fd76e529d8"
+          "bytes": 7732,
+          "sha256": "b9e6a81acfee8015bbb42a1d73b9a08ed00c8fa89cc8e12a49049af1011c35b0"
         },
         {
           "path": "leaves/gan-component-ablation-experiment-design",
@@ -1462,8 +1462,8 @@
         },
         {
           "path": "leaves/gan-hyperparameter-tuning-cross-validation/SKILL.md",
-          "bytes": 7464,
-          "sha256": "212f99af2e4bf4a11a7aa602e7ad02158d44d35a95df07ef769c56b7f05ee442"
+          "bytes": 7396,
+          "sha256": "9e8532d3509b612319e1601869b2c4ec41b2b4f1d2c305841dc7617061e9066a"
         },
         {
           "path": "leaves/gan-training-hyperparameter-tuning",
@@ -1499,7 +1499,7 @@
         {
           "path": "leaves/genome-wide-phosphoproteome-scoring/SKILL.md",
           "bytes": 9224,
-          "sha256": "6e9c29f83082b0168de73f8f7e876b68774675b3e89161cb4033f3d347294164"
+          "sha256": "dc20a2e9708cefc3073d95ad2d9b7d01cc1d1af69cf5fced8a7b8a08de282e32"
         },
         {
           "path": "leaves/genomic-coordinate-mapping",
@@ -1732,8 +1732,8 @@
         },
         {
           "path": "leaves/hydrogen-bond-pattern-recognition/SKILL.md",
-          "bytes": 7301,
-          "sha256": "ca3c32eca0b1cda4c1211ad0480f6761d19a00c7ebf6dd3a7cbdc2f00e19f6b0"
+          "bytes": 7233,
+          "sha256": "84fdd81c17a21ef19c554280c1b681c79f9fcd28bd94dd9e4f799320675d7ffc"
         },
         {
           "path": "leaves/icer-index-computation",
@@ -1741,8 +1741,8 @@
         },
         {
           "path": "leaves/icer-index-computation/SKILL.md",
-          "bytes": 7865,
-          "sha256": "f0114edfba0e835d143296c3756801d73b204e31ed84c7afe9cfd2afd146d82c"
+          "bytes": 7789,
+          "sha256": "99ce9172419480a0fb1c8ed249adc9deeeb1f4f7eea886332b835899ec150da1"
         },
         {
           "path": "leaves/image-quality-metric-computation",
@@ -1840,8 +1840,8 @@
         },
         {
           "path": "leaves/intravoxel-phase-dispersion-simulation/SKILL.md",
-          "bytes": 7644,
-          "sha256": "0094589a517e4738b8abf62df1340c4893d471d095ebee07c897e60aba147ca7"
+          "bytes": 7574,
+          "sha256": "2f849c8a89ff58ac0006829cddab29cab55f2914392058fbc94f7d7c5172e76b"
         },
         {
           "path": "leaves/ion-image-slice-extraction",
@@ -2020,8 +2020,8 @@
         },
         {
           "path": "leaves/lc-ms-raw-data-import/SKILL.md",
-          "bytes": 7005,
-          "sha256": "b78e7ed57eb7ec836ad31dfdee7bbdeea560c111ee8b41b957a6eee8f2ddc411"
+          "bytes": 6929,
+          "sha256": "5f463090c6917082c12868e59f73710a4b03d756c8ca442c83c638bc636c1b8f"
         },
         {
           "path": "leaves/lc-msms-biomarker-list-filtering",
@@ -2533,8 +2533,8 @@
         },
         {
           "path": "leaves/ms-lims-database-querying/SKILL.md",
-          "bytes": 6949,
-          "sha256": "039aec8223f8393796160950f737c03376d0ae28604981e322d38c079b38e317"
+          "bytes": 6881,
+          "sha256": "ccda60d2a584830f82e479dc0abcf475d9296183cf1983697aef980d3ce977d2"
         },
         {
           "path": "leaves/ms2-peak-list-parsing",
@@ -2542,8 +2542,8 @@
         },
         {
           "path": "leaves/ms2-peak-list-parsing/SKILL.md",
-          "bytes": 6727,
-          "sha256": "bd2bdebaf8d9c3443238cac612a7f05d361deb7f4755e89c441f0702c8748a0b"
+          "bytes": 6659,
+          "sha256": "61a66176e563ed5cfcde3eaf2c23aafb370615483a31bcd59140402a7c6a49ff"
         },
         {
           "path": "leaves/ms2-vs-ms3-filter-cutoff-optimization",
@@ -2768,7 +2768,7 @@
         {
           "path": "leaves/mzid-identification-parsing/SKILL.md",
           "bytes": 6648,
-          "sha256": "837aa9bd5eac1b20ba31615db9c78ac811905102fb5c897708fee256f3b5acbe"
+          "sha256": "429a59f9d4db31a4ea00f34a69c06109265d2dc332a88d597cede9af2100b458"
         },
         {
           "path": "leaves/mzidentml-spectrum-reference-resolution",
@@ -3217,8 +3217,8 @@
         },
         {
           "path": "leaves/permanova-regional-composition-testing/SKILL.md",
-          "bytes": 7695,
-          "sha256": "ec2d5c1b57b534594ed630b75e58c77bae89f5528970c110c8fd40dff720ad5f"
+          "bytes": 7625,
+          "sha256": "168c8429dddc2e109045570f913725b503e29b367aa27332a9ba1a7fb286c93e"
         },
         {
           "path": "leaves/pet-image-synthesis-from-mri",
@@ -3244,8 +3244,8 @@
         },
         {
           "path": "leaves/pet-surv-quantification/SKILL.md",
-          "bytes": 6092,
-          "sha256": "26d85372bcc122c97fc9945a5e89562bab69cacdb7f1a04c9c978e6e7d2eb722"
+          "bytes": 6022,
+          "sha256": "034d4635461b5cc265907222d340c6b1ffe6e0d80b1f51a1cc35785a41a43dbb"
         },
         {
           "path": "leaves/pharmacophore-feature-annotation",
@@ -3415,8 +3415,8 @@
         },
         {
           "path": "leaves/precursor-charge-state-filtering/SKILL.md",
-          "bytes": 6030,
-          "sha256": "dc72d46a82332fc546625635dab6a32f3957a83084351c8fd7b38887dc44cbe0"
+          "bytes": 5962,
+          "sha256": "71e7b9f7cbb5fe144a207813719d073dd3b8f022053a675d446e9caf315407a0"
         },
         {
           "path": "leaves/precursor-interference-qc-score-calculation",
@@ -3497,7 +3497,7 @@
         {
           "path": "leaves/primary-protein-hit-selection/SKILL.md",
           "bytes": 6978,
-          "sha256": "86e273f8d843d69886cd67df85dd328169415124609a2c95624570e679b71e77"
+          "sha256": "7841eff8a24fc422972ab52985dc8cf09bd8903619ec389ab0dcde7b3daefaf1"
         },
         {
           "path": "leaves/protein-backbone-geometry-computation",
@@ -3767,7 +3767,7 @@
         {
           "path": "leaves/proteomic-biomarker-peak-annotation/SKILL.md",
           "bytes": 6968,
-          "sha256": "0babb27577cdd95767c3db518a82ad9450c54358e2948f48e70dd0a7d2eedeea"
+          "sha256": "65bf5fa5a1817a755edfc01eccbf7d79027e207582d041edfa4f17702a4a0a72"
         },
         {
           "path": "leaves/proteomic-biomarker-signature-discovery",
@@ -3902,7 +3902,7 @@
         {
           "path": "leaves/psm-data-driven-rescoring/SKILL.md",
           "bytes": 8618,
-          "sha256": "bf1223506fcf420ab45460ccdd0c2151281555e5273cda4b6312f2bb48d87ec5"
+          "sha256": "87da0c33604f21f71e48796dbd60621cec3af18cd68c8dd9cadcca3bf93c7793"
         },
         {
           "path": "leaves/psm-feature-generation-with-prediction-server",
@@ -3929,7 +3929,7 @@
         {
           "path": "leaves/psm-rescoring-with-percolator/SKILL.md",
           "bytes": 7443,
-          "sha256": "68badf4be7b44571bcf3254eafa411a7ddeb7be3452da76d39417c2331b7c184"
+          "sha256": "81d8a3839ac1f0a8d4d3e1a6417d49093c1aea06c6352a8cf847b3a4109c3b06"
         },
         {
           "path": "leaves/psm-rescoring-with-predicted-spectral-features",
@@ -4063,8 +4063,8 @@
         },
         {
           "path": "leaves/ranked-result-table-generation/SKILL.md",
-          "bytes": 5364,
-          "sha256": "b89d53868051f024f66e6168c3858c0f7816072899fc73e2e6688651bbf9d506"
+          "bytes": 5296,
+          "sha256": "b57b7d88e319e58bb5e7268e8f068b2dcf399087603ed81ba7d90d758f092cd4"
         },
         {
           "path": "leaves/ratio-compression-benchmarking-against-mixing-ratio",
@@ -4073,7 +4073,7 @@
         {
           "path": "leaves/ratio-compression-benchmarking-against-mixing-ratio/SKILL.md",
           "bytes": 7712,
-          "sha256": "44690dda77cf5f7356e00ee0bf01bb268bebb27b67b7cc0ae2c96e7880fe1da8"
+          "sha256": "dd96abd7f924b1d2ea44a0596bee0597b5eccf1c7260f1f4048152e2c0c23951"
         },
         {
           "path": "leaves/raw-mass-spectrometry-peak-matching",
@@ -4379,7 +4379,7 @@
         {
           "path": "leaves/search-engine-peptide-count-reproduction/SKILL.md",
           "bytes": 9546,
-          "sha256": "087a8dd61aa7c0265ee43b05af8dac6cc0cb7607aa7f705dd459a765da2b53ee"
+          "sha256": "0aa7f982c5c2df5163ebacfa04e379daf124a07fc40d3b45685fe4791956173a"
         },
         {
           "path": "leaves/search-space-susceptibility-analysis",
@@ -4388,7 +4388,7 @@
         {
           "path": "leaves/search-space-susceptibility-analysis/SKILL.md",
           "bytes": 6725,
-          "sha256": "962f6c7f402f14132d82f90d9e2d00e4bc14fc8f8320f21bd4694e5dfef145a3"
+          "sha256": "bd2e0ea87fd18c3327260e658ec5662ef1dae5a7176b6f43606bede86b705617"
         },
         {
           "path": "leaves/secondary-structure-hbond-annotation",
@@ -4567,8 +4567,8 @@
         },
         {
           "path": "leaves/spectral-intensity-transformation/SKILL.md",
-          "bytes": 7222,
-          "sha256": "4f4312e438774a0516e5fb52d07b9b0aedd33939615d5b7eccc771883e183335"
+          "bytes": 7146,
+          "sha256": "c8fddd060c9105c642db15a8b180e14f7cae5408114d8cc32822582e7fad4c66"
         },
         {
           "path": "leaves/spectral-library-format-generation",
@@ -4847,7 +4847,7 @@
         {
           "path": "leaves/target-decoy-fdr-filtering/SKILL.md",
           "bytes": 7473,
-          "sha256": "137597fc77026c6b3c17906b95291f237baa1e28bfb5f9c39b3f7191008d6f1e"
+          "sha256": "e637deaec88d1f82035f507904cfe0e6c3224c342a0e705fbb1472ad13fb79a1"
         },
         {
           "path": "leaves/targeted-proteomics-assay-validation",
@@ -5139,8 +5139,8 @@
         },
         {
           "path": "skills_index.json",
-          "bytes": 466662,
-          "sha256": "347aa014ada445267f6d3dc08119d20c0a201ac01364d6b60ba487816fe6773b"
+          "bytes": 465881,
+          "sha256": "4dc9f28acbdc8b4f30ef367f0a63dde2cac86d9a7e14c36bd9729f4e7cfc7bad"
         },
         {
           "path": "tools",
@@ -6410,5 +6410,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "40c363a9f6244d56860854320618953bbefa19c7fcf5c4e6992bbc82b8d5ae87"
+  "receipt_sha256": "a4c4a570064cce4bd895854b5cd0a6d3574de462eb06e2e754a44ce82fdff5fa"
 }

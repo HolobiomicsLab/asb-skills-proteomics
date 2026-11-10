@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/papers-28-00284b" alt="28 source papers">
   <img src="https://img.shields.io/badge/content-CC--BY--4.0-04919a" alt="content CC-BY-4.0">
   <img src="https://img.shields.io/badge/code-Apache--2.0-04919a" alt="code Apache-2.0">
-  <img src="https://img.shields.io/badge/status-candidate-5d6a78" alt="status candidate">
+  <img src="https://img.shields.io/badge/status-released-04919a" alt="status released">
 </p>
 
 ---
@@ -26,17 +26,24 @@
 
 This repository holds the proteomics skill collection of AgenticScienceBuilder (ASB): 558 skills over 163 software tools and 2 composite workflows, distilled from 28 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper; 282 of the 558 also quote it or its repository README. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
 
+## Collections
+
+| Path | Title | Skills | Tools | Released | DOI |
+|---|---|---|---|---|---|
+| `collections/proteomics/v1` | ASB Proteomics Skill Collection v1 | 558 | 163 | 2026-11-09 | [10.5281/zenodo.24093114](https://doi.org/10.5281/zenodo.24093114) |
+
 ## Status
 
-Candidate, not a release. Branch `candidate/c0107b2c545e` holds collection `v1`, built from corpus cut `c0107b2c545e`. The marketplace manifest sets `"release": false`. A release is a merge to `main` tagged `v<major>.<minor>.<patch>`.
+Collection `v1`, built from corpus cut `c0107b2c545e`, is released on `main` at tag `proteomics-v1.0.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24093114](https://doi.org/10.5281/zenodo.24093114).
 
 | Item | State |
 |---|---|
 | Release gate | `receipts/c0107b2c545e/gate_report.json` reports `pass`: 14 of 16 checks pass and 2 are not applicable (`cut_manifest`, and `peer_review_claim` because the corpus holds no preprint or deposit DOI). [`receipts/c0107b2c545e/VERIFY.md`](receipts/c0107b2c545e/VERIFY.md) gives the command that re-verifies it. |
-| Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` (3 warnings on fields Claude Code ignores) and for `collections/proteomics/v1` |
+| Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/proteomics/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/proteomics/v1` |
 | IRI resolution (2026-10-30) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
-| DOI | None yet. The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| DOI | [10.5281/zenodo.24093114](https://doi.org/10.5281/zenodo.24093114) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| Concept DOI | [10.5281/zenodo.24093113](https://doi.org/10.5281/zenodo.24093113) (all versions) |
 
 ## What is inside
 
@@ -75,10 +82,9 @@ The tier is advice about the tool. It does not change the licence of this collec
 
 ## Install
 
-Claude Code, from the directory that holds your clone of this repository, with the candidate branch checked out (the default branch `main` does not hold the collection yet):
+Claude Code, from the directory that holds your clone of this repository:
 
 ```bash
-git -C asb-skills-proteomics switch candidate/c0107b2c545e
 claude plugin marketplace add ./asb-skills-proteomics
 claude plugin install proteomics@asb-skills-proteomics
 ```
@@ -134,7 +140,7 @@ Each leaf names its source paper in `provenance.source_papers` (558 of 558 leave
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection has no DOI yet.
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24093114](https://doi.org/10.5281/zenodo.24093114); its concept DOI, which covers all versions, is [10.5281/zenodo.24093113](https://doi.org/10.5281/zenodo.24093113).
 
 ## Licence
 
