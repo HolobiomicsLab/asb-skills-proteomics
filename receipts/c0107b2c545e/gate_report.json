@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:32:22.753885+00:00",
+  "generated_at": "2026-11-10T15:32:36.360490+00:00",
   "collection_dir": "collections/proteomics/v1",
   "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "72b5f7497ed4533104a14462ff33ff1df01deac2d170efc1293401788f131417",
+      "sha256": "ea743a456a5c919a6c66309c8b2509af13992253d0a0901152f57c5d633d5644",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2518,
-          "sha256": "6728aecbedd1e7fbd0926b0576c377b71ea345d76577f403f58a03c62de7b9b7"
+          "sha256": "ae0621b91feee26733b012f93acddec654f75aac772406f31bc2349c1622614a"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 28061,
-          "sha256": "91d06721ddbfcd855c577776f1692c1c6159f0ee7947764e7ff9f18ab178a4bd"
+          "bytes": 28060,
+          "sha256": "781750c1e8e0176800a1f6340feebe087e52ca2e5a509e69260cc7ce1da35654"
         },
         {
           "path": "corpus.yaml",
@@ -5140,8 +5140,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2248,
-          "sha256": "e548061037f912d9df5b4d247588ea89e2c9c2047e9bbb870a0b775226e2cb7e"
+          "bytes": 3040,
+          "sha256": "8f90869c4eb148db62f5af4278566e20ad244156a76b4f6447eee46c9af659bc"
         },
         {
           "path": "skills_index.json",
@@ -5982,8 +5982,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3077,
-          "sha256": "cf1cfc9de0a6025b9dee2b5924887987b59443594011ea7788dffb8574183a9c"
+          "bytes": 3483,
+          "sha256": "8e4cef117505ae9d73761b3b5bc1a677c470f2f28c8cf33cc7078869e3efe235"
         },
         {
           "path": "workflows/immunopeptidomics-deep-rescoring",
@@ -6416,5 +6416,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "c53b998804220125c788b3094ed0b987c428b850f1072d33a9e2c34aecf8ac9b"
+  "receipt_sha256": "64ef82aa6c8b8d4f9a6e34bf5ada200eba1a4974b52c54f743d991b493c90c65"
 }
