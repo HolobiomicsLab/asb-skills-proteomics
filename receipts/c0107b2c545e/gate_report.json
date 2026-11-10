@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T08:01:30.966764+00:00",
+  "generated_at": "2026-11-10T13:32:22.753885+00:00",
   "collection_dir": "collections/proteomics/v1",
   "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
@@ -19,6 +19,12 @@
       "repo-copyleft",
       "repo-oa",
       "repo-permissive"
+    ],
+    "non_oa_tiers": [
+      "closed",
+      "hybrid",
+      "paywalled",
+      "unknown"
     ],
     "per_span_cap": 150,
     "cumulative_cap": 1500,
@@ -43,8 +49,8 @@
       "10.5281/"
     ],
     "max_leaves_per_evidence_span": 10,
-    "config_sha256": "b0119e2ec7c8a0fd33ce30eac249c4fb658b1fa34a5f866d5622f6bab698c190",
-    "implementation_sha256": "d0e6ced672181e093ee4f3002c7910a5a1bbb982d4e6cebea0150d37fd80562e"
+    "config_sha256": "abbae26c2214dac53dac1e7663e127d1b74560ee441166b42f8ea0fae989ccb2",
+    "implementation_sha256": "6cca2d07a9bf6428df9b59cf13ed210b50a1e8234c67e21a03f420847a5e4ad3"
   },
   "binding": {
     "payload": {
@@ -6410,5 +6416,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "a4c4a570064cce4bd895854b5cd0a6d3574de462eb06e2e754a44ce82fdff5fa"
+  "receipt_sha256": "c53b998804220125c788b3094ed0b987c428b850f1072d33a9e2c34aecf8ac9b"
 }
