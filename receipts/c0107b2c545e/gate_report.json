@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:32:36.360490+00:00",
+  "generated_at": "2026-11-10T16:37:56.198197+00:00",
   "collection_dir": "collections/proteomics/v1",
   "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "ea743a456a5c919a6c66309c8b2509af13992253d0a0901152f57c5d633d5644",
+      "sha256": "c47fa1613ed064ac1682e7f596d559df77720603d2b718feb1c945121fb24525",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -6416,5 +6416,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "64ef82aa6c8b8d4f9a6e34bf5ada200eba1a4974b52c54f743d991b493c90c65"
+  "receipt_sha256": "e4239f23fb33e49618db15d4b900ea806b88bddf7e7a34bfebd42af179cf01c9"
 }
