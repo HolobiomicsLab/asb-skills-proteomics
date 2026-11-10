@@ -45,5 +45,8 @@ references:
   license: Apache-2.0
 identifiers:
 - type: doi
+  value: 10.5281/zenodo.24093113
+  description: Zenodo concept DOI of the proteomics lineage (all versions)
+- type: doi
   value: 10.5281/zenodo.24093114
   description: Zenodo version DOI of v1 (2026-11-09)
