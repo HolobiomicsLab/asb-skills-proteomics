@@ -130,11 +130,11 @@ The gate checks that every included paper has an allowed access type, caps the l
 
 22 of the 28 included papers are open access according to `corpus.yaml` (`access.is_oa`). The other 6 are closed access and listed as `link-only`.
 
-Each leaf names its source paper in `provenance.source_papers` (558 of 558 leaves). 282 of the 558 quote it, or its repository README, in their `## Evidence` section. In the other 276, the gate parsed no quote span (`gate_report.json`, `strip_verbatim_similarity`, `coverage.files_without_spans`). In 273 of them the section is empty or its quotes are withheld because they could not be anchored in the source. In 2 the section holds a quote in a form the gate parser does not read. 1 have no `## Evidence` section.
+Each leaf names its source paper in `provenance.source_papers` (558 of 558 leaves). 282 of the 558 quote it, or its repository README, in their `## Evidence` section. In the other 276, the gate parsed no quote span (`gate_report.json`, `strip_verbatim_similarity`, `coverage.files_without_spans`). In 273 of them the section is empty or its quotes are withheld because they could not be anchored in the source. In 2 the section holds a quote in a form the gate parser does not read. 1 has no `## Evidence` section.
 
 ## Related repositories
 
-- [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the released metabolomics collection.
+- [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the earlier metabolomics v2 tree. The current metabolomics collection (v3) is in the `asb-skills-metabolomics` repository.
 - AgenticScienceBuilder: the pipeline that generated this collection. Repository follows.
 - `indicium-adapters-proteomics`: the Indicium domain adapter for the same domain. Repository follows.
 
