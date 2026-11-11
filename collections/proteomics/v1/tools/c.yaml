@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/dcgemperline/Morpheus_SpC
 - https://github.com/kherz/pulseq-cest
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/cmr-group/gropt
+license_evidence: null
+repo_url: null
