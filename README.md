@@ -30,7 +30,7 @@ This repository holds the proteomics skill collection of AgenticScienceBuilder (
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/proteomics/v1` | ASB Proteomics Skill Collection v1 | 558 | 163 | 2026-11-09 | [10.5281/zenodo.24093114](https://doi.org/10.5281/zenodo.24093114) |
+| `collections/proteomics/v1` | ASB Proteomics Skill Collection v1 | 558 | 163 | 2026-11-10 | [10.5281/zenodo.24122102](https://doi.org/10.5281/zenodo.24122102) |
 
 ## Status
 

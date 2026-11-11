@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T16:37:56.198197+00:00",
+  "generated_at": "2026-11-11T00:22:00.249172+00:00",
   "collection_dir": "collections/proteomics/v1",
   "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "c47fa1613ed064ac1682e7f596d559df77720603d2b718feb1c945121fb24525",
+      "sha256": "eaabc0c13cbd982ff3df1dd332b1c62176ffadef96754429ec479ed31e1a7dc1",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -63,7 +63,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 515,
-          "sha256": "44653d4f84916e893e75378689fee0cca61e66ddbde3d2957c7b79d65983b169"
+          "sha256": "fe6acc8adb9c8e7aa8ea52fe02f79a5a6f6c43400a266575c1349fdbe4c2396f"
         },
         {
           "path": ".zenodo.json",
@@ -72,8 +72,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 856,
-          "sha256": "9bb50231326a126b9571e4d58a1a20273a067823cdb1b426095c29571f0c2650"
+          "bytes": 958,
+          "sha256": "39b2016767f9af1368daf99b9a9a0119c5db6e3e748b575675ff90bf8807530d"
         },
         {
           "path": "bin",
@@ -6416,5 +6416,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "e4239f23fb33e49618db15d4b900ea806b88bddf7e7a34bfebd42af179cf01c9"
+  "receipt_sha256": "9a241a5fbd69690448ca9252dec8c30c0fddbab31d51fe05a76391b0121c66a5"
 }

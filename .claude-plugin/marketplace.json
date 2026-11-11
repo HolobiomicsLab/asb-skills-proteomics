@@ -10,7 +10,7 @@
       "name": "proteomics",
       "source": "./collections/proteomics/v1",
       "description": "ASB Proteomics Skill Collection v1: 558 evidence-grounded skills over 163 tools.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Holobiomics Lab",
         "url": "https://github.com/HolobiomicsLab"
