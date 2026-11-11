@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-11T05:33:15.595571+00:00",
+  "generated_at": "2026-11-11T09:19:06.856047+00:00",
   "collection_dir": "collections/proteomics/v1",
   "corpus_path": "collections/proteomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "3555f708c0f6944a18833f7db4279bf464a518c166046dd46a17b2766ca074e1",
+      "sha256": "c3036415807956b2876eef9c9410561b10e392e16d3fa0514ba77f5fd073aefb",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -80,9 +80,14 @@
           "directory": true
         },
         {
+          "path": "bin/report_issue.py",
+          "bytes": 44558,
+          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+        },
+        {
           "path": "bin/search_skills.py",
-          "bytes": 24610,
-          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
+          "bytes": 25199,
+          "sha256": "a9bb1cc42eb2f77430025edc70a6f30ca2fd5da639970f0cbfeb1af4c80aef00"
         },
         {
           "path": "collection.yaml",
@@ -5140,8 +5145,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 3040,
-          "sha256": "8f90869c4eb148db62f5af4278566e20ad244156a76b4f6447eee46c9af659bc"
+          "bytes": 4289,
+          "sha256": "35bf2c3da18e9c1fc27f6878568a2bc4a4e0ca11b135efbf0058bb71a0652b1c"
         },
         {
           "path": "skills_index.json",
@@ -5987,8 +5992,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3483,
-          "sha256": "8e4cef117505ae9d73761b3b5bc1a677c470f2f28c8cf33cc7078869e3efe235"
+          "bytes": 4732,
+          "sha256": "ec6d22e15aa3bf7786d2c6ab1d380699881f7112addd461b082faf846e1b5c14"
         },
         {
           "path": "workflows/immunopeptidomics-deep-rescoring",
@@ -6334,7 +6339,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 741,
+        "checked": 742,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -6421,5 +6426,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "998c56b3792bb23896e2dd8e18e4f58f43d6409d107fb65b70c72bc05543d6af"
+  "receipt_sha256": "28a207411a7630cbf70db16cfd976a76167c1e336ef63207fd7bdc26c6c8f1d9"
 }
