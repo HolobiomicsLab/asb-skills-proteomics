@@ -11,7 +11,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "repo_url": null,
     "used_by_skills": [
       "3d-conditional-gan-training",
       "cross-model-benchmark-comparison",
@@ -27,6 +27,11 @@
       "pet-image-synthesis-from-mri",
       "tensorflow-gpu-distributed-training",
       "training-convergence-plateau-detection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Haoyulance/SC-GAN"
     ]
   },
   {
@@ -41,7 +46,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "repo_url": null,
     "used_by_skills": [
       "3d-conditional-gan-training",
       "cross-model-benchmark-comparison",
@@ -62,6 +67,11 @@
       "protocol-conditioning-via-adaptive-instance-normalization",
       "tensorflow-gpu-distributed-training",
       "training-convergence-plateau-detection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Haoyulance/SC-GAN"
     ]
   },
   {
@@ -76,7 +86,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "repo_url": null,
     "used_by_skills": [
       "3d-conditional-gan-training",
       "diffusion-mri-superresolution",
@@ -84,6 +94,11 @@
       "multidimensional-diffusion-mri-challenge-data-handling",
       "nrmse-image-quality-evaluation",
       "protocol-conditioning-via-adaptive-instance-normalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Haoyulance/SC-GAN"
     ]
   },
   {
@@ -98,9 +113,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -115,11 +135,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "colabfold-alphafold2-structure-inference",
       "plddt-pae-confidence-metric-extraction",
       "predicted-structure-output-validation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
     ]
   },
   {
@@ -134,13 +159,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "psm-rescoring-with-percolator",
       "retention-time-prediction-feature-generation",
       "search-engine-peptide-count-reproduction",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -155,13 +185,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "repo_url": null,
     "used_by_skills": [
       "3d-conditional-gan-training",
       "gan-hyperparameter-tuning-cross-validation",
       "image-quality-metric-computation",
       "pet-image-synthesis-from-mri",
       "tensorflow-gpu-distributed-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Haoyulance/SC-GAN"
     ]
   },
   {
@@ -176,7 +211,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/AutoRT",
+    "repo_url": null,
     "used_by_skills": [
       "feature-ablation-sensitivity-analysis",
       "immunopeptidomics-fdr-filtering",
@@ -191,6 +226,12 @@
       "spectral-angle-similarity-scoring",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/AutoRT",
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -205,7 +246,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FBarthels/BANDIT",
+    "repo_url": null,
     "used_by_skills": [
       "b-factor-profile-normalization",
       "delta-b-prime-binding-site-interpretation",
@@ -219,6 +260,11 @@
       "residue-level-mobility-change-classification",
       "structure-based-drug-design",
       "structure-based-drug-design-b-factor-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FBarthels/BANDIT"
     ]
   },
   {
@@ -233,12 +279,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "repo_url": null,
     "used_by_skills": [
       "binary-classifier-benchmarking",
       "class-imbalance-weighted-training",
       "gradient-boosting-classifier-training",
       "stacking-ensemble-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -253,7 +304,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "bidirectional-lstm-feature-extraction",
       "binary-classifier-metric-evaluation",
@@ -268,6 +319,11 @@
       "protein-sequence-embedding-generation",
       "protein-sequence-redundancy-filtering",
       "roc-auc-evaluation--5a9bf612d0c79238"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -278,11 +334,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "license_tier": "open",
+    "license": "Artistic-2.0",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/Bioconductor/BiocStyle",
     "used_by_skills": [
       "3d-scan-intensity-visualization",
       "isotopic-envelope-visualization",
@@ -299,6 +355,11 @@
       "single-peak-detection-from-mass-spectra",
       "spectral-intensity-transformation",
       "spectral-smoothing-and-baseline-correction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/BiocStyle",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -313,11 +374,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/scop3d",
+    "repo_url": null,
     "used_by_skills": [
       "consensus-sequence-construction",
       "multiple-sequence-alignment-muscle",
       "pdb-bvalue-structure-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/scop3d"
     ]
   },
   {
@@ -328,11 +394,11 @@
       "10.1002/pmic.201400354"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/compomics/scop3d",
+    "license_tier": "open",
+    "license": "LicenseRef-Biopython-License-Agreement",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/biopython/biopython",
     "used_by_skills": [
       "amino-acid-frequency-matrix-construction",
       "consensus-sequence-construction",
@@ -343,6 +409,11 @@
       "pdb-file-parsing-and-manipulation",
       "protein-sequence-conservation-quantification",
       "sequence-position-to-structure-residue-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/biopython/biopython/HEAD/LICENSE.rst",
+    "source_paper_repos": [
+      "https://github.com/compomics/scop3d"
     ]
   },
   {
@@ -353,17 +424,22 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "license_tier": "open",
+    "license": "Artistic-2.0",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/Bioconductor/Biostrings",
     "used_by_skills": [
       "mzid-identification-parsing",
       "peptide-to-protein-coordinate-mapping",
       "protein-peptide-range-visualization",
       "protein-sequence-loading-from-fasta",
       "proteins-object-construction-pbase"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/Biostrings",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -374,11 +450,11 @@
       "10.1002/pmic.201400354"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/compomics/scop3d",
+    "license_tier": "open",
+    "license": "NCBI-PD",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ncbi/ncbi-cxx-toolkit-public",
     "used_by_skills": [
       "consensus-sequence-construction",
       "conservation-metric-superimposition-on-3d-structure",
@@ -387,6 +463,11 @@
       "pdb-file-parsing-and-manipulation",
       "sequence-conservation-analysis",
       "sequence-position-to-structure-residue-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/ncbi/ncbi-cxx-toolkit-public/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/compomics/scop3d"
     ]
   },
   {
@@ -403,7 +484,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/cmr-group/gropt",
+    "repo_url": null,
     "used_by_skills": [
       "admm-constrained-optimization-execution",
       "admm-solver-configuration",
@@ -430,6 +511,13 @@
       "pns-constraint-waveform-design",
       "rotation-matrix-constraint-transformation",
       "slice-obliquity-hardware-derating"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/cmr-group/gropt",
+      "https://github.com/dcgemperline/Morpheus_SpC",
+      "https://github.com/kherz/pulseq-cest"
     ]
   },
   {
@@ -444,7 +532,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "repo_url": null,
     "used_by_skills": [
       "calibration-curve-linear-regression",
       "calibration-curve-visualization",
@@ -468,6 +556,11 @@
       "targeted-proteomics-linear-range-output",
       "uloq-out-of-range-prediction-flagging",
       "weighted-least-squares-calibration-fitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/mpc-bioinformatics/CalibraCurve"
     ]
   },
   {
@@ -482,12 +575,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "repo_url": null,
     "used_by_skills": [
       "ion-image-slice-extraction",
       "maldi-imaging-spectrum-averaging",
       "mass-peak-picking-and-intensity-ranking",
       "proteomics-data-visualization-r"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -498,13 +596,18 @@
       "10.1016/j.csbj.2023.07.023"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/caret/index.html",
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -520,7 +623,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "binary-classifier-benchmarking",
       "boosted-tree-classifier-training",
@@ -539,6 +642,12 @@
       "protein-language-model-embedding-inference",
       "protein-sequence-fasta-batch-processing",
       "stacking-ensemble-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR",
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -555,11 +664,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "fasta-sequence-handling",
       "gpcr-benchmark-dataset-handling",
       "sequence-homology-reduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR",
+      "https://github.com/Wangys-prog/prPred-DRLF",
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -574,10 +690,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "chimeric-transcript-annotation",
       "depmap-rnaseq-fusion-data-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -592,7 +713,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "repo_url": null,
     "used_by_skills": [
       "coulombic-electrostatic-modeling",
       "disulfide-bond-detection-from-structures",
@@ -600,6 +721,11 @@
       "hydrogen-bond-pattern-recognition",
       "protein-backbone-geometry-computation",
       "secondary-structure-hbond-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/PDB-REDO/dssp"
     ]
   },
   {
@@ -610,10 +736,10 @@
       "10.1002/pld3.509"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/sokrypton/ColabFold",
     "used_by_skills": [
       "cbp60-family-sequence-curation",
@@ -621,6 +747,12 @@
       "dimensionality-reduction-runtime-benchmarking",
       "plddt-pae-confidence-metric-extraction",
       "predicted-structure-output-validation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/colabfold",
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db",
+      "https://github.com/sokrypton/ColabFold"
     ]
   },
   {
@@ -636,7 +768,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "comet-database-searching",
       "cross-search-engine-peptide-overlap-analysis",
@@ -678,6 +810,12 @@
       "target-decoy-fdr-filtering",
       "thermal-proteome-profiling-analysis",
       "tmt-interference-qc-score-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Villen-Lab/isobaricquant",
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -692,13 +830,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/jianjunwang/iDOM",
+    "repo_url": null,
     "used_by_skills": [
       "betanti-null-model-computation",
       "deterministic-stochastic-process-classification",
       "dom-assembly-process-quantification",
       "ecological-null-model-interpretation",
       "molecular-dendrogram-based-turnover-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/jianjunwang/iDOM"
     ]
   },
   {
@@ -713,7 +856,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/ms-lims",
+    "repo_url": null,
     "used_by_skills": [
       "mascot-search-output-parsing",
       "mass-spectrometry-data-management",
@@ -729,6 +872,11 @@
       "proteomics-identification-filtering",
       "proteomics-spectrum-database-storage",
       "spectral-peak-list-conversion"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/ms-lims"
     ]
   },
   {
@@ -743,13 +891,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/customprodbj",
+    "repo_url": null,
     "used_by_skills": [
       "psm-rescoring-with-percolator",
       "retention-time-prediction-feature-generation",
       "search-engine-peptide-count-reproduction",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore",
+      "https://github.com/bzhanglab/customprodbj"
     ]
   },
   {
@@ -764,7 +918,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/cmr-group/gropt",
+    "repo_url": null,
     "used_by_skills": [
       "admm-constrained-optimization-execution",
       "admm-solver-configuration",
@@ -791,6 +945,11 @@
       "pns-constraint-waveform-design",
       "rotation-matrix-constraint-transformation",
       "slice-obliquity-hardware-derating"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/cmr-group/gropt"
     ]
   },
   {
@@ -801,16 +960,21 @@
       "10.1002/pmic.201900245"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/wangshisheng/motifeRapp",
+    "license_tier": "open",
+    "license": "MPL-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/Rdatatable/data.table",
     "used_by_skills": [
       "graph-network-construction-and-visualization",
       "kinase-activity-aggregation-scoring",
       "motif-overrepresentation-significance-testing",
       "networkkin-database-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/data.table/index.html",
+    "source_paper_repos": [
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -825,11 +989,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "independent-test-set-evaluation--dd3c94b213738397",
       "mcc-sensitivity-specificity-metric-calculation",
       "roc-auc-evaluation--c0a7021e46afa01b"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -844,7 +1013,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "repo_url": null,
     "used_by_skills": [
       "classification-threshold-beta-sweep",
       "classifier-performance-curve-visualization",
@@ -854,6 +1023,11 @@
       "precision-recall-metric-computation",
       "precision-recall-tradeoff-analysis",
       "protein-language-model-embedding-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -868,7 +1042,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "comet-database-searching",
       "cross-search-engine-peptide-overlap-analysis",
@@ -893,6 +1067,11 @@
       "spectral-prediction-feature-generation",
       "synthetic-peptide-lc-msms-confirmation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -907,13 +1086,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "boxplot-visualization-across-cancer-types",
       "chimeric-transcript-annotation",
       "cnv-alteration-frequency-analysis",
       "depmap-rnaseq-fusion-data-processing",
       "pancancer-expression-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -924,12 +1108,17 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "LGPL-3.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
+    ]
   },
   {
     "slug": "devtools",
@@ -940,11 +1129,11 @@
       "10.1002/pmic.202200252"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/jianjunwang/iDOM",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/r-lib/devtools",
     "used_by_skills": [
       "aromaticity-index-computation",
       "betanti-null-model-computation",
@@ -990,6 +1179,12 @@
       "subsample-resampling-omics",
       "temperature-gradient-trend-regression",
       "warming-response-network-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/r-lib/devtools/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/ShuklaLab/muSignAl",
+      "https://github.com/jianjunwang/iDOM"
     ]
   },
   {
@@ -1004,7 +1199,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "repo_url": null,
     "used_by_skills": [
       "classifier-prediction-count-comparison",
       "cross-species-phosphosite-prediction-transfer",
@@ -1015,6 +1210,11 @@
       "gff3-annotation-merging",
       "phosphosite-label-annotation",
       "phosphosite-peptide-window-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -1025,11 +1225,11 @@
       "10.1002/pmic.201900334"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/moby/moby",
     "used_by_skills": [
       "feature-ablation-sensitivity-analysis",
       "immunopeptidomics-fdr-filtering",
@@ -1044,6 +1244,11 @@
       "spectral-angle-similarity-scoring",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/moby/moby/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -1054,10 +1259,10 @@
       "10.1002/bip.360221211"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "BSD-2-Clause",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/PDB-REDO/dssp",
     "used_by_skills": [
       "asa-benchmark-validation-against-reference",
@@ -1068,6 +1273,11 @@
       "protein-backbone-geometry-computation",
       "protein-hydrogen-bond-energy-calculation",
       "secondary-structure-hbond-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/dssp",
+    "source_paper_repos": [
+      "https://github.com/PDB-REDO/dssp"
     ]
   },
   {
@@ -1082,9 +1292,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -1095,12 +1310,17 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/edgeR.html",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
+    ]
   },
   {
     "slug": "efeature",
@@ -1114,7 +1334,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "bidirectional-lstm-feature-extraction",
       "binary-classifier-metric-evaluation",
@@ -1129,6 +1349,11 @@
       "protein-sequence-embedding-generation",
       "protein-sequence-redundancy-filtering",
       "roc-auc-evaluation--5a9bf612d0c79238"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -1143,8 +1368,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
+    ]
   },
   {
     "slug": "ensembl-perl-api",
@@ -1158,8 +1388,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/scop3d",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/scop3d"
+    ]
   },
   {
     "slug": "extreme-gradient-boosting",
@@ -1173,13 +1408,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-method-comparison",
       "boosted-tree-classifier-training",
       "five-fold-cross-validation-classifier-evaluation",
       "focal-loss-binary-classification-training",
       "protein-sequence-feature-dimensionality-reduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
     ]
   },
   {
@@ -1194,9 +1434,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "repo_url": null,
     "used_by_skills": [
       "log10-reporter-intensity-correlation-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Villen-Lab/isobaricquant"
     ]
   },
   {
@@ -1211,7 +1456,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "repo_url": null,
     "used_by_skills": [
       "brain-tissue-regional-error-mapping",
       "desikan-killiany-atlas-parcellation",
@@ -1223,6 +1468,11 @@
       "pet-mri-coregistration",
       "pet-surv-quantification",
       "regional-uptake-comparison-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Haoyulance/SC-GAN"
     ]
   },
   {
@@ -1237,7 +1487,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-method-comparison",
       "cbow-word-embedding-feature-generation",
@@ -1249,6 +1499,11 @@
       "smote-class-imbalance-handling",
       "word2vec-cbow-model-training",
       "yu-negative-sample-segmentation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
     ]
   },
   {
@@ -1261,11 +1516,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/ggplot2",
     "used_by_skills": [
       "calibration-curve-linear-regression",
       "calibration-curve-visualization",
@@ -1277,6 +1532,13 @@
       "targeted-proteomics-assay-validation",
       "targeted-proteomics-linear-range-output",
       "weighted-least-squares-calibration-fitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/ggplot2/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase",
+      "https://github.com/mpc-bioinformatics/CalibraCurve",
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -1291,11 +1553,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wangshisheng/motifeRapp",
+    "repo_url": null,
     "used_by_skills": [
       "graph-network-construction-and-visualization",
       "kinase-activity-aggregation-scoring",
       "networkkin-database-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -1306,16 +1573,22 @@
       "10.1002/pmic.201900245"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "LGPL",
+    "license_detection": "cran-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/omarwagih/ggseqlogo",
     "used_by_skills": [
       "motif-discovery-sensitivity-comparison",
       "motif-overrepresentation-significance-testing",
       "ptm-motif-enrichment-analysis",
       "r-package-data-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/package=ggseqlogo",
+    "source_paper_repos": [
+      "https://github.com/omarwagih/ggseqlogo",
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -1330,8 +1603,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/cmr-group/gropt",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/cmr-group/gropt"
+    ]
   },
   {
     "slug": "github-musignal-repository",
@@ -1345,8 +1623,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ShuklaLab/muSignAl",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ShuklaLab/muSignAl"
+    ]
   },
   {
     "slug": "github",
@@ -1360,8 +1643,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/kherz/pulseq-cest",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/kherz/pulseq-cest"
+    ]
   },
   {
     "slug": "glm",
@@ -1375,9 +1663,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -1389,11 +1682,11 @@
       "10.1002/pmic.202200252"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "license_tier": "open",
+    "license": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "auc-based-signature-performance-thresholding",
       "auc-model-evaluation",
@@ -1409,6 +1702,12 @@
       "r-package-installation-and-execution",
       "stratified-cross-validation-model-evaluation",
       "subsample-resampling-omics"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/glmnet/index.html",
+    "source_paper_repos": [
+      "https://github.com/ShuklaLab/muSignAl",
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -1423,8 +1722,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
+    ]
   },
   {
     "slug": "gps-sno",
@@ -1438,11 +1742,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "independent-test-set-evaluation--dd3c94b213738397",
       "mcc-sensitivity-specificity-metric-calculation",
       "roc-auc-evaluation--c0a7021e46afa01b"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -1457,13 +1766,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "immunopeptidomics-fdr-filtering",
       "mgf-spectra-conversion-and-database-searching",
       "psm-rescoring-with-percolator",
       "retention-time-prediction-feature-generation",
       "rt-feature-distribution-significance-testing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -1478,10 +1792,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "cbp60-family-sequence-curation",
       "transcript-protein-count-verification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
     ]
   },
   {
@@ -1492,11 +1811,11 @@
       "10.1002/mrm.28384"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/cmr-group/gropt",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
+    "repo_url": "http://www.github.com/cmr-group/gropt",
     "used_by_skills": [
       "admm-constrained-optimization-execution",
       "admm-solver-configuration",
@@ -1523,6 +1842,11 @@
       "pns-constraint-waveform-design",
       "rotation-matrix-constraint-transformation",
       "slice-obliquity-hardware-derating"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/gropt",
+    "source_paper_repos": [
+      "https://github.com/cmr-group/gropt"
     ]
   },
   {
@@ -1537,9 +1861,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "msigdb-geneset-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -1554,7 +1883,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/middle-down/Software",
+    "repo_url": null,
     "used_by_skills": [
       "brno-nomenclature-ptm-annotation",
       "brno-nomenclature-ptm-string-parsing",
@@ -1582,6 +1911,11 @@
       "site-determining-ion-counting",
       "spectral-counting-quantification",
       "wt-vs-knockout-ptm-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/middle-down/Software"
     ]
   },
   {
@@ -1596,7 +1930,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "hla-allele-best-score-assignment",
       "mhc-binding-affinity-prediction",
@@ -1607,6 +1941,11 @@
       "retention-time-prediction-feature-generation",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -1617,17 +1956,22 @@
       "10.1002/pmic.202100161"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/EddyRivasLab/hmmer",
     "used_by_skills": [
       "classification-metrics-computation",
       "hmm-profile-alignment-scoring",
       "independent-test-set-evaluation--677a6f1422260e6d",
       "protein-sequence-prediction-benchmarking",
       "roc-auc-evaluation--5a9bf612d0c79238"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/EddyRivasLab/hmmer/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -1642,7 +1986,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/jianjunwang/iDOM",
+    "repo_url": null,
     "used_by_skills": [
       "aromaticity-index-computation",
       "betanti-null-model-computation",
@@ -1681,6 +2025,11 @@
       "sample-subset-random-splitting",
       "temperature-gradient-trend-regression",
       "warming-response-network-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/jianjunwang/iDOM"
     ]
   },
   {
@@ -1691,15 +2040,20 @@
       "10.1002/pmic.201900245"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/wangshisheng/motifeRapp",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/igraph/igraph",
     "used_by_skills": [
       "graph-network-construction-and-visualization",
       "kinase-activity-aggregation-scoring",
       "networkkin-database-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/igraph/index.html",
+    "source_paper_repos": [
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -1714,10 +2068,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "cross-validation-performance-evaluation",
       "smote-class-imbalance-handling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
     ]
   },
   {
@@ -1732,7 +2091,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "boxplot-visualization-across-cancer-types",
       "cancer-cell-line-data-processing",
@@ -1745,6 +2104,11 @@
       "msigdb-geneset-mapping",
       "pancancer-expression-analysis",
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -1759,10 +2123,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "msigdb-geneset-mapping",
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -1777,10 +2146,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/ms-lims",
+    "repo_url": null,
     "used_by_skills": [
       "mascot-search-output-parsing",
       "peptide-identification-quantitation-linkage"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/ms-lims"
     ]
   },
   {
@@ -1795,11 +2169,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "independent-test-set-evaluation--dd3c94b213738397",
       "mcc-sensitivity-specificity-metric-calculation",
       "roc-auc-evaluation--c0a7021e46afa01b"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -1814,13 +2193,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/middle-down/Software",
+    "repo_url": null,
     "used_by_skills": [
       "brno-nomenclature-ptm-annotation",
       "histone-ptm-relative-quantification",
       "isobaric-peptide-fragment-ion-ratio-correction",
       "mascot-output-parsing",
       "ptm-abundance-fold-change-comparison-between-cell-states"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/middle-down/Software"
     ]
   },
   {
@@ -1831,10 +2215,10 @@
       "10.1002/pmic.202100253"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/Villen-Lab/isobaricquant",
     "used_by_skills": [
       "differential-abundance-significance-testing",
@@ -1866,6 +2250,11 @@
       "sps-ms3-qc-score-filtering",
       "thermal-proteome-profiling-analysis",
       "tmt-interference-qc-score-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/isobaricquant",
+    "source_paper_repos": [
+      "https://github.com/Villen-Lab/isobaricquant"
     ]
   },
   {
@@ -1880,7 +2269,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/middle-down/Software",
+    "repo_url": null,
     "used_by_skills": [
       "brno-nomenclature-ptm-annotation",
       "brno-nomenclature-ptm-string-parsing",
@@ -1905,6 +2294,11 @@
       "relative-peptide-abundance-quantification",
       "spectral-counting-quantification",
       "wt-vs-knockout-ptm-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/middle-down/Software"
     ]
   },
   {
@@ -1923,7 +2317,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "repo_url": null,
     "used_by_skills": [
       "brno-nomenclature-ptm-annotation",
       "brno-nomenclature-ptm-string-parsing",
@@ -2015,6 +2409,15 @@
       "wt-vs-knockout-ptm-comparison",
       "xtandem-xml-object-model-access",
       "xtandem-xml-result-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/PRIDE-Archive/jmzReader",
+      "https://github.com/Villen-Lab/isobaricquant",
+      "https://github.com/compomics/ms-lims",
+      "https://github.com/compomics/xtandem-parser",
+      "https://github.com/middle-down/Software"
     ]
   },
   {
@@ -2029,7 +2432,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/PRIDE-Archive/jmzReader",
+    "repo_url": null,
     "used_by_skills": [
       "cross-format-parser-conformance-testing",
       "cv-parameter-extraction",
@@ -2043,6 +2446,11 @@
       "proteomics-mass-spectrometry-file-format-handling",
       "scan-metadata-extraction-mass-spectrometry",
       "spectrum-peak-array-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/PRIDE-Archive/jmzReader"
     ]
   },
   {
@@ -2057,7 +2465,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/PRIDE-Archive/jmzReader",
+    "repo_url": null,
     "used_by_skills": [
       "common-spectra-interface-reconstruction",
       "cross-format-parser-conformance-testing",
@@ -2084,6 +2492,12 @@
       "spectrum-header-field-extraction",
       "spectrum-peak-array-extraction",
       "spectrum-record-schema-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/PRIDE-Archive/jmzReader",
+      "https://github.com/PRIDE-Utilities/jmzReader"
     ]
   },
   {
@@ -2098,9 +2512,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -2111,11 +2530,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "license_tier": "open",
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/yihui/knitr",
     "used_by_skills": [
       "3d-scan-intensity-visualization",
       "isotopic-envelope-visualization",
@@ -2136,6 +2555,11 @@
       "spectral-intensity-transformation",
       "spectral-smoothing-and-baseline-correction",
       "tmt-reporter-channel-ratio-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/knitr/index.html",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -2150,7 +2574,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "repo_url": null,
     "used_by_skills": [
       "collision-energy-calibration",
       "irt-to-retention-time-alignment",
@@ -2175,6 +2599,11 @@
       "spectral-peak-annotation-with-predicted-fragments",
       "target-decoy-fdr-estimation",
       "wallclock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wilhelm-lab/oktoberfest"
     ]
   },
   {
@@ -2189,7 +2618,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "bidirectional-lstm-feature-extraction",
       "binary-classifier-metric-evaluation",
@@ -2208,6 +2637,11 @@
       "roc-auc-evaluation--5a9bf612d0c79238",
       "scatter-plot-visualization",
       "umap-dimensionality-reduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -2218,12 +2652,17 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/limma.html",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
+    ]
   },
   {
     "slug": "maldimid",
@@ -2233,10 +2672,10 @@
       "10.1002/pmic.202300005"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/budczies/MALDImIDshiny",
     "used_by_skills": [
       "differential-abundance-gene-list-matching",
@@ -2259,6 +2698,11 @@
       "replicate-positivity-counting",
       "result-table-reference-comparison",
       "tabular-column-annotation-r"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/maldimid",
+    "source_paper_repos": [
+      "https://github.com/budczies/MALDImIDshiny"
     ]
   },
   {
@@ -2273,7 +2717,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "repo_url": null,
     "used_by_skills": [
       "ion-image-slice-extraction",
       "maldi-imaging-spectrum-averaging",
@@ -2284,6 +2728,11 @@
       "single-peak-detection-from-mass-spectra",
       "spectral-intensity-transformation",
       "spectral-smoothing-and-baseline-correction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -2298,7 +2747,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/middle-down/Software",
+    "repo_url": null,
     "used_by_skills": [
       "brno-nomenclature-ptm-annotation",
       "brno-nomenclature-ptm-string-parsing",
@@ -2325,6 +2774,11 @@
       "site-determining-ion-counting",
       "spectral-counting-quantification",
       "wt-vs-knockout-ptm-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/middle-down/Software"
     ]
   },
   {
@@ -2335,11 +2789,11 @@
       "10.1002/pro.3703"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "restricted",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hscsun/SimpleDSFviewer-5.0",
+    "license_detection": "vendor-product",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "curve-smoothing-comparison-analysis",
       "derivative-curve-peak-identification",
@@ -2361,6 +2815,11 @@
       "scientific-task-formulation",
       "signal-smoothing-window-selection",
       "thermal-denaturation-curve-classification"
+    ],
+    "entry_kind": "vendor_product",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hscsun/SimpleDSFviewer-5.0"
     ]
   },
   {
@@ -2372,11 +2831,11 @@
       "10.1002/pro.3703"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "restricted",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/kherz/pulseq-cest",
+    "license_detection": "vendor-product",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "bloch-mcconnell-simulation",
       "cest-z-spectral-processing",
@@ -2394,6 +2853,12 @@
       "simulation-runtime-benchmarking",
       "white-matter-roi-segmentation-spm",
       "z-spectrum-normalization-and-mtrasym-calculation"
+    ],
+    "entry_kind": "vendor_product",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hscsun/SimpleDSFviewer-5.0",
+      "https://github.com/kherz/pulseq-cest"
     ]
   },
   {
@@ -2409,7 +2874,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/PRIDE-Utilities/jmzReader",
+    "repo_url": null,
     "used_by_skills": [
       "common-spectra-interface-reconstruction",
       "cross-format-parser-conformance-testing",
@@ -2439,6 +2904,13 @@
       "spectrum-header-field-extraction",
       "spectrum-peak-array-extraction",
       "spectrum-record-schema-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/PRIDE-Archive/jmzReader",
+      "https://github.com/PRIDE-Utilities/jmzReader",
+      "https://github.com/compomics/ms-lims"
     ]
   },
   {
@@ -2454,7 +2926,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "cross-search-engine-peptide-overlap-analysis",
       "hla-allele-best-score-assignment",
@@ -2473,6 +2945,12 @@
       "search-engine-peptide-count-reproduction",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Villen-Lab/isobaricquant",
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -2487,12 +2965,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "cbp60-family-sequence-curation",
       "multiple-sequence-alignment-generation",
       "phylogenetic-tree-inference",
       "protein-sequence-alignment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
     ]
   },
   {
@@ -2507,7 +2990,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "hla-allele-best-score-assignment",
       "mhc-binding-affinity-prediction",
@@ -2518,6 +3001,11 @@
       "retention-time-prediction-feature-generation",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -2532,7 +3020,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "repo_url": null,
     "used_by_skills": [
       "coulombic-electrostatic-modeling",
       "disulfide-bond-detection-from-structures",
@@ -2541,6 +3029,11 @@
       "protein-backbone-geometry-computation",
       "protein-hydrogen-bond-energy-calculation",
       "secondary-structure-hbond-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/PDB-REDO/dssp"
     ]
   },
   {
@@ -2555,7 +3048,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "repo_url": null,
     "used_by_skills": [
       "gain-loss-rescoring-visualization",
       "irt-to-retention-time-alignment",
@@ -2582,6 +3075,11 @@
       "spectral-peak-annotation-with-predicted-fragments",
       "target-decoy-fdr-estimation",
       "wallclock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wilhelm-lab/oktoberfest"
     ]
   },
   {
@@ -2596,7 +3094,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/dcgemperline/Morpheus_SpC",
+    "repo_url": null,
     "used_by_skills": [
       "distributed-peptide-sharing-across-protein-families",
       "isoform-proteoform-abundance-estimation",
@@ -2604,6 +3102,11 @@
       "nsaf-normalization",
       "protein-length-correction",
       "spectral-count-protein-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/dcgemperline/Morpheus_SpC"
     ]
   },
   {
@@ -2618,7 +3121,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/cwenger.github.io/Morpheus",
+    "repo_url": null,
     "used_by_skills": [
       "distributed-peptide-sharing-across-protein-families",
       "isoform-proteoform-abundance-estimation",
@@ -2626,6 +3129,12 @@
       "nsaf-normalization",
       "protein-length-correction",
       "spectral-count-protein-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/cwenger.github.io/Morpheus",
+      "https://github.com/dcgemperline/Morpheus_SpC"
     ]
   },
   {
@@ -2640,7 +3149,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wangshisheng/motifeR",
+    "repo_url": null,
     "used_by_skills": [
       "graph-network-construction-and-visualization",
       "kinase-activity-aggregation-scoring",
@@ -2649,6 +3158,12 @@
       "networkkin-database-annotation",
       "ptm-motif-enrichment-analysis",
       "r-package-data-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wangshisheng/motifeR",
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -2663,7 +3178,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "class-imbalanced-protein-dataset-evaluation",
       "cross-validated-classifier-benchmarking",
@@ -2671,6 +3186,11 @@
       "gradient-boosting-feature-ranking",
       "protein-embedding-feature-selection",
       "roc-auc-evaluation--5a9bf612d0c79238"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -2685,7 +3205,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MSGFPlus/msgfplus",
+    "repo_url": null,
     "used_by_skills": [
       "cross-search-engine-peptide-overlap-analysis",
       "hla-allele-best-score-assignment",
@@ -2702,6 +3222,12 @@
       "search-engine-peptide-count-reproduction",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MSGFPlus/msgfplus",
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -2716,13 +3242,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/ms-lims",
+    "repo_url": null,
     "used_by_skills": [
       "mass-spectrometry-spectrum-archival-schema-design",
       "mgf-format-parsing",
       "ms-lims-database-querying",
       "peptide-identification-quantitation-linkage",
       "proteomics-spectrum-database-storage"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/ms-lims"
     ]
   },
   {
@@ -2733,11 +3264,11 @@
       "10.1002/pmic.202100253"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/Villen-Lab/isobaricquant",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ProteoWizard/pwiz",
     "used_by_skills": [
       "differential-abundance-significance-testing",
       "fragment-ion-intensity-scoring",
@@ -2763,6 +3294,11 @@
       "sps-ms3-qc-score-filtering",
       "thermal-proteome-profiling-analysis",
       "tmt-interference-qc-score-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/ProteoWizard/pwiz/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/Villen-Lab/isobaricquant"
     ]
   },
   {
@@ -2777,9 +3313,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "msigdb-geneset-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -2794,7 +3335,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "repo_url": null,
     "used_by_skills": [
       "calibration-data-preprocessing",
       "calibration-level-iterative-trimming",
@@ -2808,6 +3349,11 @@
       "targeted-proteomics-dilution-series-analysis",
       "targeted-proteomics-linear-range-output",
       "uloq-out-of-range-prediction-flagging"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/mpc-bioinformatics/CalibraCurve"
     ]
   },
   {
@@ -2822,8 +3368,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
+    ]
   },
   {
     "slug": "muscle",
@@ -2838,7 +3389,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "amino-acid-frequency-matrix-construction",
       "cbp60-family-sequence-curation",
@@ -2853,6 +3404,12 @@
       "protein-sequence-conservation-quantification",
       "protein-sequence-logo-generation",
       "sequence-conservation-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db",
+      "https://github.com/compomics/scop3d"
     ]
   },
   {
@@ -2863,10 +3420,10 @@
       "10.1002/pmic.202200252"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/ShuklaLab/muSignAl",
     "used_by_skills": [
       "auc-based-signature-performance-thresholding",
@@ -2884,6 +3441,11 @@
       "proteomics-signature-table-parsing",
       "r-package-installation-and-execution",
       "subsample-resampling-omics"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/musignal",
+    "source_paper_repos": [
+      "https://github.com/ShuklaLab/muSignAl"
     ]
   },
   {
@@ -2894,11 +3456,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "mzid-identification-parsing",
       "orbitrap-hela-prtc-dataset-handling",
@@ -2907,6 +3469,11 @@
       "protein-sequence-loading-from-fasta",
       "proteins-object-construction-pbase",
       "proteomics-data-visualization-r"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/mzID",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -2921,10 +3488,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "independent-test-set-evaluation--dd3c94b213738397",
       "mcc-sensitivity-specificity-metric-calculation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -2939,13 +3511,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/neoflow",
+    "repo_url": null,
     "used_by_skills": [
       "psm-rescoring-with-percolator",
       "retention-time-prediction-feature-generation",
       "search-engine-peptide-count-reproduction",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore",
+      "https://github.com/bzhanglab/neoflow"
     ]
   },
   {
@@ -2960,10 +3538,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/ms-lims",
+    "repo_url": null,
     "used_by_skills": [
       "mascot-search-output-parsing",
       "peptide-identification-quantitation-linkage"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/ms-lims"
     ]
   },
   {
@@ -2978,7 +3561,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "hla-allele-best-score-assignment",
       "mhc-binding-affinity-prediction",
@@ -2989,6 +3572,11 @@
       "retention-time-prediction-feature-generation",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -3000,12 +3588,18 @@
       "10.1002/pmic.201900334"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/nextflow-io/nextflow",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/nextflow-io/nextflow/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore",
+      "https://github.com/mpc-bioinformatics/CalibraCurve"
+    ]
   },
   {
     "slug": "nnet",
@@ -3019,9 +3613,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -3032,10 +3631,10 @@
       "10.1002/pmic.202300112"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "pypi-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
     "used_by_skills": [
       "collision-energy-calibration",
@@ -3068,6 +3667,11 @@
       "spectral-peak-annotation-with-predicted-fragments",
       "target-decoy-fdr-estimation",
       "wallclock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://pypi.org/project/oktoberfest/",
+    "source_paper_repos": [
+      "https://github.com/wilhelm-lab/oktoberfest"
     ]
   },
   {
@@ -3078,12 +3682,17 @@
       "10.1002/pmic.201900334"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/OpenMS/OpenMS",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/OpenMS/OpenMS/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
+    ]
   },
   {
     "slug": "pandas",
@@ -3093,11 +3702,11 @@
       "10.1002/pmic.201400084"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/middle-down/Software",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pandas-dev/pandas",
     "used_by_skills": [
       "brno-nomenclature-ptm-annotation",
       "chromatographic-retention-time-reproducibility-analysis",
@@ -3106,6 +3715,11 @@
       "isobaric-peptide-fragment-ion-ratio-correction",
       "mascot-output-parsing",
       "ptm-abundance-fold-change-comparison-between-cell-states"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/middle-down/Software"
     ]
   },
   {
@@ -3116,11 +3730,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ComputationalProteomicsUnit/Pbase",
     "used_by_skills": [
       "isotopic-envelope-visualization",
       "itraq-4plex-ms2-spectrum-overlay-visualization",
@@ -3138,6 +3752,11 @@
       "proteomics-data-visualization-r",
       "single-peak-detection-from-mass-spectra",
       "tmt-reporter-channel-ratio-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/pbase",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -3152,7 +3771,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "feature-ablation-sensitivity-analysis",
       "immunopeptidomics-fdr-filtering",
@@ -3167,6 +3786,11 @@
       "spectral-angle-similarity-scoring",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -3177,16 +3801,22 @@
       "10.1002/pmic.201900334"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/wenbostar/PDV",
     "used_by_skills": [
       "comet-database-searching",
       "immunopeptidomics-peptide-validation-tabulation",
       "synthetic-peptide-lc-msms-confirmation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/pdv",
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore",
+      "https://github.com/wenbostar/PDV"
     ]
   },
   {
@@ -3203,7 +3833,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "feature-ablation-sensitivity-analysis",
       "gain-loss-rescoring-visualization",
@@ -3224,6 +3854,13 @@
       "target-decoy-fdr-estimation",
       "thermal-proteome-profiling-analysis",
       "tmt-interference-qc-score-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Villen-Lab/isobaricquant",
+      "https://github.com/bzhanglab/DeepRescore",
+      "https://github.com/wilhelm-lab/oktoberfest"
     ]
   },
   {
@@ -3238,7 +3875,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "cross-search-engine-peptide-overlap-analysis",
       "immunopeptidomics-fdr-filtering",
@@ -3249,6 +3886,11 @@
       "search-engine-peptide-count-reproduction",
       "spectral-prediction-feature-generation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -3259,10 +3901,10 @@
       "10.1002/pld3.554"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/eporetsky/PhosBoost",
     "used_by_skills": [
       "binary-classifier-benchmarking",
@@ -3287,6 +3929,11 @@
       "protein-language-model-embedding-inference",
       "protein-sequence-fasta-batch-processing",
       "stacking-ensemble-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/phosboost",
+    "source_paper_repos": [
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -3301,7 +3948,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "repo_url": null,
     "used_by_skills": [
       "classification-threshold-beta-sweep",
       "classifier-performance-curve-visualization",
@@ -3311,6 +3958,11 @@
       "precision-recall-metric-computation",
       "precision-recall-tradeoff-analysis",
       "protein-language-model-embedding-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -3325,7 +3977,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/chernan/popitam",
+    "repo_url": null,
     "used_by_skills": [
       "ant-colony-optimization-graph-search",
       "de-novo-spectrum-graph-modeling",
@@ -3340,6 +3992,11 @@
       "tandem-mass-spectrometry-spectrum-representation",
       "theoretical-fragment-ion-matching",
       "theoretical-peptide-sequence-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/chernan/popitam"
     ]
   },
   {
@@ -3354,11 +4011,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "independent-test-set-evaluation--dd3c94b213738397",
       "mcc-sensitivity-specificity-metric-calculation",
       "roc-auc-evaluation--c0a7021e46afa01b"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -3370,11 +4032,11 @@
       "10.1002/pmic.202200252"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "license_tier": "open",
+    "license": "GPL-3.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "auc-based-signature-performance-thresholding",
       "auc-model-evaluation",
@@ -3390,6 +4052,12 @@
       "r-package-installation-and-execution",
       "stratified-cross-validation-model-evaluation",
       "subsample-resampling-omics"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/pROC/index.html",
+    "source_paper_repos": [
+      "https://github.com/ShuklaLab/muSignAl",
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -3404,12 +4072,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "repo_url": null,
     "used_by_skills": [
       "msnset-spatial-proteomics-data-handling",
       "organelle-niche-annotation-visualization",
       "spatial-proteomics-pca-ordination",
       "svm-confidence-point-size-encoding"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -3424,7 +4097,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wilhelm-lab/oktoberfest",
+    "repo_url": null,
     "used_by_skills": [
       "collision-energy-calibration",
       "gain-loss-rescoring-visualization",
@@ -3449,6 +4122,11 @@
       "spectral-peak-annotation-with-predicted-fragments",
       "target-decoy-fdr-estimation",
       "wallclock-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wilhelm-lab/oktoberfest"
     ]
   },
   {
@@ -3463,8 +4141,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/middle-down/Software",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/middle-down/Software"
+    ]
   },
   {
     "slug": "proteowizard",
@@ -3475,11 +4158,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ProteoWizard/pwiz",
     "used_by_skills": [
       "comet-database-searching",
       "immunopeptidomics-fdr-filtering",
@@ -3492,6 +4175,12 @@
       "spectral-prediction-feature-generation",
       "synthetic-peptide-lc-msms-confirmation",
       "target-decoy-fdr-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/ProteoWizard/pwiz/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore",
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -3506,7 +4195,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/agemagician/ProtTrans",
+    "repo_url": null,
     "used_by_skills": [
       "class-imbalance-weighted-training",
       "classifier-prediction-count-comparison",
@@ -3521,6 +4210,12 @@
       "protein-language-model-embedding-inference",
       "protein-sequence-fasta-batch-processing",
       "stacking-ensemble-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/agemagician/ProtTrans",
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -3535,7 +4230,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "bidirectional-lstm-feature-extraction",
       "binary-classifier-metric-evaluation",
@@ -3566,6 +4261,11 @@
       "scatter-plot-visualization",
       "sequence-identity-thresholding",
       "umap-dimensionality-reduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -3580,13 +4280,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "classification-metrics-computation",
       "hmm-profile-alignment-scoring",
       "independent-test-set-evaluation--677a6f1422260e6d",
       "protein-sequence-prediction-benchmarking",
       "roc-auc-evaluation--5a9bf612d0c79238"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -3597,10 +4302,10 @@
       "10.1002/mrm.28825"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/kherz/pulseq-cest",
     "used_by_skills": [
       "adc-event-readout-handoff-logic",
@@ -3626,6 +4331,12 @@
       "white-matter-roi-segmentation-spm",
       "z-spectrum-normalization-and-mtrasym-calculation",
       "z-spectrum-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/pulseq-cest",
+    "source_paper_repos": [
+      "https://github.com/kherz/pulseq-cest",
+      "https://github.com/kherz/pulseq-cest-library"
     ]
   },
   {
@@ -3640,7 +4351,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/pulseq/pulseq",
+    "repo_url": null,
     "used_by_skills": [
       "adc-event-readout-handoff-logic",
       "bloch-mcconnell-simulation",
@@ -3663,6 +4374,12 @@
       "vendor-sequence-framework-integration",
       "wasabi-b0-field-correction",
       "z-spectrum-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/kherz/pulseq-cest",
+      "https://github.com/pulseq/pulseq"
     ]
   },
   {
@@ -3677,11 +4394,11 @@
       "10.1002/mrm.28825"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/PDB-REDO/dssp",
+    "license_tier": "open",
+    "license": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/python/cpython",
     "used_by_skills": [
       "admm-constrained-optimization-execution",
       "admm-solver-configuration",
@@ -3779,6 +4496,16 @@
       "umap-dimensionality-reduction",
       "wallclock-runtime-benchmarking",
       "z-spectrum-normalization-and-mtrasym-calculation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/KerstinHut/pypulseq-cest",
+      "https://github.com/PDB-REDO/dssp",
+      "https://github.com/Wangys-prog/prPred-DRLF",
+      "https://github.com/cmr-group/gropt",
+      "https://github.com/kherz/pulseq-cest",
+      "https://github.com/wilhelm-lab/oktoberfest"
     ]
   },
   {
@@ -3795,11 +4522,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "license_tier": "open",
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "3d-scan-intensity-visualization",
       "aromaticity-index-computation",
@@ -3935,6 +4662,17 @@
       "uloq-out-of-range-prediction-flagging",
       "warming-response-network-comparison",
       "weighted-least-squares-calibration-fitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://www.r-project.org/Licenses/",
+    "source_paper_repos": [
+      "https://github.com/ShuklaLab/muSignAl",
+      "https://github.com/budczies/MALDImIDshiny",
+      "https://github.com/jianjunwang/iDOM",
+      "https://github.com/lgatto/Pbase",
+      "https://github.com/mpc-bioinformatics/CalibraCurve",
+      "https://github.com/wangshisheng/motifeRapp",
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -3949,9 +4687,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -3966,11 +4709,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "independent-test-set-evaluation--dd3c94b213738397",
       "mcc-sensitivity-specificity-metric-calculation",
       "roc-auc-evaluation--c0a7021e46afa01b"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -3981,11 +4729,11 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/rstudio/rmarkdown",
     "used_by_skills": [
       "3d-scan-intensity-visualization",
       "isotopic-envelope-visualization",
@@ -4002,6 +4750,11 @@
       "single-peak-detection-from-mass-spectra",
       "spectral-intensity-transformation",
       "spectral-smoothing-and-baseline-correction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/rstudio/rmarkdown/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
     ]
   },
   {
@@ -4016,12 +4769,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/omarwagih/rmotifx",
+    "repo_url": null,
     "used_by_skills": [
       "motif-discovery-sensitivity-comparison",
       "motif-overrepresentation-significance-testing",
       "ptm-motif-enrichment-analysis",
       "r-package-data-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/omarwagih/rmotifx",
+      "https://github.com/wangshisheng/motifeRapp"
     ]
   },
   {
@@ -4036,9 +4795,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/wolfgangsk07/IMOPAC",
+    "repo_url": null,
     "used_by_skills": [
       "stratified-cross-validation-model-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/wolfgangsk07/IMOPAC"
     ]
   },
   {
@@ -4053,7 +4817,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Haoyulance/SC-GAN",
+    "repo_url": null,
     "used_by_skills": [
       "3d-conditional-gan-training",
       "3d-self-attention-module-implementation",
@@ -4093,6 +4857,11 @@
       "tensorflow-gpu-distributed-training",
       "tensorflow-model-instantiation-verification",
       "training-convergence-plateau-detection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Haoyulance/SC-GAN"
     ]
   },
   {
@@ -4107,10 +4876,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "cross-validation-performance-evaluation",
       "smote-class-imbalance-handling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
     ]
   },
   {
@@ -4121,11 +4895,11 @@
       "10.1002/pld3.554"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/eporetsky/PhosBoost",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
     "used_by_skills": [
       "binary-classifier-benchmarking",
       "class-imbalance-weighted-training",
@@ -4140,6 +4914,11 @@
       "protein-language-model-embedding-inference",
       "protein-sequence-fasta-batch-processing",
       "stacking-ensemble-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/eporetsky/PhosBoost"
     ]
   },
   {
@@ -4154,7 +4933,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/scop3d",
+    "repo_url": null,
     "used_by_skills": [
       "consensus-sequence-construction",
       "conservation-metric-superimposition-on-3d-structure",
@@ -4165,6 +4944,11 @@
       "protein-sequence-logo-generation",
       "sequence-conservation-analysis",
       "sequence-position-to-structure-residue-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/scop3d"
     ]
   },
   {
@@ -4175,11 +4959,11 @@
       "10.1002/pmic.202300005"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/budczies/MALDImIDshiny",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/rstudio/shiny",
     "used_by_skills": [
       "differential-abundance-gene-list-matching",
       "lc-msms-biomarker-list-filtering",
@@ -4196,6 +4980,11 @@
       "proteomics-peptide-table-subsetting",
       "replicate-positivity-counting",
       "result-table-reference-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/shiny/index.html",
+    "source_paper_repos": [
+      "https://github.com/budczies/MALDImIDshiny"
     ]
   },
   {
@@ -4210,7 +4999,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hscsun/SimpleDSFviewer-5.0",
+    "repo_url": null,
     "used_by_skills": [
       "central-difference-derivative-computation",
       "curve-segment-boundary-detection",
@@ -4240,6 +5029,11 @@
       "signal-smoothing-window-selection",
       "surface-plot-visualization-of-curve-differences",
       "thermal-denaturation-curve-classification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hscsun/SimpleDSFviewer-5.0"
     ]
   },
   {
@@ -4250,11 +5044,11 @@
       "10.1002/pmic.201900143"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/mpc-bioinformatics/CalibraCurve",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/ProteoWizard/pwiz",
     "used_by_skills": [
       "calibration-curve-linear-regression",
       "mrm-dilution-series-analysis",
@@ -4263,6 +5057,11 @@
       "targeted-proteomics-assay-validation",
       "targeted-proteomics-calibration-curve-fitting",
       "weighted-least-squares-calibration-fitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/ProteoWizard/pwiz/HEAD/pwiz_tools/Skyline/README.md",
+    "source_paper_repos": [
+      "https://github.com/mpc-bioinformatics/CalibraCurve"
     ]
   },
   {
@@ -4277,7 +5076,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/peanono/SNO-DCA",
+    "repo_url": null,
     "used_by_skills": [
       "imbalanced-class-weight-configuration",
       "independent-test-set-evaluation--dd3c94b213738397",
@@ -4286,6 +5085,11 @@
       "roc-auc-evaluation--c0a7021e46afa01b",
       "sno-site-onehot-sequence-encoding",
       "sno-site-prediction-model-ablation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/peanono/SNO-DCA"
     ]
   },
   {
@@ -4300,9 +5104,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "dimensionality-reduction-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
     ]
   },
   {
@@ -4317,12 +5126,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Wangys-prog/prPred-DRLF",
+    "repo_url": null,
     "used_by_skills": [
       "feature-subset-selection",
       "plant-r-protein-classification-context",
       "pretrained-language-model-inference",
       "protein-sequence-embedding-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Wangys-prog/prPred-DRLF"
     ]
   },
   {
@@ -4337,8 +5151,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
+    ]
   },
   {
     "slug": "tensorflow",
@@ -4349,12 +5168,18 @@
       "10.1002/mrm.28819"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tensorflow/tensorflow",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tensorflow/tensorflow/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR",
+      "https://github.com/Haoyulance/SC-GAN"
+    ]
   },
   {
     "slug": "tm-align",
@@ -4368,9 +5193,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "dimensionality-reduction-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
     ]
   },
   {
@@ -4385,9 +5215,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/KeaunAmani/cbp60db",
+    "repo_url": null,
     "used_by_skills": [
       "dimensionality-reduction-runtime-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/KeaunAmani/cbp60db"
     ]
   },
   {
@@ -4402,11 +5237,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "repo_url": null,
     "used_by_skills": [
       "fasta-sequence-handling",
       "gpcr-benchmark-dataset-handling",
       "sequence-homology-reduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
     ]
   },
   {
@@ -4421,7 +5261,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/scop3d",
+    "repo_url": null,
     "used_by_skills": [
       "amino-acid-frequency-matrix-construction",
       "consensus-sequence-construction",
@@ -4429,6 +5269,11 @@
       "multiple-sequence-alignment-muscle",
       "protein-sequence-logo-generation",
       "sequence-conservation-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/scop3d"
     ]
   },
   {
@@ -4443,7 +5288,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/bzhanglab/DeepRescore",
+    "repo_url": null,
     "used_by_skills": [
       "cross-search-engine-peptide-overlap-analysis",
       "fragment-spectrum-metadata-extraction",
@@ -4471,6 +5316,11 @@
       "tandem-ms-result-parsing",
       "target-decoy-fdr-filtering",
       "xtandem-xml-result-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/bzhanglab/DeepRescore"
     ]
   },
   {
@@ -4481,12 +5331,17 @@
       "10.1002/pmic.201400392"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lgatto/Pbase",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sneumann/xcms",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/xcms.html",
+    "source_paper_repos": [
+      "https://github.com/lgatto/Pbase"
+    ]
   },
   {
     "slug": "xgboost",
@@ -4496,11 +5351,11 @@
       "10.1016/j.csbj.2021.08.044"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/454170054/EMCBOW-GPCR",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/dmlc/xgboost",
     "used_by_skills": [
       "benchmark-method-comparison",
       "boosted-tree-classifier-training",
@@ -4513,6 +5368,11 @@
       "smote-class-imbalance-handling",
       "word2vec-cbow-model-training",
       "yu-negative-sample-segmentation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/dmlc/xgboost/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/454170054/EMCBOW-GPCR"
     ]
   },
   {
@@ -4527,7 +5387,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/compomics/xtandem-parser",
+    "repo_url": null,
     "used_by_skills": [
       "fragment-ion-mz-intensity-extraction",
       "fragment-spectrum-metadata-extraction",
@@ -4543,6 +5403,11 @@
       "tandem-ms-result-parsing",
       "xtandem-xml-object-model-access",
       "xtandem-xml-result-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/compomics/xtandem-parser"
     ]
   }
 ]

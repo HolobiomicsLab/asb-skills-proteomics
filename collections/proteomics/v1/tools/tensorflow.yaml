@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/454170054/EMCBOW-GPCR
 - https://github.com/Haoyulance/SC-GAN
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/454170054/EMCBOW-GPCR
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/tensorflow/tensorflow/HEAD/LICENSE
+repo_url: https://github.com/tensorflow/tensorflow

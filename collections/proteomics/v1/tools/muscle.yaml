@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/KeaunAmani/cbp60db
 - https://github.com/compomics/scop3d
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/KeaunAmani/cbp60db
+license_evidence: null
+repo_url: null
