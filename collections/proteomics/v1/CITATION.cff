@@ -3,8 +3,8 @@ message: If you use this collection, please cite it as below.
 title: ASB Proteomics Skill Collection v1
 abstract: 'ASB Proteomics: 558 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 version: '1'
-doi: 10.5281/zenodo.24224624
-date-released: '2026-11-14'
+doi: 10.5281/zenodo.24255450
+date-released: '2026-11-15'
 license: CC-BY-4.0
 url: https://github.com/HolobiomicsLab/asb-skills-proteomics
 type: dataset
@@ -18,6 +18,9 @@ keywords:
 - proteomics
 - scientific skills
 identifiers:
+- type: doi
+  value: 10.5281/zenodo.24255450
+  description: Zenodo version DOI of v1.1.1 (2026-11-15)
 - type: doi
   value: 10.5281/zenodo.24224624
   description: Zenodo version DOI of v1.1.0 (2026-11-14)
